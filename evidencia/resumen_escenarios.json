@@ -1,0 +1,80 @@
+{
+ "total": 41282,
+ "cumplen": 41282,
+ "fallas": 0,
+ "excepciones": 0,
+ "por_grupo": [
+  {
+   "grupo": "campo extra",
+   "escenarios": 1,
+   "cumplen": 1
+  },
+  {
+   "grupo": "campo faltante",
+   "escenarios": 19,
+   "cumplen": 19
+  },
+  {
+   "grupo": "campo numérico",
+   "escenarios": 173,
+   "cumplen": 173
+  },
+  {
+   "grupo": "categoría inválida",
+   "escenarios": 72,
+   "cumplen": 72
+  },
+  {
+   "grupo": "categoría válida",
+   "escenarios": 51,
+   "cumplen": 51
+  },
+  {
+   "grupo": "determinismo",
+   "escenarios": 1,
+   "cumplen": 1
+  },
+  {
+   "grupo": "entrada no válida",
+   "escenarios": 5,
+   "cumplen": 5
+  },
+  {
+   "grupo": "formulario web",
+   "escenarios": 11,
+   "cumplen": 11
+  },
+  {
+   "grupo": "fuzz",
+   "escenarios": 20000,
+   "cumplen": 20000
+  },
+  {
+   "grupo": "fuzz por mutación",
+   "escenarios": 20000,
+   "cumplen": 20000
+  },
+  {
+   "grupo": "grilla años × duración",
+   "escenarios": 900,
+   "cumplen": 900
+  },
+  {
+   "grupo": "lote",
+   "escenarios": 1,
+   "cumplen": 1
+  },
+  {
+   "grupo": "n_prev × ret_prev × cohorte nueva",
+   "escenarios": 24,
+   "cumplen": 24
+  },
+  {
+   "grupo": "n_t × prog_total_t",
+   "escenarios": 24,
+   "cumplen": 24
+  }
+ ],
+ "rechazados_que_llegaron_al_modelo": 0,
+ "ok_con_prediccion_fuera_de_0_1": 0
+}

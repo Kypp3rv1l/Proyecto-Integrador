@@ -1,0 +1,771 @@
+programa,anio_t,anio_ingreso,n_t,n_prev,ret_prev,prog_total_t,prop_mujer,edad_media,dur_semestres,arancel_anual_clp,tipo_inst_1,area_conocimiento,region_sede,jornada,modalidad,nivel_carrera_1,acreditada_carr,acreditada_inst,tipo_plan_carr
+I100S10C300J2V1,2025,2023,42,67.0,0.6119,195,0.5952,23.69,8,2877000.0,Institutos Profesionales,Administración y Comercio,Magallanes,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S10C300J2V1,2025,2024,60,69.0,0.8406,195,0.6,24.97,8,2877000.0,Institutos Profesionales,Administración y Comercio,Magallanes,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S10C300J2V1,2025,2025,70,,,195,0.7286,24.89,8,2877000.0,Institutos Profesionales,Administración y Comercio,Magallanes,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S13C126J1V1,2025,2023,47,51.0,0.902,259,0.3404,21.43,8,3117000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S13C126J1V1,2025,2024,65,78.0,0.8077,259,0.2462,21.83,8,3117000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S13C126J1V1,2025,2025,85,,,259,0.2471,21.09,8,3117000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S13C318J2V1,2025,2023,14,15.0,0.9333,52,0.1429,25.93,8,3259000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S13C318J2V1,2025,2024,13,16.0,0.8125,52,0.0769,21.85,8,3259000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S13C318J2V1,2025,2025,25,,,52,0.12,24.8,8,3259000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S15C176J2V1,2025,2023,25,31.0,0.7742,169,0.16,32.08,8,3059000.0,Institutos Profesionales,Tecnología,Tarapacá,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S15C176J2V1,2025,2024,27,32.0,0.7188,169,0.0741,32.81,8,3059000.0,Institutos Profesionales,Tecnología,Tarapacá,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S15C176J2V1,2025,2025,50,,,169,0.26,28.68,8,3059000.0,Institutos Profesionales,Tecnología,Tarapacá,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S16C301J2V1,2025,2025,28,,,28,0.1071,21.75,8,3491000.0,Institutos Profesionales,Tecnología,Atacama,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S19C300J1V1,2025,2023,18,24.0,0.625,89,0.3889,26.78,8,2947000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S19C300J1V1,2025,2024,16,17.0,0.7647,89,0.3125,23.31,8,2947000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S19C300J1V1,2025,2025,35,,,89,0.4571,22.6,8,2947000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S19C307J2V1,2025,2023,35,38.0,0.7632,198,0.6286,26.63,8,4305000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S19C307J2V1,2025,2024,55,76.0,0.6974,198,0.5091,28.67,8,4305000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S19C307J2V1,2025,2025,78,,,198,0.5,25.44,8,4305000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S20C318J2V1,2025,2023,8,9.0,0.8889,35,0.125,28.5,8,3259000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S20C318J2V1,2025,2024,10,11.0,0.9091,35,0.2,23.4,8,3259000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S20C318J2V1,2025,2025,17,,,35,0.2353,23.88,8,3259000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S21C21J2V1,2025,2023,18,23.0,0.7826,89,0.0,27.11,8,3248000.0,Institutos Profesionales,Tecnología,Los Lagos,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S21C21J2V1,2025,2024,28,36.0,0.7778,89,0.0714,23.57,8,3248000.0,Institutos Profesionales,Tecnología,Los Lagos,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S21C21J2V1,2025,2025,30,,,89,0.0667,23.13,8,3248000.0,Institutos Profesionales,Tecnología,Los Lagos,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C176J2V1,2025,2023,26,23.0,0.913,135,0.2308,29.54,8,3013000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C176J2V1,2025,2024,25,31.0,0.7419,135,0.16,28.6,8,3013000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C176J2V1,2025,2025,41,,,135,0.2195,27.22,8,3013000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C21J1V1,2025,2023,28,38.0,0.7368,171,0.0,22.43,8,3160000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C21J1V1,2025,2024,53,58.0,0.8793,171,0.0189,21.13,8,3160000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C21J1V1,2025,2025,63,,,171,0.0476,20.62,8,3160000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C301J1V1,2025,2023,25,50.0,0.5,144,0.04,22.04,8,3116000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C301J1V1,2025,2024,39,48.0,0.7917,144,0.0256,21.44,8,3116000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C301J1V1,2025,2025,56,,,144,0.1429,20.68,8,3116000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C302J2V1,2025,2024,17,17.0,0.7647,39,0.0588,23.65,8,3039000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C302J2V1,2025,2025,21,,,39,0.1905,26.9,8,3039000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C319J1V1,2025,2024,17,18.0,0.8889,36,0.4706,26.35,8,3085000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S23C319J1V1,2025,2025,19,,,36,0.6842,23.79,8,3085000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S28C304J1V1,2025,2023,23,32.0,0.7188,103,0.1304,22.26,8,3174000.0,Institutos Profesionales,Tecnología,Aysén,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S28C304J1V1,2025,2024,26,29.0,0.8621,103,0.1923,23.92,8,3174000.0,Institutos Profesionales,Tecnología,Aysén,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S28C304J1V1,2025,2025,37,,,103,0.0811,20.84,8,3174000.0,Institutos Profesionales,Tecnología,Aysén,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S29C302J1V1,2025,2023,49,62.0,0.7903,212,0.0408,22.18,8,3176000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S29C302J1V1,2025,2024,57,61.0,0.9344,212,0.0877,22.44,8,3176000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S29C302J1V1,2025,2025,70,,,212,0.0571,21.19,8,3176000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S32C119J2V1,2025,2024,5,3.0,1.0,41,0.4,22.8,8,2943000.0,Institutos Profesionales,Administración y Comercio,La Araucanía,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S32C119J2V1,2025,2025,35,,,41,0.3429,24.91,8,2943000.0,Institutos Profesionales,Administración y Comercio,La Araucanía,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S32C129J1V1,2025,2023,11,17.0,0.6471,18,0.3636,25.18,8,2780000.0,Institutos Profesionales,Ciencias Básicas,La Araucanía,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S32C316J1V1,2025,2023,11,11.0,1.0,30,0.1818,21.91,8,3012000.0,Institutos Profesionales,Ciencias Básicas,La Araucanía,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S32C316J1V1,2025,2024,14,13.0,1.0,30,0.2143,21.64,8,3012000.0,Institutos Profesionales,Ciencias Básicas,La Araucanía,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S32C316J1V1,2025,2025,5,,,30,0.0,24.0,8,3012000.0,Institutos Profesionales,Ciencias Básicas,La Araucanía,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S33C168J2V1,2025,2023,9,17.0,0.5294,38,0.2222,28.11,8,2922000.0,Institutos Profesionales,Tecnología,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S33C168J2V1,2025,2024,18,20.0,0.9,38,0.1667,27.17,8,2922000.0,Institutos Profesionales,Tecnología,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S34C317J1V1,2025,2023,22,24.0,0.8333,85,0.5909,23.23,8,3135000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S34C317J1V1,2025,2024,27,23.0,0.8261,85,0.5926,22.81,8,3135000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S34C317J1V1,2025,2025,36,,,85,0.5556,21.69,8,3135000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S35C21J1V1,2025,2023,14,18.0,0.7778,80,0.0714,23.43,8,3248000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S35C21J1V1,2025,2024,21,27.0,0.7778,80,0.0476,22.19,8,3248000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S35C21J1V1,2025,2025,33,,,80,0.0303,21.24,8,3248000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S35C301J1V1,2025,2023,6,12.0,0.5,66,0.0,22.67,8,3491000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S35C301J1V1,2025,2024,15,22.0,0.6818,66,0.0,22.93,8,3491000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S35C301J1V1,2025,2025,29,,,66,0.1379,21.41,8,3491000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S35C301J2V1,2025,2024,11,10.0,1.0,21,0.0,29.0,8,2972000.0,Institutos Profesionales,Tecnología,Maule,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S38C300J2V1,2025,2023,15,25.0,0.36,98,0.5333,27.93,8,2947000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S38C300J2V1,2025,2024,44,36.0,0.7222,98,0.5682,29.16,8,2947000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S38C300J2V1,2025,2025,33,,,98,0.5758,27.21,8,2947000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S39C129J1V1,2025,2024,10,11.0,0.9091,16,0.1,23.1,8,2912000.0,Institutos Profesionales,Ciencias Básicas,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S4C160J2V1,2025,2023,64,58.0,0.7069,286,0.1406,23.45,8,3194000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S4C160J2V1,2025,2024,51,63.0,0.6825,286,0.0784,23.71,8,3194000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S4C160J2V1,2025,2025,75,,,286,0.16,23.35,8,3194000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S4C304J1V1,2025,2023,19,24.0,0.75,96,0.0526,23.53,8,3174000.0,Institutos Profesionales,Tecnología,Antofagasta,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S4C304J1V1,2025,2024,26,32.0,0.75,96,0.0385,20.46,8,3174000.0,Institutos Profesionales,Tecnología,Antofagasta,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S4C304J1V1,2025,2025,33,,,96,0.0909,19.64,8,3174000.0,Institutos Profesionales,Tecnología,Antofagasta,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S9C301J1V1,2025,2023,24,32.0,0.75,117,0.0417,23.83,8,3116000.0,Institutos Profesionales,Tecnología,Los Ríos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S9C301J1V1,2025,2024,28,35.0,0.8,117,0.0714,22.36,8,3116000.0,Institutos Profesionales,Tecnología,Los Ríos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I100S9C301J1V1,2025,2025,35,,,117,0.1143,21.06,8,3116000.0,Institutos Profesionales,Tecnología,Los Ríos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I106S6C284J4V2,2025,2025,169,,,323,0.6805,37.58,4,2264061.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I10S7C156J1V2,2025,2021,73,77.0,0.9221,605,0.274,23.32,11,6845644.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I10S7C156J1V2,2025,2022,72,73.0,0.9589,605,0.3472,22.47,11,6845644.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I10S7C156J1V2,2025,2023,87,96.0,0.9167,605,0.4023,21.4,11,6845644.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I10S7C156J1V2,2025,2024,123,134.0,0.903,605,0.2846,20.89,11,6845644.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I10S7C156J1V2,2025,2025,152,,,605,0.3816,19.59,11,6845644.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I10S7C800J4V1,2025,2024,33,42.0,0.5,124,0.6364,37.55,5,2211538.0,Universidades,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I10S7C800J4V1,2025,2025,61,,,124,0.623,36.39,5,2211538.0,Universidades,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S10C39J1V1,2025,2023,92,99.0,0.8788,362,0.587,22.75,8,3300000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S10C39J1V1,2025,2024,104,131.0,0.7939,362,0.7212,22.0,8,3300000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S10C39J1V1,2025,2025,64,,,362,0.5,21.2,8,3300000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S10C422J2V1,2025,2024,44,67.0,0.6567,132,0.4091,28.89,5,2690000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S10C422J2V1,2025,2025,50,,,132,0.36,30.82,5,2690000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S10C50J1V1,2025,2023,29,41.0,0.6829,93,0.069,21.86,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S10C50J1V1,2025,2024,26,29.0,0.8966,93,0.0769,20.5,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S12C50J2V1,2025,2023,22,30.0,0.7,95,0.2273,26.0,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S12C50J2V1,2025,2024,32,33.0,0.8182,95,0.0312,28.5,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S12C50J2V1,2025,2025,14,,,95,0.0714,26.0,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S15C361J2V1,2025,2024,11,13.0,0.7692,25,0.3636,26.73,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S15C361J2V1,2025,2025,13,,,25,0.2308,25.23,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S16C107J1V1,2025,2024,85,118.0,0.7034,290,0.8588,22.06,5,2710000.0,Institutos Profesionales,Salud,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S16C107J1V1,2025,2025,120,,,290,0.8583,21.65,5,2710000.0,Institutos Profesionales,Salud,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S16C48J1V1,2025,2023,155,168.0,0.8571,706,0.1032,22.61,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S16C48J1V1,2025,2024,180,195.0,0.8,706,0.1278,22.03,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S16C48J1V1,2025,2025,214,,,706,0.1262,21.31,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S16C533J1V1,2025,2025,40,,,40,0.05,20.27,8,3170000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S20C110J1V1,2025,2024,89,120.0,0.725,362,0.764,22.98,5,2940000.0,Institutos Profesionales,Agropecuaria,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S20C110J1V1,2025,2025,173,,,362,0.7861,22.28,5,2940000.0,Institutos Profesionales,Agropecuaria,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S20C34J1V1,2025,2023,10,31.0,0.2903,134,0.2,25.8,8,3240000.0,Institutos Profesionales,Agropecuaria,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S20C34J1V1,2025,2024,57,72.0,0.8056,134,0.386,24.75,8,3240000.0,Institutos Profesionales,Agropecuaria,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S20C34J1V1,2025,2025,63,,,134,0.4762,24.35,8,3240000.0,Institutos Profesionales,Agropecuaria,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S20C58J2V1,2025,2024,43,80.0,0.5,118,0.0698,27.23,5,2840000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S20C58J2V1,2025,2025,40,,,118,0.05,25.28,5,2840000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S21C484J1V1,2025,2023,27,35.0,0.7429,173,0.5926,25.22,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S21C484J1V1,2025,2024,43,61.0,0.7213,173,0.4651,22.35,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S21C484J1V1,2025,2025,59,,,173,0.6102,21.19,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S22C100J1V1,2025,2024,56,56.0,1.0,105,0.5357,23.43,8,4140000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S22C100J1V1,2025,2025,49,,,105,0.6327,22.59,8,4140000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S22C47J1V1,2025,2023,40,46.0,0.8478,195,0.525,25.45,8,3190000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S22C47J1V1,2025,2024,44,61.0,0.7049,195,0.6136,22.98,8,3190000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S22C47J1V1,2025,2025,55,,,195,0.5636,21.62,8,3190000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S22C486J1V1,2025,2024,5,6.0,0.8333,22,0.6,22.6,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S23C22J1V1,2025,2023,35,55.0,0.6727,187,0.0286,21.46,8,3110000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S23C22J1V1,2025,2024,55,58.0,0.8103,187,0.0727,21.38,8,3110000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S23C22J1V1,2025,2025,58,,,187,0.0345,20.43,8,3110000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S23C24J1V1,2025,2023,25,27.0,0.9259,117,0.72,22.16,8,3070000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S23C24J1V1,2025,2024,27,41.0,0.6585,117,0.6667,21.3,8,3070000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S23C24J1V1,2025,2025,44,,,117,0.6364,22.89,8,3070000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S25C380J2V1,2025,2024,14,22.0,0.6364,25,0.0,22.64,5,2760000.0,Institutos Profesionales,Tecnología,Los Lagos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S25C48J1V1,2025,2023,66,71.0,0.8592,311,0.1818,22.5,8,2870000.0,Institutos Profesionales,Tecnología,Los Lagos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S25C48J1V1,2025,2024,101,117.0,0.8376,311,0.0594,21.78,8,2870000.0,Institutos Profesionales,Tecnología,Los Lagos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S25C48J1V1,2025,2025,91,,,311,0.1319,20.49,8,2870000.0,Institutos Profesionales,Tecnología,Los Lagos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S25C64J2V1,2025,2024,8,11.0,0.7273,32,0.0,24.88,5,2560000.0,Institutos Profesionales,Tecnología,Los Lagos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S25C64J2V1,2025,2025,15,,,32,0.2667,26.67,5,2560000.0,Institutos Profesionales,Tecnología,Los Lagos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S26C532J1V1,2025,2025,65,,,65,0.6308,21.29,8,3680000.0,Institutos Profesionales,Administración y Comercio,La Araucanía,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C104J2V2,2025,2023,56,88.0,0.6023,333,0.3214,33.96,8,3050000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C104J2V2,2025,2024,111,131.0,0.7557,333,0.045,30.66,8,3050000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C104J2V2,2025,2025,98,,,333,0.1633,31.24,8,3050000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C34J1V1,2025,2023,40,79.0,0.4684,218,0.45,25.92,8,2950000.0,Institutos Profesionales,Agropecuaria,Valparaíso,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C34J1V1,2025,2024,50,59.0,0.8814,218,0.46,24.58,8,2950000.0,Institutos Profesionales,Agropecuaria,Valparaíso,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C34J1V1,2025,2025,68,,,218,0.3235,23.87,8,2950000.0,Institutos Profesionales,Agropecuaria,Valparaíso,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C363J1V1,2025,2023,34,65.0,0.4923,155,0.0882,22.5,8,2940000.0,Institutos Profesionales,Tecnología,Valparaíso,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C363J1V1,2025,2024,59,65.0,0.9231,155,0.0508,21.73,8,2940000.0,Institutos Profesionales,Tecnología,Valparaíso,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C363J1V1,2025,2025,61,,,155,0.0656,21.13,8,2940000.0,Institutos Profesionales,Tecnología,Valparaíso,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C420J1V1,2025,2024,24,31.0,0.7742,70,0.2917,22.29,5,2700000.0,Institutos Profesionales,Ciencias Básicas,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S2C420J1V1,2025,2025,20,,,70,0.4,21.25,5,2700000.0,Institutos Profesionales,Ciencias Básicas,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S4C50J2V1,2025,2023,14,19.0,0.7368,47,0.2143,31.21,8,3120000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S4C50J2V1,2025,2024,11,14.0,0.7857,47,0.0,31.27,8,3120000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S5C145J1V1,2025,2023,35,48.0,0.7083,218,0.3143,22.71,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S5C145J1V1,2025,2024,54,64.0,0.7812,218,0.5926,22.26,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S5C145J1V1,2025,2025,66,,,218,0.4242,21.38,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S5C50J1V1,2025,2023,39,52.0,0.7308,162,0.1282,22.33,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S5C50J1V1,2025,2024,68,69.0,0.9275,162,0.1324,21.54,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S6C74J1V1,2025,2023,47,55.0,0.8545,203,0.6383,22.38,8,3980000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S6C74J1V1,2025,2024,48,59.0,0.8136,203,0.7292,21.96,8,3980000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S6C74J1V1,2025,2025,58,,,203,0.7586,21.26,8,3980000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S7C145J2V1,2025,2023,34,36.0,0.8333,123,0.3824,28.24,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S7C145J2V1,2025,2024,29,45.0,0.6,123,0.4483,29.45,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S7C145J2V1,2025,2025,41,,,123,0.5366,29.15,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S9C48J1V1,2025,2023,78,90.0,0.8333,458,0.1282,22.79,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S9C48J1V1,2025,2024,121,130.0,0.8154,458,0.0826,22.21,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S9C48J1V1,2025,2025,153,,,458,0.1242,20.76,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S9C50J2V1,2025,2023,10,7.0,0.7143,35,0.0,23.8,8,3260000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S9C521J1V1,2025,2024,25,40.0,0.625,66,0.64,21.68,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S9C521J1V1,2025,2025,41,,,66,0.4878,20.27,8,3130000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S9C69J2V2,2025,2024,35,39.0,0.8718,95,0.4571,28.57,5,2690000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I111S9C69J2V2,2025,2025,43,,,95,0.7209,25.44,5,2690000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I113S13C178J4V1,2025,2025,136,,,136,0.4779,37.45,5,1840000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I113S13C412J4V2,2025,2025,16,,,16,0.8125,33.88,8,1840000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I113S13C581J4V2,2025,2025,35,,,35,0.6286,45.37,5,2073580.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I113S6C193J2V1,2025,2025,13,,,14,0.0769,42.38,5,1750560.0,Institutos Profesionales,Tecnología,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I113S7C543J4V3,2025,2024,16,12.0,0.5833,16,0.1875,34.69,5,1990000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I113S7C67J4V1,2025,2024,50,53.0,0.6038,59,0.92,33.64,5,1725000.0,Institutos Profesionales,Educación,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S11C4J1V1,2025,2025,50,,,50,0.8,27.54,8,2439000.0,Institutos Profesionales,Ciencias Sociales,Coquimbo,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S11C8J1V1,2025,2023,29,35.0,0.8286,161,0.069,22.07,8,2997000.0,Institutos Profesionales,Tecnología,Coquimbo,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S11C8J1V1,2025,2024,38,47.0,0.766,161,0.1316,20.63,8,2997000.0,Institutos Profesionales,Tecnología,Coquimbo,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S11C8J1V1,2025,2025,48,,,161,0.1042,21.0,8,2997000.0,Institutos Profesionales,Tecnología,Coquimbo,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S28C51J2V1,2025,2023,33,33.0,0.9697,65,0.6061,31.18,8,2501000.0,Institutos Profesionales,Administración y Comercio,Magallanes,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S2C8J1V1,2025,2023,32,38.0,0.7895,141,0.0938,21.72,8,2703000.0,Institutos Profesionales,Tecnología,Tarapacá,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S2C8J1V1,2025,2024,38,48.0,0.7708,141,0.1316,21.03,8,2703000.0,Institutos Profesionales,Tecnología,Tarapacá,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S2C8J1V1,2025,2025,48,,,141,0.2708,21.25,8,2703000.0,Institutos Profesionales,Tecnología,Tarapacá,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S30C216J2V1,2025,2024,28,40.0,0.7,100,0.3929,25.64,5,2450000.0,Institutos Profesionales,Tecnología,Atacama,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S30C216J2V1,2025,2025,51,,,100,0.5098,27.57,5,2450000.0,Institutos Profesionales,Tecnología,Atacama,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S30C51J2V1,2025,2023,27,28.0,0.9643,42,0.6667,29.33,8,2583000.0,Institutos Profesionales,Administración y Comercio,Atacama,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S31C4J2V2,2025,2025,45,,,126,0.7778,33.89,4,2487000.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I116S32C288J2V1,2025,2025,27,,,27,0.7037,29.7,8,2580000.0,Institutos Profesionales,Ciencias Sociales,Los Ríos,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S34C4J2V1,2025,2023,30,30.0,0.9333,153,0.9333,37.7,8,2089000.0,Institutos Profesionales,Ciencias Sociales,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S34C4J2V1,2025,2024,38,46.0,0.7826,153,0.8947,31.89,8,2089000.0,Institutos Profesionales,Ciencias Sociales,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S34C4J2V1,2025,2025,46,,,153,0.8913,31.2,8,2089000.0,Institutos Profesionales,Ciencias Sociales,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S39C141J2V2,2025,2025,35,,,79,0.8286,32.09,4,2713000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I116S40C141J4V2,2025,2025,19,,,19,0.8947,35.53,4,2280000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I116S40C292J4V1,2025,2025,32,,,33,0.7812,28.53,8,2348000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I116S4C4J2V2,2025,2025,71,,,110,0.9296,39.8,4,2539000.0,Institutos Profesionales,Ciencias Sociales,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I116S9C51J2V1,2025,2023,15,23.0,0.6522,49,0.6667,30.0,8,2516000.0,Institutos Profesionales,Administración y Comercio,Arica y Parinacota,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I117S1C115J4V1,2025,2023,432,574.0,0.6394,1686,0.1458,37.06,8,2290000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I117S1C115J4V1,2025,2024,549,696.0,0.671,1686,0.1913,35.44,8,2290000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I117S1C115J4V1,2025,2025,705,,,1686,0.234,34.73,8,2290000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I117S1C62J4V1,2025,2024,136,196.0,0.5969,573,0.9191,37.15,5,1860000.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I117S1C62J4V1,2025,2025,167,,,573,0.8743,35.29,5,1860000.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I120S1C214J3V1,2025,2023,5,10.0,0.5,8,0.8,32.2,8,1968750.0,Institutos Profesionales,Salud,Biobío,Semipresencial,Semipresencial,Profesional Sin Licenciatura,NO ACREDITADA,NO ACREDITADA,Plan Regular
+I120S1C333J3V1,2025,2025,5,,,5,0.4,36.8,8,2146332.0,Institutos Profesionales,Agropecuaria,Biobío,Semipresencial,Semipresencial,Profesional Sin Licenciatura,NO ACREDITADA,NO ACREDITADA,Plan Regular
+I123S1C96J1V1,2025,2024,28,33.0,0.8485,80,0.7143,28.11,5,2095000.0,Institutos Profesionales,Salud,Coquimbo,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S1C96J1V1,2025,2025,26,,,80,0.6538,28.35,5,2095000.0,Institutos Profesionales,Salud,Coquimbo,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S2C7J2V1,2025,2023,8,9.0,0.8889,26,0.25,28.62,8,2000000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S2C7J2V1,2025,2024,10,18.0,0.3889,26,0.3,32.8,8,2000000.0,Institutos Profesionales,Arte y Arquitectura,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S3C151J1V1,2025,2025,11,,,17,0.7273,24.45,5,1865000.0,Institutos Profesionales,Ciencias Sociales,Lib. Gral. B. O'Higgins,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S3C166J2V1,2025,2023,16,20.0,0.8,113,0.6875,27.62,8,2055000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S3C166J2V1,2025,2024,32,31.0,0.9677,113,0.375,23.62,8,2055000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S3C166J2V1,2025,2025,41,,,113,0.5366,25.66,8,2055000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S5C43J1V1,2025,2024,17,25.0,0.64,54,0.1765,22.65,5,1755000.0,Institutos Profesionales,Tecnología,La Araucanía,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S5C43J1V1,2025,2025,31,,,54,0.129,22.97,5,1755000.0,Institutos Profesionales,Tecnología,La Araucanía,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S5C56J2V1,2025,2024,20,33.0,0.6061,83,1.0,31.8,5,1565000.0,Institutos Profesionales,Educación,La Araucanía,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I123S5C56J2V1,2025,2025,34,,,83,1.0,30.47,5,1565000.0,Institutos Profesionales,Educación,La Araucanía,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I137S1C2J1V1,2025,2023,21,25.0,0.84,88,0.619,24.9,8,2886000.0,Institutos Profesionales,Humanidades,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I137S1C2J1V1,2025,2024,26,27.0,0.5185,88,0.7308,22.96,8,2886000.0,Institutos Profesionales,Humanidades,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I137S1C2J1V1,2025,2025,6,,,88,0.6667,22.83,8,2886000.0,Institutos Profesionales,Humanidades,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I139S1C28J1V1,2025,2024,110,130.0,0.8538,332,0.8909,23.3,5,2315000.0,Institutos Profesionales,Salud,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I139S1C28J1V1,2025,2025,129,,,332,0.8527,21.43,5,2315000.0,Institutos Profesionales,Salud,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I139S3C200J1V1,2025,2025,15,,,15,0.4667,24.13,4,1957000.0,Institutos Profesionales,Administración y Comercio,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I139S3C22J1V1,2025,2025,32,,,33,0.5625,24.31,4,1957000.0,Institutos Profesionales,Administración y Comercio,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I139S3C52J1V1,2025,2025,27,,,52,0.5926,23.26,4,1957000.0,Institutos Profesionales,Administración y Comercio,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I139S3C89J2V1,2025,2024,46,54.0,0.8519,172,0.0435,33.3,5,2413000.0,Institutos Profesionales,Tecnología,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Especial
+I139S3C89J2V1,2025,2025,52,,,172,0.0385,32.85,5,2413000.0,Institutos Profesionales,Tecnología,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Especial
+I139S3C8J1V2,2025,2023,23,27.0,0.8889,109,0.4348,24.96,8,2109000.0,Institutos Profesionales,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I139S3C8J1V2,2025,2024,53,65.0,0.7846,109,0.5283,24.66,8,2109000.0,Institutos Profesionales,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I139S3C8J1V2,2025,2025,33,,,109,0.697,24.42,8,2109000.0,Institutos Profesionales,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S10C34J1V1,2025,2022,35,36.0,0.9722,242,0.6286,23.37,10,5170000.0,Universidades,Salud,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S10C34J1V1,2025,2023,40,41.0,0.9756,242,0.725,21.18,10,5170000.0,Universidades,Salud,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S10C34J1V1,2025,2024,38,41.0,0.9024,242,0.5789,21.21,10,5170000.0,Universidades,Salud,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S10C34J1V1,2025,2025,43,,,242,0.7674,19.58,10,5170000.0,Universidades,Salud,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S10C9J1V1,2025,2024,29,38.0,0.7632,76,0.4483,22.31,10,5122000.0,Universidades,Derecho,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S10C9J1V1,2025,2025,46,,,76,0.6522,20.13,10,5122000.0,Universidades,Derecho,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S11C34J1V1,2025,2022,29,34.0,0.8529,193,0.6897,23.69,10,5223000.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S11C34J1V1,2025,2023,35,38.0,0.9211,193,0.7429,21.63,10,5223000.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S11C34J1V1,2025,2024,35,38.0,0.9211,193,0.6857,20.71,10,5223000.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S11C34J1V1,2025,2025,42,,,193,0.6905,19.71,10,5223000.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S4C9J1V1,2025,2022,19,20.0,0.95,144,0.4211,26.16,10,5121000.0,Universidades,Derecho,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S4C9J1V1,2025,2023,26,28.0,0.8929,144,0.5769,24.15,10,5121000.0,Universidades,Derecho,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S4C9J1V1,2025,2024,27,34.0,0.7941,144,0.5556,24.07,10,5121000.0,Universidades,Derecho,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S4C9J1V1,2025,2025,36,,,144,0.5,21.78,10,5121000.0,Universidades,Derecho,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I13S5C378J1V1,2025,2025,43,,,43,0.3721,19.56,11,4851000.0,Universidades,Tecnología,Coquimbo,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S0C28J1V1,2025,2023,18,19.0,0.9474,117,0.8333,23.72,8,2170000.0,Institutos Profesionales,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S0C28J1V1,2025,2024,13,15.0,0.8667,117,0.6923,22.85,8,2170000.0,Institutos Profesionales,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S0C28J1V1,2025,2025,45,,,117,0.8222,22.58,8,2170000.0,Institutos Profesionales,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S0C30J2V1,2025,2025,12,,,19,0.9167,28.33,5,2050000.0,Institutos Profesionales,Derecho,Biobío,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S12C29J1V1,2025,2024,18,20.0,0.9,44,1.0,25.67,5,2190000.0,Institutos Profesionales,Educación,Los Lagos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S12C59J2V1,2025,2024,14,16.0,0.6875,50,1.0,25.36,5,2620000.0,Institutos Profesionales,Arte y Arquitectura,Los Lagos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S12C59J2V1,2025,2025,24,,,50,1.0,22.71,5,2620000.0,Institutos Profesionales,Arte y Arquitectura,Los Lagos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C100J1V1,2025,2023,10,12.0,0.75,68,0.7,23.2,8,2190000.0,Institutos Profesionales,Educación,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C100J1V1,2025,2024,12,15.0,0.6667,68,1.0,22.67,8,2190000.0,Institutos Profesionales,Educación,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C100J1V1,2025,2025,8,,,68,1.0,28.12,8,2190000.0,Institutos Profesionales,Educación,Biobío,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C124J1V1,2025,2025,17,,,35,0.6471,28.12,4,2460000.0,Institutos Profesionales,Salud,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C124J2V1,2025,2025,7,,,18,0.7143,25.86,4,2550000.0,Institutos Profesionales,Salud,Biobío,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C23J2V2,2025,2023,20,21.0,0.9048,90,0.15,33.55,8,2310000.0,Institutos Profesionales,Tecnología,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C23J2V2,2025,2024,13,24.0,0.5417,90,0.0769,35.15,8,2310000.0,Institutos Profesionales,Tecnología,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C23J2V2,2025,2025,38,,,90,0.1316,33.45,8,2310000.0,Institutos Profesionales,Tecnología,Biobío,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S13C709J1V1,2025,2025,12,,,34,0.0833,23.08,4,2190000.0,Institutos Profesionales,Tecnología,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S15C92J1V1,2025,2024,8,12.0,0.5833,50,0.75,23.25,5,2830000.0,Institutos Profesionales,Salud,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S15C92J1V1,2025,2025,20,,,50,0.8,21.15,5,2830000.0,Institutos Profesionales,Salud,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S17C27J1V1,2025,2024,29,33.0,0.8788,53,0.7241,22.86,5,2370000.0,Institutos Profesionales,Tecnología,Coquimbo,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S17C27J1V1,2025,2025,10,,,53,0.5,25.9,5,2370000.0,Institutos Profesionales,Tecnología,Coquimbo,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S17C645J2V1,2025,2024,16,16.0,0.9375,22,0.0625,27.25,5,2230000.0,Institutos Profesionales,Administración y Comercio,Coquimbo,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S17C690J1V1,2025,2023,37,43.0,0.8372,213,0.2973,24.43,8,2440000.0,Institutos Profesionales,Tecnología,Coquimbo,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S17C690J1V1,2025,2024,57,68.0,0.8235,213,0.3509,22.33,8,2440000.0,Institutos Profesionales,Tecnología,Coquimbo,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S17C690J1V1,2025,2025,83,,,213,0.3012,23.35,8,2440000.0,Institutos Profesionales,Tecnología,Coquimbo,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S17C742J1V1,2025,2025,31,,,31,0.9677,24.48,5,2080000.0,Institutos Profesionales,Educación,Coquimbo,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S21C23J2V2,2025,2023,14,16.0,0.875,69,0.2857,30.5,8,2590000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S21C23J2V2,2025,2024,17,17.0,0.9412,69,0.1765,29.18,8,2590000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S21C23J2V2,2025,2025,35,,,69,0.2571,31.37,8,2590000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S21C92J2V1,2025,2024,6,10.0,0.6,17,1.0,26.67,5,2440000.0,Institutos Profesionales,Salud,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C23J1V1,2025,2023,5,5.0,1.0,32,0.0,25.2,8,2240000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C23J1V1,2025,2024,9,12.0,0.75,32,0.2222,26.78,8,2240000.0,Institutos Profesionales,Tecnología,Maule,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C616J2V2,2025,2024,17,24.0,0.7083,65,0.0,33.12,5,2200000.0,Institutos Profesionales,Tecnología,Maule,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C616J2V2,2025,2025,42,,,65,0.0238,32.17,5,2200000.0,Institutos Profesionales,Tecnología,Maule,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C660J2V1,2025,2024,10,10.0,0.9,10,0.6,28.1,8,2130000.0,Institutos Profesionales,Ciencias Sociales,Maule,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C92J1V1,2025,2024,8,14.0,0.5714,26,0.75,24.5,5,2280000.0,Institutos Profesionales,Salud,Maule,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C92J1V1,2025,2025,9,,,26,1.0,25.56,5,2280000.0,Institutos Profesionales,Salud,Maule,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C95J2V1,2025,2023,22,21.0,0.9524,83,0.6818,32.09,8,2340000.0,Institutos Profesionales,Administración y Comercio,Maule,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C95J2V1,2025,2024,23,24.0,0.9583,83,0.5217,33.39,8,2340000.0,Institutos Profesionales,Administración y Comercio,Maule,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S22C95J2V1,2025,2025,25,,,83,0.68,32.04,8,2340000.0,Institutos Profesionales,Administración y Comercio,Maule,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S23C664J1V1,2025,2023,7,12.0,0.6667,19,0.0,22.71,8,2360000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S23C664J1V1,2025,2024,9,15.0,0.6,19,0.0,24.56,8,2360000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S23C707J1V1,2025,2023,5,6.0,0.8333,28,0.4,22.8,8,2290000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S23C707J1V1,2025,2024,9,11.0,0.8182,28,0.2222,23.11,8,2290000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S23C707J1V1,2025,2025,14,,,28,0.2143,20.5,8,2290000.0,Institutos Profesionales,Tecnología,Metropolitana,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S24C15J2V2,2025,2025,14,,,14,0.2857,31.0,8,2140000.0,Institutos Profesionales,Tecnología,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S24C29J2V2,2025,2024,5,9.0,0.5556,14,1.0,30.2,5,2240000.0,Institutos Profesionales,Educación,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S24C651J2V1,2025,2024,11,14.0,0.7857,19,0.5455,31.18,5,2440000.0,Institutos Profesionales,Administración y Comercio,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S24C660J2V1,2025,2024,8,12.0,0.5833,22,0.75,31.62,8,2250000.0,Institutos Profesionales,Ciencias Sociales,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S24C660J2V1,2025,2025,14,,,22,0.6429,33.64,8,2250000.0,Institutos Profesionales,Ciencias Sociales,Valparaíso,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S25C28J1V1,2025,2023,9,9.0,1.0,53,0.5556,28.44,8,2130000.0,Institutos Profesionales,Ciencias Sociales,Los Lagos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S25C28J1V1,2025,2024,17,20.0,0.75,53,0.8235,24.65,8,2130000.0,Institutos Profesionales,Ciencias Sociales,Los Lagos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S25C28J1V1,2025,2025,6,,,53,0.6667,28.0,8,2130000.0,Institutos Profesionales,Ciencias Sociales,Los Lagos,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S26C100J2V1,2025,2023,5,28.0,0.7143,115,1.0,30.4,8,2340000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S26C100J2V1,2025,2024,7,,,115,1.0,33.0,8,2340000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S26C100J2V1,2025,2025,6,,,115,0.8333,30.83,8,2340000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S26C53J1V1,2025,2024,24,25.0,0.72,95,0.75,25.29,5,3230000.0,Institutos Profesionales,Salud,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S26C53J1V1,2025,2025,25,,,95,0.88,26.12,5,3230000.0,Institutos Profesionales,Salud,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S26C614J1V1,2025,2024,8,15.0,0.5333,9,0.625,26.75,5,2450000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S26C738J2V1,2025,2025,8,,,8,0.0,25.75,5,2410000.0,Institutos Profesionales,Tecnología,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S28C118J4V1,2025,2024,99,113.0,0.6195,379,0.899,34.6,5,2410000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S28C118J4V1,2025,2025,151,,,379,0.7947,32.26,5,2410000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S28C77J4V1,2025,2023,137,225.0,0.6,792,0.562,34.45,8,2440000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S28C77J4V1,2025,2024,203,247.0,0.6073,792,0.5369,33.41,8,2440000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S28C77J4V1,2025,2025,300,,,792,0.55,32.69,8,2440000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S28C83J4V1,2025,2024,126,181.0,0.5304,384,0.8571,35.45,5,2400000.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S28C83J4V1,2025,2025,138,,,384,0.8333,34.07,5,2400000.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S29C100J2V2,2025,2023,12,13.0,0.9231,75,1.0,33.17,8,2280000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S29C100J2V2,2025,2024,18,20.0,0.8,75,1.0,31.11,8,2280000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S29C100J2V2,2025,2025,13,,,75,0.8462,23.38,8,2280000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S29C660J2V1,2025,2023,8,12.0,0.6667,30,0.5,35.0,8,2270000.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S29C660J2V1,2025,2024,9,12.0,0.75,30,0.5556,26.0,8,2270000.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S29C660J2V1,2025,2025,13,,,30,0.6154,32.0,8,2270000.0,Institutos Profesionales,Ciencias Sociales,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S2C22J1V2,2025,2024,26,32.0,0.7812,60,0.8077,25.0,5,2240000.0,Institutos Profesionales,Arte y Arquitectura,Antofagasta,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S2C22J1V2,2025,2025,20,,,60,0.75,26.3,5,2240000.0,Institutos Profesionales,Arte y Arquitectura,Antofagasta,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S2C23J1V1,2025,2023,8,9.0,0.8889,26,0.125,29.0,8,2210000.0,Institutos Profesionales,Tecnología,Antofagasta,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S2C23J1V1,2025,2024,6,11.0,0.5455,26,0.1667,25.5,8,2210000.0,Institutos Profesionales,Tecnología,Antofagasta,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S2C619J2V2,2025,2025,24,,,24,0.375,25.5,5,2570000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S2C636J2V3,2025,2024,21,39.0,0.5385,91,0.1429,28.9,5,2620000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S2C636J2V3,2025,2025,47,,,91,0.1702,27.06,5,2620000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S30C9J1V1,2025,2024,6,10.0,0.6,7,0.5,34.17,5,2150000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S5C27J2V2,2025,2024,32,46.0,0.7174,92,0.7188,23.66,5,2350000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S5C27J2V2,2025,2025,48,,,92,0.6667,24.38,5,2350000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S5C690J2V1,2025,2023,35,45.0,0.7556,164,0.2286,30.03,8,2550000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S5C690J2V1,2025,2024,44,58.0,0.7241,164,0.4318,26.05,8,2550000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S5C690J2V1,2025,2025,55,,,164,0.5091,24.96,8,2550000.0,Institutos Profesionales,Tecnología,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S5C95J2V1,2025,2023,20,32.0,0.6875,161,0.8,30.05,8,2450000.0,Institutos Profesionales,Administración y Comercio,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S5C95J2V1,2025,2024,45,76.0,0.6447,161,0.6889,30.71,8,2450000.0,Institutos Profesionales,Administración y Comercio,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S5C95J2V1,2025,2025,64,,,161,0.6875,28.72,8,2450000.0,Institutos Profesionales,Administración y Comercio,Antofagasta,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S8C73J2V2,2025,2023,12,14.0,0.8571,64,0.5833,30.17,8,2420000.0,Institutos Profesionales,Administración y Comercio,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S8C73J2V2,2025,2024,21,20.0,1.0,64,0.9048,29.43,8,2420000.0,Institutos Profesionales,Administración y Comercio,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S8C73J2V2,2025,2025,14,,,64,0.2857,35.14,8,2420000.0,Institutos Profesionales,Administración y Comercio,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S9C28J1V1,2025,2023,25,30.0,0.7667,148,0.84,23.32,8,2440000.0,Institutos Profesionales,Ciencias Sociales,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S9C28J1V1,2025,2024,32,39.0,0.7692,148,0.7188,22.78,8,2440000.0,Institutos Profesionales,Ciencias Sociales,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S9C28J1V1,2025,2025,26,,,148,0.6538,22.65,8,2440000.0,Institutos Profesionales,Ciencias Sociales,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S9C469J2V2,2025,2024,12,16.0,0.75,22,0.9167,29.25,5,2250000.0,Institutos Profesionales,Educación,Lib. Gral. B. O'Higgins,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S9C664J1V1,2025,2023,36,41.0,0.8537,121,0.0278,23.94,8,2510000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S9C664J1V1,2025,2024,31,37.0,0.8378,121,0.0645,22.35,8,2510000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S9C664J1V1,2025,2025,22,,,121,0.0,21.91,8,2510000.0,Institutos Profesionales,Tecnología,Lib. Gral. B. O'Higgins,Diurna,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I143S9C730J1V1,2025,2025,9,,,25,0.7778,23.67,4,2560000.0,Institutos Profesionales,Salud,Lib. Gral. B. O'Higgins,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C21J2V1,2025,2024,17,18.0,0.8889,17,0.9412,37.82,8,2119000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C21J4V5,2025,2023,349,,,1696,0.9685,35.7,8,2067000.0,Institutos Profesionales,Educación,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C21J4V5,2025,2024,516,,,1696,0.938,34.96,8,2067000.0,Institutos Profesionales,Educación,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C21J4V5,2025,2025,508,,,1696,0.9429,34.47,8,2067000.0,Institutos Profesionales,Educación,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C458J4V1,2025,2025,166,,,384,0.0663,36.73,4,1935000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C472J4V1,2025,2024,1051,724.0,0.8412,2084,0.1941,36.49,8,2064000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C472J4V1,2025,2025,1033,,,2084,0.1994,32.17,8,2064000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C480J4V1,2025,2025,89,,,152,0.5169,30.91,4,1961000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I152S10C493J4V1,2025,2025,75,,,75,0.64,32.84,8,2132000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I155S2C7J2V1,2025,2023,13,21.0,0.5714,55,1.0,35.85,8,2125000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I155S2C7J2V1,2025,2024,6,,,55,1.0,30.83,8,2125000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I155S2C7J2V1,2025,2025,17,,,55,1.0,29.35,8,2125000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I162S2C76J2V1,2025,2025,22,,,22,0.4545,32.73,8,1880000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I162S2C91J1V1,2025,2025,35,,,35,0.7714,23.17,5,1990000.0,Institutos Profesionales,Salud,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I171S1C27J4V2,2025,2023,5,14.0,0.3571,243,0.2,34.2,8,1890000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I171S1C27J4V2,2025,2024,108,87.0,0.6207,243,0.5463,35.73,8,1890000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I171S1C27J4V2,2025,2025,116,,,243,0.5517,33.03,8,1890000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I171S1C28J4V2,2025,2025,87,,,195,0.3103,37.22,4,1890000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Especial
+I171S1C65J4V1,2025,2025,71,,,138,0.6197,33.7,4,1890000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I171S1C71J2V1,2025,2025,16,,,16,0.4375,29.75,9,2025000.0,Institutos Profesionales,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I171S1C81J4V1,2025,2024,49,27.0,0.7407,154,0.3265,34.84,8,1890000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I171S1C81J4V1,2025,2025,105,,,154,0.2857,37.78,8,1890000.0,Institutos Profesionales,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I176S3C62J1V1,2025,2024,13,19.0,0.6842,33,0.9231,25.23,5,1397000.0,Institutos Profesionales,Agropecuaria,Coquimbo,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,NO ACREDITADA,Plan Regular
+I176S7C880J4V1,2025,2023,258,281.0,0.9004,433,0.2326,35.22,8,1900000.0,Institutos Profesionales,Administración y Comercio,Biobío,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,NO ACREDITADA,Plan Regular
+I176S7C880J4V1,2025,2024,60,70.0,0.8571,433,0.1833,33.82,8,1900000.0,Institutos Profesionales,Administración y Comercio,Biobío,A Distancia,No Presencial,Profesional Sin Licenciatura,NO ACREDITADA,NO ACREDITADA,Plan Regular
+I17S2C58J3V1,2025,2023,6,7.0,0.8571,16,1.0,35.5,10,3441000.0,Universidades,Salud,Metropolitana,Semipresencial,Semipresencial,Profesional Con Licenciatura,NO ACREDITADA,NO ACREDITADA,Plan Regular
+I17S2C58J3V1,2025,2024,10,16.0,0.5625,16,0.8,33.8,10,3441000.0,Universidades,Salud,Metropolitana,Semipresencial,Semipresencial,Profesional Con Licenciatura,NO ACREDITADA,NO ACREDITADA,Plan Regular
+I193S2C4J2V4,2025,2025,18,,,32,0.1111,29.83,4,2710000.0,Institutos Profesionales,Educación,Metropolitana,Vespertina,Presencial,Profesional Sin Licenciatura,NO ACREDITADA,ACREDITADA,Plan Especial
+I19S4C344J4V2,2025,2024,40,30.0,0.7667,102,0.5,35.55,5,2600000.0,Universidades,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I19S4C344J4V2,2025,2025,62,,,102,0.5484,36.98,5,2600000.0,Universidades,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I19S4C38J1V2,2025,2022,6,8.0,0.75,152,0.0,23.17,10,4160000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I19S4C38J1V2,2025,2023,30,34.0,0.8824,152,0.2,23.2,10,4160000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I19S4C38J1V2,2025,2024,50,61.0,0.8197,152,0.32,20.88,10,4160000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I19S4C38J1V2,2025,2025,56,,,152,0.1607,20.79,10,4160000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I19S4C5J1V1,2025,2023,33,33.0,1.0,189,0.2121,22.09,8,5500000.0,Universidades,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S4C5J1V1,2025,2024,47,54.0,0.8519,189,0.4468,20.66,8,5500000.0,Universidades,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S4C5J1V1,2025,2025,67,,,189,0.6119,19.81,8,5500000.0,Universidades,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S6C37J3V1,2025,2022,6,6.0,0.8333,99,1.0,34.33,10,5500000.0,Universidades,Agropecuaria,Valparaíso,Semipresencial,Semipresencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S6C37J3V1,2025,2023,25,29.0,0.7931,99,0.72,33.0,10,5500000.0,Universidades,Agropecuaria,Valparaíso,Semipresencial,Semipresencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S6C37J3V1,2025,2024,23,35.0,0.6571,99,0.6957,29.7,10,5500000.0,Universidades,Agropecuaria,Valparaíso,Semipresencial,Semipresencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S6C37J3V1,2025,2025,39,,,99,0.7949,30.56,10,5500000.0,Universidades,Agropecuaria,Valparaíso,Semipresencial,Semipresencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S6C98J1V1,2025,2022,17,19.0,0.8947,269,0.3529,28.41,10,5400000.0,Universidades,Salud,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S6C98J1V1,2025,2023,50,57.0,0.8772,269,0.42,23.92,10,5400000.0,Universidades,Salud,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S6C98J1V1,2025,2024,70,78.0,0.8846,269,0.4714,21.61,10,5400000.0,Universidades,Salud,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I19S6C98J1V1,2025,2025,87,,,269,0.5057,19.41,10,5400000.0,Universidades,Salud,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I1S1C250J4V2,2025,2024,35,21.0,0.9524,78,0.3143,36.37,5,3867000.0,Universidades,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I1S1C250J4V2,2025,2025,16,,,78,0.0625,37.62,5,3867000.0,Universidades,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I20S1C115J4V1,2025,2024,29,54.0,0.537,133,0.3103,28.21,10,6066000.0,Universidades,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C115J4V1,2025,2025,104,,,133,0.3365,27.6,10,6066000.0,Universidades,Tecnología,Metropolitana,A Distancia,No Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C22J1V1,2025,2021,99,103.0,0.932,1049,0.6364,23.89,11,6875000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C22J1V1,2025,2022,95,102.0,0.9412,1049,0.5789,23.2,11,6875000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C22J1V1,2025,2023,135,142.0,0.9437,1049,0.5852,22.07,11,6875000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C22J1V1,2025,2024,188,196.0,0.9388,1049,0.6064,21.25,11,6875000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C22J1V1,2025,2025,247,,,1049,0.5951,19.78,11,6875000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C27J2V2,2025,2022,18,21.0,0.8095,96,1.0,30.0,9,4067000.0,Universidades,Educación,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I20S1C27J2V2,2025,2023,26,28.0,0.9286,96,1.0,29.42,9,4067000.0,Universidades,Educación,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I20S1C27J2V2,2025,2024,11,20.0,0.5,96,1.0,27.45,9,4067000.0,Universidades,Educación,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I20S1C27J2V2,2025,2025,17,,,96,1.0,28.12,9,4067000.0,Universidades,Educación,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I20S1C6J1V1,2025,2022,177,200.0,0.86,1328,0.5198,22.82,10,6955000.0,Universidades,Derecho,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C6J1V1,2025,2023,216,252.0,0.8373,1328,0.5231,21.56,10,6955000.0,Universidades,Derecho,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C6J1V1,2025,2024,245,298.0,0.8188,1328,0.551,20.64,10,6955000.0,Universidades,Derecho,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C6J1V1,2025,2025,290,,,1328,0.5379,20.03,10,6955000.0,Universidades,Derecho,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C6J2V2,2025,2022,39,46.0,0.8043,261,0.5385,34.59,10,6266000.0,Universidades,Derecho,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C6J2V2,2025,2023,53,56.0,0.9107,261,0.5849,32.47,10,6266000.0,Universidades,Derecho,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C6J2V2,2025,2024,41,57.0,0.6667,261,0.4634,31.2,10,6266000.0,Universidades,Derecho,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C6J2V2,2025,2025,65,,,261,0.4923,33.09,10,6266000.0,Universidades,Derecho,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S1C71J2V3,2025,2024,65,77.0,0.6494,149,0.3077,31.71,6,4953357.0,Universidades,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I20S1C71J2V3,2025,2025,45,,,149,0.4222,32.62,6,4953357.0,Universidades,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I20S2C21J1V1,2025,2022,221,233.0,0.9442,1314,0.3529,22.81,10,6994000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S2C21J1V1,2025,2023,249,257.0,0.9533,1314,0.4016,21.67,10,6994000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S2C21J1V1,2025,2024,259,308.0,0.8344,1314,0.3591,20.77,10,6994000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S2C21J1V1,2025,2025,350,,,1314,0.3686,19.96,10,6994000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S3C329J1V1,2025,2024,34,39.0,0.8718,112,0.4412,20.82,10,6005000.0,Universidades,Tecnología,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S3C329J1V1,2025,2025,66,,,112,0.2576,19.73,10,6005000.0,Universidades,Tecnología,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C116J1V1,2025,2024,24,30.0,0.8,69,0.0833,20.42,10,5404000.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C116J1V1,2025,2025,44,,,69,0.1818,20.0,10,5404000.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C28J1V1,2025,2023,16,20.0,0.75,71,0.5625,22.06,8,3908000.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C28J1V1,2025,2024,11,24.0,0.4583,71,0.5455,21.09,8,3908000.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C28J1V1,2025,2025,16,,,71,0.5625,20.19,8,3908000.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C6J1V1,2025,2022,42,49.0,0.8571,461,0.4048,22.38,10,5471000.0,Universidades,Derecho,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C6J1V1,2025,2023,88,103.0,0.8544,461,0.5568,22.67,10,5471000.0,Universidades,Derecho,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C6J1V1,2025,2024,86,96.0,0.8646,461,0.5698,21.14,10,5471000.0,Universidades,Derecho,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I20S4C6J1V1,2025,2025,96,,,461,0.5312,20.09,10,5471000.0,Universidades,Derecho,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I218S1C124J2V2,2025,2024,19,28.0,0.6786,51,0.7368,30.26,5,2827000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I218S1C124J2V2,2025,2025,22,,,51,0.6818,33.32,5,2827000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I218S1C138J2V2,2025,2024,8,11.0,0.7273,30,0.75,34.62,5,2543000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I218S1C138J2V2,2025,2025,15,,,30,0.6667,28.2,5,2543000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I218S1C152J1V2,2025,2024,241,304.0,0.7171,807,0.9917,21.75,5,2758000.0,Centros de Formación Técnica,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I218S1C152J1V2,2025,2025,341,,,807,0.9853,20.66,5,2758000.0,Centros de Formación Técnica,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I22S1C108J1V2,2025,2023,22,23.0,0.9565,45,0.3182,22.68,8,4347000.0,Universidades,Arte y Arquitectura,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I22S1C337J4V1,2025,2025,30,,,36,0.9333,37.3,4,2483000.0,Universidades,Ciencias Sociales,Valparaíso,A Distancia,No Presencial,Licenciatura No Conducente a Título,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I257S1C81J2V1,2025,2024,14,17.0,0.8235,43,0.2857,29.86,5,1778600.0,Centros de Formación Técnica,Administración y Comercio,Coquimbo,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I257S1C81J2V1,2025,2025,18,,,43,0.4444,30.06,5,1778600.0,Centros de Formación Técnica,Administración y Comercio,Coquimbo,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S11C84J2V1,2025,2024,8,20.0,0.4,23,0.375,33.5,5,1927000.0,Centros de Formación Técnica,Tecnología,La Araucanía,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S21C281J2V1,2025,2024,24,34.0,0.6765,78,0.4583,27.75,5,2399000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S21C281J2V1,2025,2025,41,,,78,0.6341,26.54,5,2399000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S34C108J1V1,2025,2024,78,92.0,0.8478,182,0.3462,22.21,5,2256000.0,Centros de Formación Técnica,Educación,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S34C108J1V1,2025,2025,70,,,182,0.1286,21.1,5,2256000.0,Centros de Formación Técnica,Educación,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S37C79J1V1,2025,2024,41,49.0,0.8367,118,0.9756,23.1,5,2089000.0,Centros de Formación Técnica,Educación,Los Lagos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S37C79J1V1,2025,2025,45,,,118,1.0,22.78,5,2089000.0,Centros de Formación Técnica,Educación,Los Lagos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S3C234J2V1,2025,2024,64,90.0,0.7,196,0.6875,28.02,5,2391000.0,Centros de Formación Técnica,Administración y Comercio,Antofagasta,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S3C234J2V1,2025,2025,91,,,196,0.7143,26.43,5,2391000.0,Centros de Formación Técnica,Administración y Comercio,Antofagasta,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S42C118J1V1,2025,2024,33,44.0,0.75,119,1.0,21.58,5,2702000.0,Centros de Formación Técnica,Salud,Ñuble,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S42C118J1V1,2025,2025,45,,,119,1.0,20.4,5,2702000.0,Centros de Formación Técnica,Salud,Ñuble,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S42C120J2V1,2025,2024,26,29.0,0.8966,71,0.6538,29.38,5,2133000.0,Centros de Formación Técnica,Administración y Comercio,Ñuble,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S42C120J2V1,2025,2025,32,,,71,0.4688,29.28,5,2133000.0,Centros de Formación Técnica,Administración y Comercio,Ñuble,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S47C47J2V1,2025,2024,87,99.0,0.8384,261,0.8621,35.57,5,2441000.0,Centros de Formación Técnica,Salud,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S47C47J2V1,2025,2025,95,,,261,0.8526,34.45,5,2441000.0,Centros de Formación Técnica,Salud,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S51C120J4V1,2025,2024,170,100.0,0.55,364,0.6706,33.35,5,1992000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I260S51C120J4V1,2025,2025,113,,,364,0.6372,31.73,5,1992000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C1J2V1,2025,2022,14,18.0,0.7222,124,0.7143,28.36,10,4889000.0,Universidades,Administración y Comercio,La Araucanía,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C1J2V1,2025,2023,15,20.0,0.7,124,0.4667,28.87,10,4889000.0,Universidades,Administración y Comercio,La Araucanía,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C1J2V1,2025,2024,26,34.0,0.7059,124,0.5385,26.96,10,4889000.0,Universidades,Administración y Comercio,La Araucanía,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C1J2V1,2025,2025,37,,,124,0.4324,23.65,10,4889000.0,Universidades,Administración y Comercio,La Araucanía,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C448J1V1,2025,2024,42,45.0,0.9111,94,0.5476,20.6,10,3712000.0,Universidades,Administración y Comercio,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C448J1V1,2025,2025,52,,,94,0.5962,19.83,10,3712000.0,Universidades,Administración y Comercio,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C47J1V1,2025,2022,53,55.0,0.9636,332,0.8868,23.49,10,5774000.0,Universidades,Salud,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C47J1V1,2025,2023,61,65.0,0.9077,332,0.8197,21.82,10,5774000.0,Universidades,Salud,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C47J1V1,2025,2024,60,72.0,0.8194,332,0.75,21.15,10,5774000.0,Universidades,Salud,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C47J1V1,2025,2025,77,,,332,0.8312,19.62,10,5774000.0,Universidades,Salud,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S1C483J2V1,2025,2025,20,,,20,0.9,29.4,8,3708000.0,Universidades,Educación,La Araucanía,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S2C12J2V1,2025,2022,48,50.0,0.96,322,0.75,33.79,10,4854000.0,Universidades,Ciencias Sociales,Maule,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S2C12J2V1,2025,2023,57,57.0,0.9474,322,0.7895,31.53,10,4854000.0,Universidades,Ciencias Sociales,Maule,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S2C12J2V1,2025,2024,77,92.0,0.8261,322,0.7662,29.88,10,4854000.0,Universidades,Ciencias Sociales,Maule,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S2C12J2V1,2025,2025,99,,,322,0.798,28.6,10,4854000.0,Universidades,Ciencias Sociales,Maule,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S2C155J1V1,2025,2022,31,31.0,1.0,77,0.7419,23.65,9,3741000.0,Universidades,Administración y Comercio,Maule,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I31S2C15J1V1,2025,2022,34,34.0,1.0,112,0.2059,23.06,9,3622000.0,Universidades,Educación,Maule,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I31S2C15J1V1,2025,2023,48,53.0,0.9057,112,0.1667,21.85,9,3622000.0,Universidades,Educación,Maule,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I31S3C15J1V2,2025,2024,46,51.0,0.902,93,0.1739,21.0,10,4551000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I31S3C15J1V2,2025,2025,47,,,93,0.3191,19.98,10,4551000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I367S1C154J2V1,2025,2024,5,21.0,0.2381,30,0.4,33.8,5,3300000.0,Centros de Formación Técnica,Tecnología,Maule,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I367S1C154J2V1,2025,2025,25,,,30,0.4,27.56,5,3300000.0,Centros de Formación Técnica,Tecnología,Maule,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I367S1C214J1V1,2025,2024,12,16.0,0.75,24,0.4167,25.67,5,2790000.0,Centros de Formación Técnica,Administración y Comercio,Maule,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I367S1C214J1V1,2025,2025,12,,,24,0.3333,23.33,5,2790000.0,Centros de Formación Técnica,Administración y Comercio,Maule,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I367S2C127J2V1,2025,2024,20,29.0,0.6897,54,0.05,22.75,5,2800000.0,Centros de Formación Técnica,Tecnología,Maule,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I367S2C127J2V1,2025,2025,20,,,54,0.15,23.4,5,2800000.0,Centros de Formación Técnica,Tecnología,Maule,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I367S4C190J1V1,2025,2024,14,20.0,0.65,48,0.7143,24.29,5,2800000.0,Centros de Formación Técnica,Salud,Maule,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I367S4C190J1V1,2025,2025,23,,,48,0.7391,24.78,5,2800000.0,Centros de Formación Técnica,Salud,Maule,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I39S2C180J2V2,2025,2024,7,26.0,0.2308,13,0.4286,33.71,6,3610800.0,Universidades,Administración y Comercio,Biobío,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I39S6C238J2V2,2025,2024,10,15.0,0.6667,27,0.4,32.2,5,4100300.0,Universidades,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I39S6C39J1V1,2025,2022,18,17.0,1.0,180,0.9444,23.06,10,6716100.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I39S6C39J1V1,2025,2023,41,46.0,0.8913,180,0.9024,22.37,10,6716100.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I39S6C39J1V1,2025,2024,49,59.0,0.8305,180,0.9388,21.1,10,6716100.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I39S6C39J1V1,2025,2025,34,,,180,0.9412,20.21,10,6716100.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I39S6C45J2V1,2025,2024,10,,,30,0.3,35.4,6,5722100.0,Universidades,Tecnología,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I39S6C87J3V2,2025,2025,55,,,55,0.2545,32.62,6,4335200.0,Universidades,Tecnología,Metropolitana,Semipresencial,Semipresencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I39S7C18J1V1,2025,2021,45,48.0,0.9375,369,0.6667,24.2,12,8962400.0,Universidades,Salud,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I39S7C18J1V1,2025,2022,51,55.0,0.8909,369,0.549,22.33,12,8962400.0,Universidades,Salud,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I39S7C18J1V1,2025,2023,60,66.0,0.8939,369,0.7167,21.53,12,8962400.0,Universidades,Salud,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I39S7C18J1V1,2025,2024,63,79.0,0.7848,369,0.746,20.84,12,8962400.0,Universidades,Salud,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I39S7C18J1V1,2025,2025,82,,,369,0.6707,20.1,12,8962400.0,Universidades,Salud,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I39S7C2J5V1,2025,2023,29,32.0,0.9062,126,0.7931,41.62,8,4232700.0,Universidades,Ciencias Sociales,Los Ríos,Otra,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I39S7C2J5V1,2025,2024,26,22.0,0.8636,126,0.7692,36.38,8,4232700.0,Universidades,Ciencias Sociales,Los Ríos,Otra,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I39S7C2J5V1,2025,2025,25,,,126,0.84,41.0,8,4232700.0,Universidades,Ciencias Sociales,Los Ríos,Otra,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I39S8C9J1V1,2025,2022,24,31.0,0.871,263,0.5,23.83,10,5508200.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I39S8C9J1V1,2025,2023,42,54.0,0.8148,263,0.5,22.62,10,5508200.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I39S8C9J1V1,2025,2024,74,91.0,0.7582,263,0.5811,21.51,10,5508200.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I39S8C9J1V1,2025,2025,56,,,263,0.5357,20.45,10,5508200.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S12C67J2V1,2025,2025,85,,,161,0.4,28.14,4,2770000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S14C201J2V1,2025,2025,33,,,66,0.5758,29.61,4,2788000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S14C310J1V1,2025,2025,33,,,55,0.8182,21.67,4,2898000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S14C349J1V1,2025,2025,14,,,20,0.4286,22.5,4,2809000.0,Centros de Formación Técnica,Arte y Arquitectura,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S14C358J1V1,2025,2025,23,,,30,0.6522,21.78,4,3532000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S14C42J1V3,2025,2025,31,,,69,0.1935,26.55,4,2882000.0,Centros de Formación Técnica,Tecnología,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S16C348J1V1,2025,2025,40,,,64,0.35,20.38,4,2847000.0,Centros de Formación Técnica,Arte y Arquitectura,Lib. Gral. B. O'Higgins,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S1C306J1V1,2025,2025,45,,,73,0.5556,23.31,4,2878000.0,Centros de Formación Técnica,Tecnología,Antofagasta,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S1C330J1V1,2025,2025,64,,,129,0.6094,21.38,4,3663000.0,Centros de Formación Técnica,Administración y Comercio,Antofagasta,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S20C343J1V1,2025,2025,20,,,42,0.45,24.45,4,2706000.0,Centros de Formación Técnica,Tecnología,Los Ríos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S21C333J1V1,2025,2025,30,,,45,0.3,22.2,4,2811000.0,Centros de Formación Técnica,Tecnología,Magallanes,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S23C331J1V1,2025,2025,24,,,41,0.4583,23.25,4,2828000.0,Centros de Formación Técnica,Agropecuaria,Los Lagos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S25C133J1V2,2025,2024,20,24.0,0.8333,41,0.75,22.9,5,2694000.0,Centros de Formación Técnica,Salud,Los Lagos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S25C149J1V1,2025,2025,30,,,53,0.1667,23.0,4,2762000.0,Centros de Formación Técnica,Tecnología,Los Lagos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S27C135J2V1,2025,2025,41,,,87,0.0,22.24,4,2998000.0,Centros de Formación Técnica,Tecnología,Coquimbo,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S27C149J2V1,2025,2025,22,,,37,0.0909,28.86,4,2762000.0,Centros de Formación Técnica,Tecnología,Coquimbo,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S27C341J1V1,2025,2025,26,,,46,0.0769,21.62,4,2929000.0,Centros de Formación Técnica,Tecnología,Coquimbo,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S27C343J1V1,2025,2025,28,,,54,0.2143,21.75,4,2706000.0,Centros de Formación Técnica,Tecnología,Coquimbo,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S30C149J2V1,2025,2025,16,,,28,0.1875,27.44,4,2762000.0,Centros de Formación Técnica,Tecnología,Biobío,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S34C201J1V1,2025,2025,24,,,35,0.375,22.5,4,2788000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S36C342J1V1,2025,2025,9,,,15,0.6667,33.56,4,2855000.0,Centros de Formación Técnica,Tecnología,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S36C42J1V2,2025,2025,91,,,167,0.1648,22.44,4,2882000.0,Centros de Formación Técnica,Tecnología,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S3C349J1V1,2025,2025,33,,,57,0.5758,20.85,4,2809000.0,Centros de Formación Técnica,Arte y Arquitectura,Tarapacá,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S4C358J1V1,2025,2025,23,,,32,0.7826,21.57,4,2705000.0,Centros de Formación Técnica,Administración y Comercio,Antofagasta,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S5C330J1V1,2025,2025,75,,,133,0.6533,21.36,4,3663000.0,Centros de Formación Técnica,Administración y Comercio,Atacama,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S9C358J1V1,2025,2025,35,,,56,0.6286,23.97,4,2705000.0,Centros de Formación Técnica,Administración y Comercio,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I430S9C42J1V2,2025,2025,69,,,131,0.2029,22.78,4,2882000.0,Centros de Formación Técnica,Tecnología,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I435S1C1J4V1,2025,2025,29,,,80,0.4483,33.38,4,2250000.0,Centros de Formación Técnica,Tecnología,Metropolitana,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I456S3C48J2V1,2025,2024,18,23.0,0.7826,18,0.0556,37.17,5,2260684.0,Centros de Formación Técnica,Tecnología,Biobío,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I4S1C2J4V2,2025,2024,60,40.0,0.575,138,0.5167,42.82,6,3120000.0,Universidades,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I4S1C2J4V2,2025,2025,38,,,138,0.5263,39.18,6,3120000.0,Universidades,Ciencias Sociales,Metropolitana,A Distancia,No Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I4S1C32J1V2,2025,2022,9,10.0,0.9,140,1.0,25.22,10,3740000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I4S1C32J1V2,2025,2023,18,20.0,0.9,140,1.0,23.72,10,3740000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I4S1C32J1V2,2025,2024,40,46.0,0.8696,140,1.0,21.58,10,3740000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I4S1C32J1V2,2025,2025,45,,,140,0.9778,20.62,10,3740000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I50S1C454J1V1,2025,2025,55,,,55,0.1818,19.47,10,5600000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I50S2C271J1V1,2025,2022,89,89.0,0.9888,524,0.9438,22.73,10,6200000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I50S2C271J1V1,2025,2023,77,80.0,0.9625,524,0.961,21.49,10,6200000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I50S2C271J1V1,2025,2024,79,80.0,0.9875,524,0.9873,20.84,10,6200000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I50S2C271J1V1,2025,2025,88,,,524,0.9432,20.55,10,6200000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I50S2C354J1V1,2025,2022,32,35.0,0.9143,163,0.7812,23.84,9,3800000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I50S2C354J1V1,2025,2023,35,39.0,0.8974,163,0.8286,22.17,9,3800000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I50S2C354J1V1,2025,2024,27,32.0,0.8438,163,0.8148,20.93,9,3800000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I50S2C354J1V1,2025,2025,42,,,163,0.8571,21.88,9,3800000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S0C115J4V1,2025,2025,28,,,69,0.6429,37.79,4,1713758.0,Centros de Formación Técnica,Administración y Comercio,Valparaíso,A Distancia,No Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S0C141J1V1,2025,2024,37,46.0,0.7609,103,0.8919,28.92,5,2480699.0,Centros de Formación Técnica,Salud,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S0C141J1V1,2025,2025,38,,,103,0.7632,29.34,5,2480699.0,Centros de Formación Técnica,Salud,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S0C151J2V1,2025,2025,29,,,77,0.7931,41.45,4,1998725.0,Centros de Formación Técnica,Ciencias Sociales,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S4C116J1V1,2025,2025,64,,,145,1.0,25.52,4,1998725.0,Centros de Formación Técnica,Educación,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S4C136J1V1,2025,2025,22,,,22,0.6818,20.91,4,2168886.0,Centros de Formación Técnica,Tecnología,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S5C141J1V1,2025,2024,26,33.0,0.7879,92,0.8846,31.08,5,2480699.0,Centros de Formación Técnica,Salud,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S5C141J1V1,2025,2025,39,,,92,0.9231,29.26,5,2480699.0,Centros de Formación Técnica,Salud,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S7C0J2V1,2025,2025,18,,,55,0.1667,34.11,4,1998725.0,Centros de Formación Técnica,Tecnología,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I629S8C0J2V1,2025,2025,16,,,16,0.25,24.75,4,1998725.0,Centros de Formación Técnica,Tecnología,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I69S1C260J1V1,2025,2022,36,37.0,0.973,213,0.75,23.03,10,4936580.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I69S1C260J1V1,2025,2023,27,35.0,0.7714,213,0.5926,22.41,10,4936580.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I69S1C260J1V1,2025,2024,43,56.0,0.75,213,0.5349,24.16,10,4936580.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I69S1C260J1V1,2025,2025,48,,,213,0.5208,20.83,10,4936580.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I69S1C281J2V3,2025,2023,10,12.0,0.75,45,0.3,34.2,7,5358760.0,Universidades,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I69S1C281J2V3,2025,2024,10,18.0,0.5556,45,0.4,28.0,7,5358760.0,Universidades,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I69S1C281J2V3,2025,2025,7,,,45,0.2857,30.86,7,5358760.0,Universidades,Administración y Comercio,Metropolitana,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I701S0C2J1V2,2025,2024,26,35.0,0.7714,97,0.9231,26.27,5,1880000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I701S0C2J1V2,2025,2025,44,,,97,0.9318,26.59,5,1880000.0,Centros de Formación Técnica,Administración y Comercio,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I70S1C185J1V1,2025,2025,100,,,197,0.64,25.29,3,4434400.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I70S1C42J1V1,2025,2022,28,33.0,0.8485,255,0.8571,24.25,10,5990900.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I70S1C42J1V1,2025,2023,40,43.0,0.9302,255,0.9,21.28,10,5990900.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I70S1C42J1V1,2025,2024,49,60.0,0.8167,255,0.9184,20.82,10,5990900.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I70S1C42J1V1,2025,2025,59,,,255,0.8644,19.59,10,5990900.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I70S1C54J1V2,2025,2022,46,116.0,0.3966,528,0.3913,25.07,11,7904800.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I70S1C54J1V2,2025,2023,153,180.0,0.8389,528,0.3072,24.2,11,7904800.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I70S1C54J1V2,2025,2024,149,160.0,0.9125,528,0.3691,23.54,11,7904800.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I70S1C54J1V2,2025,2025,180,,,528,0.35,22.22,11,7904800.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I71S1C38J1V1,2025,2021,22,27.0,0.8148,239,0.3636,23.5,12,6059000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I71S1C38J1V1,2025,2022,41,44.0,0.9091,239,0.0732,22.27,12,6059000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I71S1C38J1V1,2025,2023,26,35.0,0.7429,239,0.1923,21.96,12,6059000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I71S1C38J1V1,2025,2024,30,41.0,0.7317,239,0.2,21.2,12,6059000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I71S1C38J1V1,2025,2025,43,,,239,0.2093,20.58,12,6059000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I71S1C40J1V1,2025,2022,36,37.0,0.973,247,0.7222,22.42,10,4693000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I71S1C40J1V1,2025,2023,49,56.0,0.875,247,0.6735,22.55,10,4693000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I71S1C40J1V1,2025,2024,40,47.0,0.8511,247,0.775,21.88,10,4693000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I71S1C40J1V1,2025,2025,63,,,247,0.619,20.11,10,4693000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I72S5C505J1V1,2025,2022,21,22.0,0.9091,173,0.5714,23.52,10,4400000.0,Universidades,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I72S5C505J1V1,2025,2023,31,35.0,0.8857,173,0.8065,21.19,10,4400000.0,Universidades,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I72S5C505J1V1,2025,2024,41,50.0,0.82,173,0.878,20.12,10,4400000.0,Universidades,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I72S5C505J1V1,2025,2025,45,,,173,0.8444,19.04,10,4400000.0,Universidades,Administración y Comercio,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I73S2C369J1V1,2025,2022,13,14.0,0.8571,75,0.8462,22.54,10,3437000.0,Universidades,Educación,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I73S2C369J1V1,2025,2023,24,26.0,0.9231,75,0.375,23.12,10,3437000.0,Universidades,Educación,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I73S2C369J1V1,2025,2024,20,23.0,0.8696,75,0.75,20.45,10,3437000.0,Universidades,Educación,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I73S2C369J1V1,2025,2025,18,,,75,0.6667,19.5,10,3437000.0,Universidades,Educación,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I74S1C29J1V1,2025,2023,9,11.0,0.8182,48,0.0,23.44,8,3635000.0,Universidades,Ciencias Básicas,Coquimbo,Diurna,Presencial,Licenciatura No Conducente a Título,NO ACREDITADA,ACREDITADA,Plan Regular
+I74S1C29J1V1,2025,2024,12,17.0,0.7059,48,0.1667,20.0,8,3635000.0,Universidades,Ciencias Básicas,Coquimbo,Diurna,Presencial,Licenciatura No Conducente a Título,NO ACREDITADA,ACREDITADA,Plan Regular
+I74S1C29J1V1,2025,2025,17,,,48,0.2941,22.12,8,3635000.0,Universidades,Ciencias Básicas,Coquimbo,Diurna,Presencial,Licenciatura No Conducente a Título,NO ACREDITADA,ACREDITADA,Plan Regular
+I75S1C192J1V1,2025,2023,44,47.0,0.9362,203,0.4773,22.14,8,3522000.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I75S1C192J1V1,2025,2024,36,57.0,0.6316,203,0.3611,21.25,8,3522000.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I75S1C192J1V1,2025,2025,62,,,203,0.5,19.82,8,3522000.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I76S1C294J1V2,2025,2022,43,42.0,0.8571,170,0.2558,22.26,11,4528000.0,Universidades,Tecnología,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I76S1C294J1V2,2025,2023,32,36.0,0.8611,170,0.125,21.19,11,4528000.0,Universidades,Tecnología,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I76S1C294J1V2,2025,2024,46,49.0,0.898,170,0.2609,20.43,11,4528000.0,Universidades,Tecnología,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I76S1C294J1V2,2025,2025,49,,,170,0.3469,19.43,11,4528000.0,Universidades,Tecnología,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I76S1C31J1V1,2025,2022,11,13.0,0.8462,97,0.3636,24.0,10,3723000.0,Universidades,Ciencias Sociales,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I76S1C31J1V1,2025,2023,19,22.0,0.8182,97,0.6842,23.68,10,3723000.0,Universidades,Ciencias Sociales,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I76S1C31J1V1,2025,2024,16,30.0,0.6333,97,0.5,22.06,10,3723000.0,Universidades,Ciencias Sociales,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I76S1C31J1V1,2025,2025,31,,,97,0.3871,20.32,10,3723000.0,Universidades,Ciencias Sociales,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I77S1C162J1V1,2025,2022,12,11.0,1.0,94,0.8333,22.17,10,4630000.0,Universidades,Salud,Magallanes,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I77S1C162J1V1,2025,2023,22,23.0,0.9565,94,0.9091,21.18,10,4630000.0,Universidades,Salud,Magallanes,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I77S1C162J1V1,2025,2024,21,28.0,0.7857,94,0.9524,20.52,10,4630000.0,Universidades,Salud,Magallanes,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I77S1C162J1V1,2025,2025,21,,,94,0.9524,20.67,10,4630000.0,Universidades,Salud,Magallanes,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I78S1C11J1V1,2025,2021,50,50.0,1.0,424,0.7,23.24,12,8379000.0,Universidades,Salud,Maule,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I78S1C11J1V1,2025,2022,58,59.0,0.9831,424,0.6897,22.24,12,8379000.0,Universidades,Salud,Maule,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I78S1C11J1V1,2025,2023,57,58.0,0.9828,424,0.6316,21.47,12,8379000.0,Universidades,Salud,Maule,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I78S1C11J1V1,2025,2024,71,77.0,0.9221,424,0.6901,20.55,12,8379000.0,Universidades,Salud,Maule,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I78S1C11J1V1,2025,2025,90,,,424,0.7111,19.58,12,8379000.0,Universidades,Salud,Maule,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I79S1C144J1V1,2025,2025,36,,,69,0.6111,23.03,4,2328000.0,Universidades,Administración y Comercio,Atacama,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I80S1C49J1V1,2025,2022,6,6.0,1.0,88,0.6667,21.83,10,5650000.0,Universidades,Tecnología,Arica y Parinacota,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I80S1C49J1V1,2025,2023,12,12.0,1.0,88,0.5,21.42,10,5650000.0,Universidades,Tecnología,Arica y Parinacota,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I80S1C49J1V1,2025,2024,10,12.0,0.8333,88,0.4,22.0,10,5650000.0,Universidades,Tecnología,Arica y Parinacota,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I80S1C49J1V1,2025,2025,15,,,88,0.5333,20.13,10,5650000.0,Universidades,Tecnología,Arica y Parinacota,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I80S1C72J1V2,2025,2021,7,10.0,0.7,41,0.0,29.14,12,5650000.0,Universidades,Tecnología,Arica y Parinacota,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I81S1C223J2V3,2025,2024,39,48.0,0.8125,150,0.7692,34.26,6,3700000.0,Universidades,Administración y Comercio,Tarapacá,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I81S1C223J2V3,2025,2025,58,,,150,0.7414,31.22,6,3700000.0,Universidades,Administración y Comercio,Tarapacá,Vespertina,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular de Continuidad
+I81S1C295J2V1,2025,2024,18,23.0,0.7826,65,0.7778,31.78,5,2176000.0,Universidades,Administración y Comercio,Tarapacá,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I81S1C295J2V1,2025,2025,27,,,65,0.7778,29.74,5,2176000.0,Universidades,Administración y Comercio,Tarapacá,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I81S1C450J1V1,2025,2021,28,29.0,0.7931,296,0.5714,23.46,12,5981000.0,Universidades,Salud,Tarapacá,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I81S1C450J1V1,2025,2022,25,32.0,0.7812,296,0.68,22.52,12,5981000.0,Universidades,Salud,Tarapacá,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I81S1C450J1V1,2025,2023,32,35.0,0.9143,296,0.75,21.19,12,5981000.0,Universidades,Salud,Tarapacá,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I81S1C450J1V1,2025,2024,37,46.0,0.7609,296,0.6486,20.49,12,5981000.0,Universidades,Salud,Tarapacá,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I81S1C450J1V1,2025,2025,48,,,296,0.6875,20.1,12,5981000.0,Universidades,Salud,Tarapacá,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I82S1C50J1V1,2025,2022,18,18.0,1.0,193,0.8333,25.28,10,3517000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I82S1C50J1V1,2025,2023,29,33.0,0.8788,193,0.6897,24.07,10,3517000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I82S1C50J1V1,2025,2024,39,46.0,0.8478,193,0.6923,22.26,10,3517000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I82S1C50J1V1,2025,2025,46,,,193,0.7826,21.13,10,3517000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I84S6C485J1V1,2025,2024,33,37.0,0.8919,161,0.8485,23.7,5,2859000.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I84S6C485J1V1,2025,2025,68,,,161,0.7941,21.29,5,2859000.0,Universidades,Salud,Los Lagos,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I84S6C68J2V2,2025,2024,13,18.0,0.7222,66,0.6154,26.85,5,2238000.0,Universidades,Administración y Comercio,Los Lagos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I84S6C68J2V2,2025,2025,27,,,66,0.5556,27.3,5,2238000.0,Universidades,Administración y Comercio,Los Lagos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I85S4C213J1V1,2025,2022,27,27.0,1.0,264,0.6667,22.93,10,4620000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I85S4C213J1V1,2025,2023,49,57.0,0.8596,264,0.551,21.88,10,4620000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I85S4C213J1V1,2025,2024,48,60.0,0.7833,264,0.5625,21.17,10,4620000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I85S4C213J1V1,2025,2025,41,,,264,0.5366,20.83,10,4620000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C205J1V2,2025,2022,65,65.0,1.0,383,0.8462,23.94,10,6006000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C205J1V2,2025,2023,64,70.0,0.9286,383,0.8594,21.95,10,6006000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C205J1V2,2025,2024,64,78.0,0.8077,383,0.8125,20.64,10,6006000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C205J1V2,2025,2025,94,,,383,0.8617,21.89,10,6006000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C342J1V1,2025,2021,28,1.0,1.0,340,0.8571,23.14,12,9930000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I86S5C342J1V1,2025,2022,40,5.0,1.0,340,0.75,22.55,12,9930000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I86S5C342J1V1,2025,2023,66,42.0,0.9762,340,0.7121,21.33,12,9930000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I86S5C342J1V1,2025,2024,69,74.0,0.9054,340,0.6812,20.43,12,9930000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I86S5C342J1V1,2025,2025,71,,,340,0.7042,19.28,12,9930000.0,Universidades,Salud,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I86S5C561J1V1,2025,2022,10,11.0,0.9091,38,0.8,23.0,10,7018000.0,Universidades,Ciencias Sociales,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C568J1V2,2025,2023,6,7.0,0.8571,29,0.5,21.83,10,6006000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I86S5C568J1V2,2025,2024,10,11.0,1.0,29,0.6,22.4,10,6006000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I86S5C568J1V2,2025,2025,11,,,29,0.5455,19.82,10,6006000.0,Universidades,Educación,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I86S5C62J1V1,2025,2022,33,36.0,0.9167,224,0.3636,22.45,9,6186000.0,Universidades,Ciencias Básicas,Metropolitana,Diurna,Presencial,Licenciatura No Conducente a Título,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C62J1V1,2025,2023,47,47.0,0.9787,224,0.4255,21.66,9,6186000.0,Universidades,Ciencias Básicas,Metropolitana,Diurna,Presencial,Licenciatura No Conducente a Título,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C62J1V1,2025,2024,50,48.0,0.9375,224,0.4,20.16,9,6186000.0,Universidades,Ciencias Básicas,Metropolitana,Diurna,Presencial,Licenciatura No Conducente a Título,NO ACREDITADA,ACREDITADA,Plan Regular
+I86S5C62J1V1,2025,2025,45,,,224,0.3333,19.02,9,6186000.0,Universidades,Ciencias Básicas,Metropolitana,Diurna,Presencial,Licenciatura No Conducente a Título,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C240J1V1,2025,2022,49,51.0,0.9608,327,0.7755,22.45,10,6106580.0,Universidades,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C240J1V1,2025,2023,52,52.0,1.0,327,0.6731,21.85,10,6106580.0,Universidades,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C240J1V1,2025,2024,56,67.0,0.8209,327,0.6786,21.29,10,6106580.0,Universidades,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C240J1V1,2025,2025,62,,,327,0.6774,20.11,10,6106580.0,Universidades,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C307J1V2,2025,2022,22,27.0,0.8148,169,0.6364,23.5,10,4713812.0,Universidades,Educación,Biobío,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I87S1C307J1V2,2025,2023,33,40.0,0.825,169,0.4545,22.58,10,4713812.0,Universidades,Educación,Biobío,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I87S1C307J1V2,2025,2024,35,44.0,0.7955,169,0.4,20.94,10,4713812.0,Universidades,Educación,Biobío,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I87S1C307J1V2,2025,2025,43,,,169,0.4884,19.84,10,4713812.0,Universidades,Educación,Biobío,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I87S1C39J1V1,2025,2022,19,21.0,0.9048,83,0.4211,22.11,10,6570391.0,Universidades,Ciencias Básicas,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C49J1V2,2025,2021,67,70.0,0.9429,359,0.1493,23.16,11,7068946.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C49J1V2,2025,2022,46,51.0,0.902,359,0.1957,22.13,11,7068946.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C49J1V2,2025,2023,73,78.0,0.859,359,0.0822,21.53,11,7068946.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C49J1V2,2025,2024,53,73.0,0.7945,359,0.0377,20.34,11,7068946.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C49J1V2,2025,2025,77,,,359,0.1429,19.35,11,7068946.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C4J1V1,2025,2023,46,49.0,0.9184,250,0.4348,21.65,8,6195108.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C4J1V1,2025,2024,56,66.0,0.8485,250,0.5179,20.41,8,6195108.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S1C4J1V1,2025,2025,62,,,250,0.4194,19.81,8,6195108.0,Universidades,Administración y Comercio,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S2C38J1V1,2025,2022,55,57.0,0.9474,303,0.6909,22.36,10,5894972.0,Universidades,Salud,Ñuble,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I87S2C38J1V1,2025,2023,56,59.0,0.9492,303,0.8036,21.14,10,5894972.0,Universidades,Salud,Ñuble,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I87S2C38J1V1,2025,2024,63,66.0,0.9545,303,0.746,20.43,10,5894972.0,Universidades,Salud,Ñuble,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I87S2C38J1V1,2025,2025,65,,,303,0.7231,19.29,10,5894972.0,Universidades,Salud,Ñuble,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I87S3C260J1V1,2025,2022,6,6.0,1.0,58,0.8333,22.17,10,6622546.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S3C260J1V1,2025,2023,10,12.0,0.8333,58,0.5,22.7,10,6622546.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S3C260J1V1,2025,2024,6,10.0,0.6,58,0.6667,21.33,10,6622546.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I87S3C260J1V1,2025,2025,20,,,58,0.65,19.3,10,6622546.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I88S2C494J1V1,2025,2025,8,,,17,0.75,25.38,4,3070000.0,Universidades,Tecnología,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I88S3C94J1V3,2025,2025,73,,,146,0.0822,21.23,4,3070000.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I88S6C36J1V1,2025,2022,19,19.0,1.0,178,0.3684,22.05,10,5660000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I88S6C36J1V1,2025,2023,29,32.0,0.875,178,0.4483,23.34,10,5660000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I88S6C36J1V1,2025,2024,45,46.0,0.7826,178,0.6444,21.53,10,5660000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I88S6C36J1V1,2025,2025,46,,,178,0.5,20.67,10,5660000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I88S6C60J1V2,2025,2025,85,,,174,0.2588,20.44,4,3990000.0,Universidades,Tecnología,Metropolitana,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I896S1C5J1V1,2025,2022,17,17.0,1.0,136,1.0,22.71,10,3950000.0,Universidades,Salud,Aysén,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I896S1C5J1V1,2025,2023,20,21.0,0.9048,136,1.0,21.3,10,3950000.0,Universidades,Salud,Aysén,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I896S1C5J1V1,2025,2024,21,26.0,0.8077,136,0.9048,21.52,10,3950000.0,Universidades,Salud,Aysén,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I896S1C5J1V1,2025,2025,33,,,136,1.0,20.42,10,3950000.0,Universidades,Salud,Aysén,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I89S1C11J1V1,2025,2022,166,185.0,0.8973,1127,0.488,22.2,10,6688000.0,Universidades,Derecho,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I89S1C11J1V1,2025,2023,184,203.0,0.9015,1127,0.5761,21.24,10,6688000.0,Universidades,Derecho,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I89S1C11J1V1,2025,2024,202,225.0,0.8933,1127,0.5149,20.02,10,6688000.0,Universidades,Derecho,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I89S1C11J1V1,2025,2025,225,,,1127,0.5067,19.14,10,6688000.0,Universidades,Derecho,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I89S1C430J1V1,2025,2023,81,88.0,0.8977,354,0.1235,22.2,8,5411000.0,Universidades,Tecnología,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I89S1C430J1V1,2025,2024,102,129.0,0.7907,354,0.1667,21.29,8,5411000.0,Universidades,Tecnología,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I89S1C430J1V1,2025,2025,124,,,354,0.1613,20.19,8,5411000.0,Universidades,Tecnología,Valparaíso,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I89S1C4J1V1,2025,2025,32,,,71,0.6562,19.0,4,4850000.0,Universidades,Ciencias Básicas,Valparaíso,Diurna,Presencial,"Bachillerato, Ciclo Inicial o Plan Común",NO ACREDITADA,ACREDITADA,Plan Regular
+I902S1C12J1V1,2025,2024,26,38.0,0.6842,133,0.8846,26.31,5,2193376.0,Centros de Formación Técnica,Salud,Arica y Parinacota,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I902S1C12J1V1,2025,2025,81,,,133,0.7901,25.1,5,2193376.0,Centros de Formación Técnica,Salud,Arica y Parinacota,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I902S1C9J2V1,2025,2024,26,40.0,0.675,102,0.9615,37.81,5,1755848.0,Centros de Formación Técnica,Educación,Arica y Parinacota,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I902S1C9J2V1,2025,2025,40,,,102,0.975,32.83,5,1755848.0,Centros de Formación Técnica,Educación,Arica y Parinacota,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I909S1C1J1V1,2025,2024,7,11.0,0.3636,20,0.5714,27.0,5,1890000.0,Centros de Formación Técnica,Administración y Comercio,Atacama,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I909S1C1J1V1,2025,2025,12,,,20,0.6667,22.5,5,1890000.0,Centros de Formación Técnica,Administración y Comercio,Atacama,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I90S1C147J1V1,2025,2021,24,27.0,0.8889,220,0.25,23.58,11,5588000.0,Universidades,Tecnología,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C147J1V1,2025,2022,26,29.0,0.8966,220,0.1154,22.19,11,5588000.0,Universidades,Tecnología,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C147J1V1,2025,2023,19,24.0,0.7917,220,0.0,21.26,11,5588000.0,Universidades,Tecnología,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C147J1V1,2025,2024,29,33.0,0.8788,220,0.069,21.48,11,5588000.0,Universidades,Tecnología,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C147J1V1,2025,2025,50,,,220,0.12,19.74,11,5588000.0,Universidades,Tecnología,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C511J1V1,2025,2022,33,38.0,0.8684,298,0.5152,22.52,10,6078000.0,Universidades,Ciencias Básicas,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C511J1V1,2025,2023,29,33.0,0.8788,298,0.4138,21.9,10,6078000.0,Universidades,Ciencias Básicas,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C511J1V1,2025,2024,37,58.0,0.6552,298,0.3243,21.11,10,6078000.0,Universidades,Ciencias Básicas,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C511J1V1,2025,2025,55,,,298,0.3091,19.98,10,6078000.0,Universidades,Ciencias Básicas,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C723J1V1,2025,2025,46,,,46,0.2826,19.35,4,5588000.0,Universidades,Tecnología,Los Ríos,Diurna,Presencial,"Bachillerato, Ciclo Inicial o Plan Común",NO ACREDITADA,ACREDITADA,Plan Regular
+I90S1C739J1V1,2025,2025,10,,,10,0.5,20.7,10,4922000.0,Universidades,Arte y Arquitectura,Los Ríos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S2C130J1V1,2025,2022,58,58.0,1.0,382,0.6897,22.71,10,5588000.0,Universidades,Ciencias Sociales,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S2C130J1V1,2025,2023,72,74.0,0.973,382,0.6806,21.53,10,5588000.0,Universidades,Ciencias Sociales,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S2C130J1V1,2025,2024,73,82.0,0.8902,382,0.6712,20.78,10,5588000.0,Universidades,Ciencias Sociales,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I90S2C130J1V1,2025,2025,92,,,382,0.7283,19.62,10,5588000.0,Universidades,Ciencias Sociales,Los Lagos,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I910S4C8J2V1,2025,2025,37,,,62,0.7297,37.38,4,1755128.0,Centros de Formación Técnica,Administración y Comercio,Coquimbo,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I911S1C5J1V1,2025,2024,9,16.0,0.5625,30,0.6667,36.89,5,1880000.0,Centros de Formación Técnica,Administración y Comercio,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I911S1C5J1V1,2025,2025,12,,,30,0.25,30.5,5,1880000.0,Centros de Formación Técnica,Administración y Comercio,Valparaíso,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I911S2C12J2V1,2025,2024,6,17.0,0.3529,44,0.1667,37.67,5,2200000.0,Centros de Formación Técnica,Tecnología,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I911S2C12J2V1,2025,2025,29,,,44,0.069,36.24,5,2200000.0,Centros de Formación Técnica,Tecnología,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I911S3C10J2V1,2025,2025,62,,,62,0.8387,30.19,5,2250000.0,Centros de Formación Técnica,Salud,Valparaíso,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I912S10C4J2V1,2025,2025,34,,,34,0.1176,35.09,5,2076120.0,Centros de Formación Técnica,Tecnología,Metropolitana,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I913S1C10J1V1,2025,2024,14,25.0,0.56,43,0.6429,25.86,5,1753837.0,Centros de Formación Técnica,Agropecuaria,Lib. Gral. B. O'Higgins,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I913S1C10J1V1,2025,2025,29,,,43,0.4483,22.72,5,1753837.0,Centros de Formación Técnica,Agropecuaria,Lib. Gral. B. O'Higgins,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I914S1C3J2V1,2025,2024,13,22.0,0.5909,54,0.0,23.92,5,2365000.0,Centros de Formación Técnica,Tecnología,Maule,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I914S1C3J2V1,2025,2025,24,,,54,0.0,22.54,5,2365000.0,Centros de Formación Técnica,Tecnología,Maule,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I916S2C2J1V1,2025,2025,18,,,18,0.2778,23.28,5,2066234.0,Centros de Formación Técnica,Tecnología,La Araucanía,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I916S2C3J2V1,2025,2024,17,24.0,0.7083,59,0.7647,38.0,5,1847923.0,Centros de Formación Técnica,Administración y Comercio,La Araucanía,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I916S2C3J2V1,2025,2025,30,,,59,0.6667,32.2,5,1847923.0,Centros de Formación Técnica,Administración y Comercio,La Araucanía,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I916S2C5J2V1,2025,2024,14,23.0,0.5652,51,0.1429,38.0,5,1972385.0,Centros de Formación Técnica,Tecnología,La Araucanía,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I916S2C5J2V1,2025,2025,37,,,51,0.027,25.95,5,1972385.0,Centros de Formación Técnica,Tecnología,La Araucanía,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I917S1C11J2V1,2025,2025,15,,,24,0.5333,27.47,5,1970000.0,Centros de Formación Técnica,Arte y Arquitectura,Los Ríos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I917S4C2J2V1,2025,2024,16,25.0,0.64,27,0.8125,36.56,5,1900000.0,Centros de Formación Técnica,Tecnología,Los Ríos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I917S4C2J2V1,2025,2025,11,,,27,0.6364,32.91,5,1900000.0,Centros de Formación Técnica,Tecnología,Los Ríos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I918S3C19J2V1,2025,2025,16,,,16,0.75,35.25,5,1839374.0,Centros de Formación Técnica,Ciencias Sociales,Los Lagos,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I919S1C10J2V1,2025,2024,31,31.0,1.0,65,0.7097,31.13,5,1725000.0,Centros de Formación Técnica,Agropecuaria,Aysén,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I919S1C10J2V1,2025,2025,34,,,65,0.5588,26.79,5,1725000.0,Centros de Formación Técnica,Agropecuaria,Aysén,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Regular
+I91S1C567J1V1,2025,2024,38,46.0,0.8261,101,0.2105,20.03,10,5649000.0,Universidades,Tecnología,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S1C567J1V1,2025,2025,63,,,101,0.1746,19.65,10,5649000.0,Universidades,Tecnología,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S1C79J1V2,2025,2022,7,9.0,0.7778,76,0.8571,24.43,10,5505000.0,Universidades,Tecnología,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S1C79J1V2,2025,2023,13,15.0,0.8667,76,0.6154,22.38,10,5505000.0,Universidades,Tecnología,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S1C79J1V2,2025,2024,12,18.0,0.6667,76,0.6667,22.58,10,5505000.0,Universidades,Tecnología,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S1C79J1V2,2025,2025,24,,,76,0.5417,20.04,10,5505000.0,Universidades,Tecnología,Antofagasta,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S2C104J1V1,2025,2022,38,39.0,0.9744,217,0.8421,22.21,10,5276000.0,Universidades,Salud,Coquimbo,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S2C104J1V1,2025,2023,35,42.0,0.8333,217,0.7429,21.51,10,5276000.0,Universidades,Salud,Coquimbo,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S2C104J1V1,2025,2024,41,46.0,0.8913,217,0.8293,20.29,10,5276000.0,Universidades,Salud,Coquimbo,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I91S2C104J1V1,2025,2025,32,,,217,0.875,19.25,10,5276000.0,Universidades,Salud,Coquimbo,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I920S1C9J2V1,2025,2025,9,,,18,0.7778,36.22,5,2275000.0,Centros de Formación Técnica,Salud,Magallanes,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,BAJO TUTELA,Plan Especial
+I92S1C184J1V2,2025,2021,32,34.0,0.9412,299,0.5,23.03,11,5877000.0,Universidades,Arte y Arquitectura,Maule,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I92S1C184J1V2,2025,2022,52,54.0,0.963,299,0.5962,22.31,11,5877000.0,Universidades,Arte y Arquitectura,Maule,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I92S1C184J1V2,2025,2023,54,57.0,0.9474,299,0.5185,21.13,11,5877000.0,Universidades,Arte y Arquitectura,Maule,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I92S1C184J1V2,2025,2024,61,74.0,0.8243,299,0.5574,20.56,11,5877000.0,Universidades,Arte y Arquitectura,Maule,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I92S1C184J1V2,2025,2025,65,,,299,0.5846,19.4,11,5877000.0,Universidades,Arte y Arquitectura,Maule,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I93S1C24J1V2,2025,2024,68,86.0,0.7791,154,0.7794,21.24,10,4000000.0,Universidades,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I93S1C24J1V2,2025,2025,83,,,154,0.8795,19.94,10,4000000.0,Universidades,Ciencias Sociales,Biobío,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I93S1C31J1V1,2025,2022,54,60.0,0.8833,350,0.5926,22.98,10,4200000.0,Universidades,Educación,Biobío,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I93S1C31J1V1,2025,2023,49,59.0,0.8305,350,0.7143,21.59,10,4200000.0,Universidades,Educación,Biobío,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I93S1C31J1V1,2025,2024,79,86.0,0.8721,350,0.5316,21.11,10,4200000.0,Universidades,Educación,Biobío,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I93S1C31J1V1,2025,2025,90,,,350,0.6667,19.76,10,4200000.0,Universidades,Educación,Biobío,Diurna,Presencial,Profesional Con Licenciatura,ACREDITADA,ACREDITADA,Plan Regular
+I93S2C385J1V1,2025,2025,19,,,37,0.0526,23.42,4,2553000.0,Universidades,Tecnología,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I93S3C387J2V1,2025,2024,8,13.0,0.6923,32,0.375,33.88,5,2331000.0,Universidades,Ciencias Sociales,Biobío,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I93S3C387J2V1,2025,2025,13,,,32,0.6923,28.08,5,2331000.0,Universidades,Ciencias Sociales,Biobío,Vespertina,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I93S3C59J1V1,2025,2024,64,89.0,0.7416,242,0.7188,24.72,5,2900000.0,Universidades,Salud,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I93S3C59J1V1,2025,2025,105,,,242,0.7524,20.44,5,2900000.0,Universidades,Salud,Biobío,Diurna,Presencial,Técnico de Nivel Superior,NO ACREDITADA,ACREDITADA,Plan Regular
+I94S1C502J1V1,2025,2023,13,16.0,0.8125,42,0.6923,25.15,10,4013147.0,Universidades,Educación,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I94S1C502J1V1,2025,2024,14,16.0,0.875,42,0.7143,23.86,10,4013147.0,Universidades,Educación,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I94S1C502J1V1,2025,2025,15,,,42,0.7333,23.0,10,4013147.0,Universidades,Educación,La Araucanía,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I9S9C32J1V1,2025,2022,41,41.0,0.9756,266,0.4878,24.39,10,4485000.0,Universidades,Salud,Ñuble,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I9S9C32J1V1,2025,2023,34,43.0,0.7674,266,0.3235,23.06,10,4485000.0,Universidades,Salud,Ñuble,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I9S9C32J1V1,2025,2024,69,76.0,0.8947,266,0.3478,21.88,10,4485000.0,Universidades,Salud,Ñuble,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular
+I9S9C32J1V1,2025,2025,68,,,266,0.4118,20.44,10,4485000.0,Universidades,Salud,Ñuble,Diurna,Presencial,Profesional Con Licenciatura,NO ACREDITADA,ACREDITADA,Plan Regular

@@ -1,0 +1,4 @@
+# Solo para el notebook y para regenerar la evidencia (ejecutar_validacion.py)
+matplotlib
+ipywidgets
+jupyter

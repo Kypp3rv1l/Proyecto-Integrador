@@ -1,0 +1,4 @@
+tipo_inst_1,cohortes,observado_medio,prediccion_media,MAE,sesgo
+Institutos Profesionales,340,0.705,0.7075,0.144,0.0025
+Universidades,331,0.8631,0.8444,0.0733,-0.0187
+Centros de Formación Técnica,103,0.5049,0.6585,0.2853,0.1536

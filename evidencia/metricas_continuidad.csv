@@ -1,0 +1,4 @@
+,MAE,MAE_ponderado_n,RMSE,R2,sesgo
+Ridge (modelo),0.1326,0.1221,0.2063,0.2312,0.0135
+Base: media de entrenamiento,0.168,0.1656,0.2353,-0.0,-0.0016
+Base: retención del año previo,0.1538,0.1434,0.241,-0.0497,0.0318

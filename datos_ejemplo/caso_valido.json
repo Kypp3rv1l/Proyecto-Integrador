@@ -1,0 +1,21 @@
+{
+ "anio_t": 2025,
+ "anio_ingreso": 2024,
+ "n_t": 10,
+ "n_prev": 18,
+ "ret_prev": 0.3889,
+ "prog_total_t": 26,
+ "prop_mujer": 0.3,
+ "edad_media": 32.8,
+ "dur_semestres": 8,
+ "arancel_anual_clp": 2000000.0,
+ "tipo_inst_1": "Institutos Profesionales",
+ "area_conocimiento": "Arte y Arquitectura",
+ "region_sede": "Metropolitana",
+ "jornada": "Vespertina",
+ "modalidad": "Presencial",
+ "nivel_carrera_1": "Profesional Sin Licenciatura",
+ "acreditada_carr": "NO ACREDITADA",
+ "acreditada_inst": "ACREDITADA",
+ "tipo_plan_carr": "Plan Regular"
+}

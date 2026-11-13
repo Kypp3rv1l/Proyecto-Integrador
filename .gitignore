@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+wheels/
+resultados/
+salida_validacion/
+.ipynb_checkpoints/
+T04_muestra_SIES_2017_2026.zip

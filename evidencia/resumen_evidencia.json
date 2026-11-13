@@ -1,0 +1,247 @@
+{
+ "entorno": {
+  "python": "3.13.16",
+  "sklearn": "1.8.0",
+  "pandas": "2.2.3",
+  "numpy": "2.5.4"
+ },
+ "datos": {
+  "sha256_zip": "5b69ea7154e0899098e38d8b645fcbf9e036b92aee1cd025b78116c187e0bcc1",
+  "cohortes_entrenamiento": 4731,
+  "cohortes_prueba": 774,
+  "programas_prueba": 352
+ },
+ "modelo_guardado_igual_reentrenado": true,
+ "cupos": {
+  "todas": {
+   "Modelo": {
+    "MAE_est_por_cohorte": 6.2585,
+    "WAPE_cohorte": 0.1662,
+    "MAE_est_por_programa": 11.2254,
+    "WAPE_programa": 0.1355,
+    "sesgo_total_pct": 4.0566
+   },
+   "Base: todos continúan": {
+    "MAE_est_por_cohorte": 13.5749,
+    "WAPE_cohorte": 0.3604,
+    "MAE_est_por_programa": 29.8494,
+    "WAPE_programa": 0.3604,
+    "sesgo_total_pct": 36.0409
+   },
+   "Base: media de entrenamiento": {
+    "MAE_est_por_cohorte": 8.4845,
+    "WAPE_cohorte": 0.2253,
+    "MAE_est_por_programa": 16.6449,
+    "WAPE_programa": 0.201,
+    "sesgo_total_pct": 1.2704
+   },
+   "Base: retención del año previo": {
+    "MAE_est_por_cohorte": 7.3467,
+    "WAPE_cohorte": 0.1951,
+    "MAE_est_por_programa": 12.5747,
+    "WAPE_programa": 0.1518,
+    "sesgo_total_pct": 6.496
+   }
+  },
+  "codigo_vigente": {
+   "Modelo": {
+    "MAE_est_por_cohorte": 4.1037,
+    "WAPE_cohorte": 0.104,
+    "MAE_est_por_programa": 6.708,
+    "WAPE_programa": 0.0734,
+    "sesgo_total_pct": -2.1571
+   },
+   "Base: todos continúan": {
+    "MAE_est_por_cohorte": 10.7226,
+    "WAPE_cohorte": 0.2718,
+    "MAE_est_por_programa": 24.8401,
+    "WAPE_programa": 0.2718,
+    "sesgo_total_pct": 27.1807
+   },
+   "Base: media de entrenamiento": {
+    "MAE_est_por_cohorte": 6.2844,
+    "WAPE_cohorte": 0.1593,
+    "MAE_est_por_programa": 12.3391,
+    "WAPE_programa": 0.135,
+    "sesgo_total_pct": -5.3252
+   },
+   "Base: retención del año previo": {
+    "MAE_est_por_cohorte": 5.0893,
+    "WAPE_cohorte": 0.129,
+    "MAE_est_por_programa": 7.8399,
+    "WAPE_programa": 0.0858,
+    "sesgo_total_pct": -0.1083
+   }
+  },
+  "obs_total": 29153,
+  "cohortes_codigo_desaparece": 35,
+  "programas_codigo_desaparece": 33,
+  "estudiantes_en_programas_que_desaparecen": 2583
+ },
+ "error_por_tipo": {
+  "Institutos Profesionales": {
+   "cohortes": 340,
+   "observado_medio": 0.705,
+   "prediccion_media": 0.7075,
+   "MAE": 0.144,
+   "sesgo": 0.0025
+  },
+  "Universidades": {
+   "cohortes": 331,
+   "observado_medio": 0.8631,
+   "prediccion_media": 0.8444,
+   "MAE": 0.0733,
+   "sesgo": -0.0187
+  },
+  "Centros de Formación Técnica": {
+   "cohortes": 103,
+   "observado_medio": 0.5049,
+   "prediccion_media": 0.6585,
+   "MAE": 0.2853,
+   "sesgo": 0.1536
+  }
+ },
+ "error_por_tipo_codigo_vigente": {
+  "Centros de Formación Técnica": {
+   "cohortes": 76,
+   "MAE": 0.1525,
+   "sesgo": -0.0259
+  },
+  "Institutos Profesionales": {
+   "cohortes": 333,
+   "MAE": 0.1333,
+   "sesgo": -0.0112
+  },
+  "Universidades": {
+   "cohortes": 330,
+   "MAE": 0.0715,
+   "sesgo": -0.0208
+  }
+ },
+ "error_por_tamano": {
+  "20–49": {
+   "cohortes": 334,
+   "observado_medio": 0.7405,
+   "prediccion_media": 0.765,
+   "MAE": 0.1275,
+   "sesgo": 0.0245
+  },
+  "50 o más": {
+   "cohortes": 229,
+   "observado_medio": 0.7685,
+   "prediccion_media": 0.7906,
+   "MAE": 0.0982,
+   "sesgo": 0.0221
+  },
+  "10–19": {
+   "cohortes": 145,
+   "observado_medio": 0.73,
+   "prediccion_media": 0.7225,
+   "MAE": 0.1643,
+   "sesgo": -0.0075
+  },
+  "5–9": {
+   "cohortes": 66,
+   "observado_medio": 0.7301,
+   "prediccion_media": 0.705,
+   "MAE": 0.2078,
+   "sesgo": -0.0251
+  }
+ },
+ "metricas_continuidad": {
+  "Ridge (modelo)": {
+   "MAE": 0.1326,
+   "MAE_ponderado_n": 0.1221,
+   "RMSE": 0.2063,
+   "R2": 0.2312,
+   "sesgo": 0.0135
+  },
+  "Base: media de entrenamiento": {
+   "MAE": 0.168,
+   "MAE_ponderado_n": 0.1656,
+   "RMSE": 0.2353,
+   "R2": -0.0,
+   "sesgo": -0.0016
+  },
+  "Base: retención del año previo": {
+   "MAE": 0.1538,
+   "MAE_ponderado_n": 0.1434,
+   "RMSE": 0.241,
+   "R2": -0.0497,
+   "sesgo": 0.0318
+  }
+ },
+ "mae_continuidad_codigo_vigente": 0.10765764914714203,
+ "robustez": [
+  {
+   "variable": "ret_prev",
+   "perturbacion": "-0.05",
+   "cohortes": 463,
+   "cambio_abs_medio": 0.0075,
+   "cambio_abs_max": 0.0075,
+   "sobre_2pp": 0.0
+  },
+  {
+   "variable": "ret_prev",
+   "perturbacion": "+0.05",
+   "cohortes": 463,
+   "cambio_abs_medio": 0.0068,
+   "cambio_abs_max": 0.0075,
+   "sobre_2pp": 0.0
+  },
+  {
+   "variable": "arancel_pesos",
+   "perturbacion": "-0.05 relativo",
+   "cohortes": 770,
+   "cambio_abs_medio": 0.0018,
+   "cambio_abs_max": 0.0018,
+   "sobre_2pp": 0.0
+  },
+  {
+   "variable": "arancel_pesos",
+   "perturbacion": "+0.05 relativo",
+   "cohortes": 770,
+   "cambio_abs_medio": 0.0018,
+   "cambio_abs_max": 0.0018,
+   "sobre_2pp": 0.0
+  },
+  {
+   "variable": "edad_media",
+   "perturbacion": "-1",
+   "cohortes": 774,
+   "cambio_abs_medio": 0.0088,
+   "cambio_abs_max": 0.0088,
+   "sobre_2pp": 0.0
+  },
+  {
+   "variable": "edad_media",
+   "perturbacion": "+1",
+   "cohortes": 774,
+   "cambio_abs_medio": 0.0088,
+   "cambio_abs_max": 0.0088,
+   "sobre_2pp": 0.0
+  }
+ ],
+ "integracion": {
+  "cohortes_en_contrato": 770,
+  "coinciden": 770,
+  "fuera_por_arancel_en_uf": 4
+ },
+ "bitacora": {
+  "casos": 20,
+  "cumplen": 20,
+  "llamadas_del_modelo_en_casos_de_error": 0
+ },
+ "lote_ejemplo": {
+  "cohortes": 770,
+  "ok": 770,
+  "programas": 350,
+  "con_advertencia": 123
+ },
+ "sin_reajuste": {
+  "huella_guardada": "74568223ab5f7366bb47015ed0caacc7d8881eccafef63575d9dbbd3b46bd1b1",
+  "huella_tras_predicciones": "74568223ab5f7366bb47015ed0caacc7d8881eccafef63575d9dbbd3b46bd1b1",
+  "llamadas_totales_predict": 1558,
+  "igual": true
+ }
+}
