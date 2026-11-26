@@ -1,6 +1,6 @@
 {
- "total": 41282,
- "cumplen": 41282,
+ "total": 41279,
+ "cumplen": 41279,
  "fallas": 0,
  "excepciones": 0,
  "por_grupo": [
@@ -26,8 +26,8 @@
   },
   {
    "grupo": "categoría válida",
-   "escenarios": 51,
-   "cumplen": 51
+   "escenarios": 48,
+   "cumplen": 48
   },
   {
    "grupo": "determinismo",

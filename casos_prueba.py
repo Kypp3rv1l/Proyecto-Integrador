@@ -1,11 +1,11 @@
-"""Suite de pruebas de la aplicación (20 casos definidos antes de ejecutar). No necesita los datos, solo el modelo y su contrato.
+"""Suite de pruebas de la aplicación (25 casos definidos antes de ejecutar: 20 de una cohorte y 5 del modo lote). No necesita los datos, solo el modelo y su contrato.
 Uso:  python casos_prueba.py   (escribe evidencia/bitacora_pruebas.csv)"""
 import copy, os
 import numpy as np, pandas as pd
 import cupos_app as app
 
 def ejecutar_casos(M):
-    ref0 = M.contrato['casos_referencia'][0]['entrada']; rn = ref0
+    ref0 = next(c['entrada'] for c in M.contrato['casos_referencia'] if c['entrada']['tipo_inst_1'] in M.alcance['tipo_inst_1']); rn = ref0
     def ca(**kw): return {**rn, **kw}
     sin = {k: v for k, v in rn.items() if k != 'arancel_anual_clp'}
     dy = rn['dur_semestres'] / 2; ult = ca(anio_ingreso=int(rn['anio_t'] - dy + 1))
@@ -28,7 +28,7 @@ def ejecutar_casos(M):
      ('CP-16', 'Dominio', 'cohorte en su último año nominal', ult, 'error', 'anio_ingreso'),
      ('CP-17', 'Coherencia', 'n_prev sin ret_prev', ca(ret_prev=None), 'error', 'n_prev'),
      ('CP-18', 'Unidades', 'arancel informado en UF', ca(arancel_anual_clp=55.0), 'error', 'arancel_anual_clp'),
-     ('CP-19', 'Limitación', 'cohorte de CFT: debe avisar el error alto', ca(tipo_inst_1='Centros de Formación Técnica'), 'advertencia', 'CFT'),
+     ('CP-19', 'Alcance', 'cohorte de CFT: fuera del alcance (solo universidades)', ca(tipo_inst_1='Centros de Formación Técnica'), 'error', 'tipo_inst_1'),
      ('CP-20', 'Opcionales', 'sin historial ni edad: predice y avisa', ca(n_prev=None, ret_prev=None, edad_media=None), 'advertencia', 'n_prev'),
     ]
     bit = []; ll0 = M.llamadas
@@ -45,7 +45,69 @@ def ejecutar_casos(M):
                'advertencia': f'respuesta OK con advertencia sobre {campo}'}[regla]
         bit.append(dict(caso=cid, tipo=tipo, proposito=prop, esperado=esp, estado_observado=out['estado'], llamadas_modelo=llamo,
                         mensajes=' | '.join(out['errores'] + out['advertencias'])[:300], resultado='Cumple' if cumple else 'No cumple'))
-    return pd.DataFrame(bit), CASOS
+    return pd.DataFrame(bit + casos_lote(M, rn)), CASOS
+
+def casos_lote(M, rn):
+    """Casos del modo lote: los totales no pueden incluir filas duplicadas ni rechazadas."""
+    dy = int(rn['dur_semestres'] / 2); t = rn['anio_t']
+    def coh(ingreso, n, prog='P1', **kw):
+        e = {**rn, 'anio_ingreso': ingreso, 'n_t': n, 'prog_total_t': 400, 'programa': prog, **kw}
+        if ingreso == t:
+            e.update(n_prev=None, ret_prev=None)
+        return e
+    base = [coh(t, 60), coh(t - 1, 50)]
+    if dy >= 3:
+        base.append(coh(t - 2, 40))
+    def lote(filas, **kw):
+        antes = M.llamadas
+        d, c = app.proyectar_lote(M, pd.DataFrame(filas), **kw)
+        return d, c, M.llamadas - antes
+    def total(c, anio):
+        v = c[c.anio_estudio_t1 == anio].cupos_esperados
+        return float(v.sum()) if len(v) and v.notna().all() else (np.nan if len(v) else 0.0)
+    d0, c0, _ = lote(base)
+    out = []
+    def reg(cid, tipo, prop, esp, cumple, d, llamadas, detalle):
+        out.append(dict(caso=cid, tipo=tipo, proposito=prop, esperado=esp, estado_observado=', '.join(f'{k}:{v}' for k, v in d.estado.value_counts().items()),
+                        llamadas_modelo=llamadas, mensajes=detalle[:300], resultado='Cumple' if cumple else 'No cumple'))
+
+    # CP-21: una cohorte repetida no se suma dos veces y no llega al modelo
+    d, c, ll = lote(base + [base[1]])
+    dup = d[d.estado == 'DUPLICADA']
+    ok = len(dup) == 2 and total(c, 3) == 0.0 and total(c, 1) == total(c0, 1) and ll == len(base) - 1
+    reg('CP-21', 'Lote', 'cohorte duplicada en el CSV', 'ambas filas DUPLICADA, no suman y no llaman al modelo',
+        ok, d, ll, f'año 3 sin duplicado {total(c0, 3):.1f}, con duplicado {total(c, 3):.1f}')
+
+    # CP-22: una fila de ingreso rechazada (n_t = 4) no alimenta el supuesto de primer año
+    d, c, ll = lote([coh(t, 4)] + base[1:])
+    fila1 = c[c.anio_estudio_t1 == 1]
+    ok = (d.iloc[0].estado == 'RECHAZADA' and len(fila1) == 1 and np.isnan(fila1.cupos_esperados.iloc[0])
+          and 'sin dato' in fila1.origen.iloc[0])
+    reg('CP-22', 'Lote', 'fila de ingreso rechazada (n_t = 4)', 'año 1 sin dato (no 4 ni 0) y marcado en origen', ok, d, ll,
+        f'año 1: {fila1.cupos_esperados.tolist()} / {fila1.origen.tolist()}')
+
+    # CP-23: el ingreso dado reemplaza al supuesto
+    d, c, ll = lote(base, ingreso_proyectado={'P1': 75})
+    fila1 = c[c.anio_estudio_t1 == 1]
+    ok = fila1.cupos_esperados.iloc[0] == 75 and fila1.origen.iloc[0] == 'ingreso dado'
+    reg('CP-23', 'Lote', 'ingreso proyectado entregado por el usuario', 'año 1 = 75 con origen «ingreso dado»', ok, d, ll,
+        f'año 1: {fila1.cupos_esperados.tolist()}')
+
+    # CP-24: los totales cuadran con el detalle
+    d, c, ll = lote(base + [coh(t - 1, 30, prog='P2'), coh(t - 2, 3, prog='P2')])
+    sumado = c[c.origen == 'continuidad (modelo)'].cupos_esperados.sum()
+    esperado = d[d.estado == 'OK'].estudiantes_esperados.sum()
+    p2 = c[c.programa == 'P2']
+    ok = abs(sumado - esperado) < 0.5 and len(p2) > 0 and (p2.filas_excluidas == 1).all() and (d.estado == 'RECHAZADA').sum() == 1
+    reg('CP-24', 'Lote', 'totales iguales a la suma de filas aceptadas', 'diferencia < 0,5 (redondeo) y la fila rechazada se informa',
+        ok, d, ll, f'cupos {sumado:.1f} / detalle {esperado:.1f}')
+
+    # CP-25: una fila fuera de alcance no suma
+    d, c, ll = lote(base + [coh(t - 1, 50, prog='P3', tipo_inst_1='Institutos Profesionales')])
+    ok = (d[d.programa == 'P3'].estado == 'RECHAZADA').all() and 'P3' not in set(c.programa)
+    reg('CP-25', 'Alcance', 'cohorte de instituto profesional en el lote', 'rechazada y fuera de los totales', ok, d, ll,
+        d[d.programa == 'P3'].mensajes.iloc[0])
+    return out
 
 
 

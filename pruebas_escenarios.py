@@ -8,6 +8,7 @@ import cupos_app as app
 M = app.Modelo()
 BASE = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'datos_ejemplo', 'caso_valido.json'), encoding='utf-8'))
 CAT = M.categorias
+ALCANCE = {'tipo_inst_1': ['Universidades']}   # definido aquí, no leído de la app
 # --- contrato escrito de nuevo, independiente de cupos_app: campo -> (entero?, minimo, maximo, obligatorio)
 SPEC = {'anio_t': (True, 2019, 2040, True), 'anio_ingreso': (True, 1990, None, True), 'n_t': (True, 5, 1_000_000, True),
         'prog_total_t': (True, 1, 1_000_000, True), 'n_prev': (True, 1, 1_000_000, False), 'ret_prev': (False, 0, 1, False),
@@ -30,6 +31,8 @@ def esperado(e):
     for c, opciones in CAT.items():
         # el contrato acepta mayúsculas/minúsculas y espacios sobrantes en las categorías (se normalizan al valor oficial)
         if not isinstance(e.get(c), str) or e[c].strip().casefold() not in {o.casefold() for o in opciones}: return 'error'
+        # el modelo solo cubre universidades: otro tipo de institución se rechaza aunque sea una categoría conocida
+        if c in ALCANCE and e[c].strip().casefold() not in {o.casefold() for o in ALCANCE[c]}: return 'error'
     if e['anio_ingreso'] > e['anio_t'] or e['n_t'] > e['prog_total_t']: return 'error'
     if (e.get('n_prev') is None) != (e.get('ret_prev') is None): return 'error'
     nueva = e['anio_ingreso'] == e['anio_t']
@@ -130,10 +133,10 @@ FILAS.append(dict(grupo='determinismo', escenario='misma entrada dos veces', esp
 if FILAS[-1]['resultado'] == 'FALLA': DEFECTOS.append(FILAS[-1])
 # 8) lote mezclado: filas válidas e inválidas en la misma tabla
 mezcla = [BASE, {**BASE, 'arancel_anual_clp': 55.0}, {**BASE, 'n_prev': None, 'ret_prev': None}, {**BASE, 'region_sede': 'Narnia'}, {**BASE, 'anio_ingreso': 2022}, {**BASE, 'anio_ingreso': 2023}]
-df = pd.DataFrame([{**m, 'programa': 'P1' if i < 3 else 'P2'} for i, m in enumerate(mezcla)])
+df = pd.DataFrame([{**m, 'programa': f'P{i}'} for i, m in enumerate(mezcla)])   # programa distinto: cada fila es una cohorte única
 det, cup = app.proyectar_lote(M, df)
 exp = [esperado(m) for m in mezcla]; obs = ['ok' if s == 'OK' else 'error' for s in det.estado]
-lote_ok = exp == obs and set(cup.programa) == {'P1', 'P2'} and det[det.estado == 'RECHAZADA'].estudiantes_esperados.isna().all()
+lote_ok = exp == obs and set(cup.programa) == {f'P{i}' for i, x in enumerate(exp) if x == 'ok'} and det[det.estado == 'RECHAZADA'].estudiantes_esperados.isna().all()
 FILAS.append(dict(grupo='lote', escenario='6 filas mezcladas (3 válidas, 3 inválidas)', esperado=str(exp), observado=str(obs), llamadas_modelo=int((det.estado == 'OK').sum()), prediccion=None,
                   n_avisos=int((det.mensajes != '').sum()), resultado='Cumple' if lote_ok else 'FALLA', mensaje=''))
 if not lote_ok: DEFECTOS.append(FILAS[-1])
@@ -145,7 +148,7 @@ def post(cambio):
     except Exception as ex: return 'EXC ' + repr(ex)
 WEB = [('caso base', {}, 'ok'), ('arancel en UF', {'arancel_anual_clp': '55'}, 'error'), ('n_t = 4', {'n_t': '4'}, 'error'), ('ret_prev con coma', {'ret_prev': '0,5'}, 'ok'),
        ('campos opcionales vacíos', {'n_prev': '', 'ret_prev': '', 'edad_media': '', 'arancel_anual_clp': ''}, 'ok'), ('texto en n_t', {'n_t': 'diez'}, 'error'),
-       ('región inválida', {'region_sede': 'Narnia'}, 'error'), ('CFT con aviso', {'tipo_inst_1': 'Centros de Formación Técnica'}, 'ok'), ('último año', {'anio_ingreso': '2022'}, 'error'),
+       ('región inválida', {'region_sede': 'Narnia'}, 'error'), ('CFT fuera de alcance', {'tipo_inst_1': 'Centros de Formación Técnica'}, 'error'), ('último año', {'anio_ingreso': str(int(BASE['anio_t'] - BASE['dur_semestres'] / 2 + 1))}, 'error'),
        ('todo vacío', {k: '' for k in SPEC}, 'error'), ('inyección HTML', {'n_t': '<script>alert(1)</script>'}, 'error')]
 for nombre, cambio, esp in WEB:
     h = post(cambio); ok = ('Entrada rechazada' in h) == (esp == 'error') and ('se estima que' in h) == (esp == 'ok') and 'EXC' not in h[:5] and '<script>alert' not in h

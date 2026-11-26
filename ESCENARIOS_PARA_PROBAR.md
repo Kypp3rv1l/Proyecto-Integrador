@@ -1,26 +1,27 @@
 # Escenarios para probar el formulario
 
-Punto de partida: el caso que viene cargado en el formulario (anio_t 2025, anio_ingreso 2024, n_t 10, prog_total_t 26, n_prev 18, ret_prev 0.3889, prop_mujer 0.3, edad_media 32.8, dur_semestres 8, arancel 2000000, Institutos Profesionales). Cambie SOLO el campo indicado, pulse Predecir y compare con el resultado esperado. Después devuelva el campo a su valor original.
+Punto de partida: el caso que viene cargado en el formulario (cohorte real de una universidad: anio_t 2025, anio_ingreso 2023, n_t 22, prog_total_t 45, n_prev 23, ret_prev 0,9565, prop_mujer 0,3182, edad_media 22,68, dur_semestres 8, arancel 4347000). Cambie SOLO el campo indicado, pulse «Estimar continuidad» y compare con el resultado esperado. Después devuelva el campo a su valor original.
 Los porcentajes son los obtenidos al ejecutar cada escenario con el modelo entregado.
 
 ## A. Debe dar resultado (OK)
-- Sin cambios: 52% (unos 5,2)
-- n_t = 5 (límite válido): OK
-- anio_ingreso = 2023 (3.er año): 53%
-- anio_ingreso = 2025 y vaciar n_prev y ret_prev (cohorte nueva): 54%
-- ret_prev = 1 (límite válido): 61%
-- ret_prev = 0,5 (coma decimal): 54%
-- tipo_inst_1 = Universidades: 49%
+- Sin cambios: 86% (unos 18,9 de 22); el valor real en 2026 fue 91%
+- n_t = 5 (límite válido): 86%
+- anio_ingreso = 2024 (2.º año): 84%
+- anio_ingreso = 2025 y vaciar n_prev y ret_prev (cohorte nueva): 72%
+- ret_prev = 1 (límite válido): 86%
+- ret_prev = 0,5 (coma decimal): 67%
 
 ## B. Debe dar resultado CON AVISO
-- Vaciar n_prev y ret_prev: 55% + aviso de cohorte antigua sin historial
-- Vaciar edad_media: 60% + aviso de imputación
-- Vaciar arancel_anual_clp: 45% + aviso de imputación
-- tipo_inst_1 = Centros de Formación Técnica: 51% + aviso de error alto en CFT
-- arancel = 9000000000: 82% + aviso fuera del rango de entrenamiento (muestra que un modelo lineal extrapola)
-- arancel = 10000: 33% + aviso fuera del rango (ídem)
+- Vaciar n_prev y ret_prev: 76% + aviso de cohorte antigua sin historial
+- Vaciar edad_media: 86% + aviso de imputación
+- Vaciar arancel_anual_clp: 86% + aviso de imputación
+- arancel = 9000000000: 86% + aviso fuera del rango de entrenamiento
+- arancel = 10000: 85% + aviso fuera del rango (un modelo de árboles no extrapola: repite el valor del borde)
 
 ## C. Debe RECHAZAR (el modelo no se llama)
+Fuera del alcance
+- tipo_inst_1 = Centros de Formación Técnica -> "está fuera del alcance del modelo, que solo estima continuidad en universidades"
+- tipo_inst_1 = Institutos Profesionales -> mismo mensaje
 Campo faltante o vacío
 - n_t vacío -> "campo obligatorio ausente"
 - prop_mujer vacío -> "campo obligatorio ausente"
@@ -42,13 +43,18 @@ Unidades del arancel
 - arancel = 55 o 2.4 -> "parece estar en UF"
 - arancel = 0 o -100000 -> "debe ser un monto positivo"
 Coherencia entre campos
-- n_t = 27 -> "n_t no puede superar prog_total_t (26)"
-- prog_total_t = 5 -> "n_t (10) no puede superar prog_total_t (5)"
+- n_t = 46 -> "n_t (46) no puede superar prog_total_t (45)"
+- prog_total_t = 5 -> "n_t (22) no puede superar prog_total_t (5)"
 - anio_ingreso = 2026 -> "no puede ser posterior a anio_t"
 - anio_ingreso = 2025 (sin vaciar n_prev y ret_prev) -> "la cohorte ingresa este año: n_prev y ret_prev deben ir vacíos"
 - Vaciar solo n_prev, o solo ret_prev -> "deben informarse juntos"
 - anio_ingreso = 2022 -> "la cohorte cursa su año 4 de 4: no le queda un año nominal por delante"
-- dur_semestres = 3 -> "cursa su año 2 de 1.5: no le queda un año nominal por delante"
+- dur_semestres = 3 -> "cursa su año 3 de 1.5: no le queda un año nominal por delante"
 
-## D. Casos reales completos
-Ver casos_para_probar.json y .csv (5 cohortes reales con su valor observado en 2026).
+## D. Modo lote
+- `cupos_app.py lote datos_ejemplo/cohortes_2025.csv --salida resultados`: 328 cohortes, todas aceptadas.
+- Copiar una fila del CSV y pegarla al final: las dos filas quedan como DUPLICADA y su año de estudio deja de sumar.
+- Cambiar a 4 el n_t de una fila de ingreso (anio_ingreso = 2025): la fila se rechaza y el año 1 de ese programa queda «sin dato» en vez de sumar 4.
+
+## E. Casos reales completos
+Ver casos_para_probar.json y .csv (5 cohortes universitarias reales con su valor observado en 2026). También se cargan desde la página, en «Cargar un caso real».

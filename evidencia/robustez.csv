@@ -1,7 +1,7 @@
 variable,perturbacion,cohortes,cambio_abs_medio,cambio_abs_max,sobre_2pp
-ret_prev,-0.05,463,0.0075,0.0075,0.0
-ret_prev,+0.05,463,0.0068,0.0075,0.0
-arancel_pesos,-0.05 relativo,770,0.0018,0.0018,0.0
-arancel_pesos,+0.05 relativo,770,0.0018,0.0018,0.0
-edad_media,-1,774,0.0088,0.0088,0.0
-edad_media,+1,774,0.0088,0.0088,0.0
+ret_prev,-0.05,231,0.0126,0.1452,0.2554
+ret_prev,+0.05,231,0.0078,0.056,0.1558
+arancel_pesos,-0.05 relativo,328,0.0003,0.007,0.0
+arancel_pesos,+0.05 relativo,328,0.0003,0.0074,0.0
+edad_media,-1,331,0.0021,0.0568,0.0242
+edad_media,+1,331,0.0038,0.1431,0.0332

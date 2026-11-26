@@ -1,1121 +1,438 @@
-programa,anio_estudio_t1,cupos_esperados,origen
-I100S10C300J2V1,1,70.0,supuesto: igual al ingreso de t
-I100S10C300J2V1,2,52.6,continuidad (modelo)
-I100S10C300J2V1,3,46.8,continuidad (modelo)
-I100S10C300J2V1,4,32.5,continuidad (modelo)
-I100S13C126J1V1,1,85.0,supuesto: igual al ingreso de t
-I100S13C126J1V1,2,64.1,continuidad (modelo)
-I100S13C126J1V1,3,50.7,continuidad (modelo)
-I100S13C126J1V1,4,38.7,continuidad (modelo)
-I100S13C318J2V1,1,25.0,supuesto: igual al ingreso de t
-I100S13C318J2V1,2,16.8,continuidad (modelo)
-I100S13C318J2V1,3,9.7,continuidad (modelo)
-I100S13C318J2V1,4,10.4,continuidad (modelo)
-I100S15C176J2V1,1,50.0,supuesto: igual al ingreso de t
-I100S15C176J2V1,2,33.0,continuidad (modelo)
-I100S15C176J2V1,3,17.3,continuidad (modelo)
-I100S15C176J2V1,4,16.9,continuidad (modelo)
-I100S16C301J2V1,1,28.0,supuesto: igual al ingreso de t
-I100S16C301J2V1,2,20.2,continuidad (modelo)
-I100S19C300J1V1,1,35.0,supuesto: igual al ingreso de t
-I100S19C300J1V1,2,24.7,continuidad (modelo)
-I100S19C300J1V1,3,11.8,continuidad (modelo)
-I100S19C300J1V1,4,12.6,continuidad (modelo)
-I100S19C307J2V1,1,78.0,supuesto: igual al ingreso de t
-I100S19C307J2V1,2,56.0,continuidad (modelo)
-I100S19C307J2V1,3,38.9,continuidad (modelo)
-I100S19C307J2V1,4,26.8,continuidad (modelo)
-I100S20C318J2V1,1,17.0,supuesto: igual al ingreso de t
-I100S20C318J2V1,2,11.5,continuidad (modelo)
-I100S20C318J2V1,3,7.4,continuidad (modelo)
-I100S20C318J2V1,4,5.7,continuidad (modelo)
-I100S21C21J2V1,1,30.0,supuesto: igual al ingreso de t
-I100S21C21J2V1,2,22.5,continuidad (modelo)
-I100S21C21J2V1,3,21.8,continuidad (modelo)
-I100S21C21J2V1,4,13.8,continuidad (modelo)
-I100S23C176J2V1,1,41.0,supuesto: igual al ingreso de t
-I100S23C176J2V1,2,28.4,continuidad (modelo)
-I100S23C176J2V1,3,17.7,continuidad (modelo)
-I100S23C176J2V1,4,19.4,continuidad (modelo)
-I100S23C21J1V1,1,63.0,supuesto: igual al ingreso de t
-I100S23C21J1V1,2,47.1,continuidad (modelo)
-I100S23C21J1V1,3,41.7,continuidad (modelo)
-I100S23C21J1V1,4,21.7,continuidad (modelo)
-I100S23C301J1V1,1,56.0,supuesto: igual al ingreso de t
-I100S23C301J1V1,2,41.9,continuidad (modelo)
-I100S23C301J1V1,3,30.0,continuidad (modelo)
-I100S23C301J1V1,4,18.4,continuidad (modelo)
-I100S23C302J2V1,1,21.0,supuesto: igual al ingreso de t
-I100S23C302J2V1,2,13.8,continuidad (modelo)
-I100S23C302J2V1,3,12.2,continuidad (modelo)
-I100S23C319J1V1,1,19.0,supuesto: igual al ingreso de t
-I100S23C319J1V1,2,13.6,continuidad (modelo)
-I100S23C319J1V1,3,12.5,continuidad (modelo)
-I100S28C304J1V1,1,37.0,supuesto: igual al ingreso de t
-I100S28C304J1V1,2,28.3,continuidad (modelo)
-I100S28C304J1V1,3,20.7,continuidad (modelo)
-I100S28C304J1V1,4,18.4,continuidad (modelo)
-I100S29C302J1V1,1,70.0,supuesto: igual al ingreso de t
-I100S29C302J1V1,2,56.2,continuidad (modelo)
-I100S29C302J1V1,3,48.3,continuidad (modelo)
-I100S29C302J1V1,4,41.2,continuidad (modelo)
-I100S32C119J2V1,1,35.0,supuesto: igual al ingreso de t
-I100S32C119J2V1,2,23.9,continuidad (modelo)
-I100S32C119J2V1,3,4.0,continuidad (modelo)
-I100S32C129J1V1,1,0.0,supuesto: igual al ingreso de t
-I100S32C129J1V1,4,7.8,continuidad (modelo)
-I100S32C316J1V1,1,5.0,supuesto: igual al ingreso de t
-I100S32C316J1V1,2,3.4,continuidad (modelo)
-I100S32C316J1V1,3,11.0,continuidad (modelo)
-I100S32C316J1V1,4,8.8,continuidad (modelo)
-I100S33C168J2V1,1,0.0,supuesto: igual al ingreso de t
-I100S33C168J2V1,3,13.1,continuidad (modelo)
-I100S33C168J2V1,4,6.2,continuidad (modelo)
-I100S34C317J1V1,1,36.0,supuesto: igual al ingreso de t
-I100S34C317J1V1,2,25.1,continuidad (modelo)
-I100S34C317J1V1,3,19.9,continuidad (modelo)
-I100S34C317J1V1,4,16.5,continuidad (modelo)
-I100S35C21J1V1,1,33.0,supuesto: igual al ingreso de t
-I100S35C21J1V1,2,25.6,continuidad (modelo)
-I100S35C21J1V1,3,16.9,continuidad (modelo)
-I100S35C21J1V1,4,11.4,continuidad (modelo)
-I100S35C301J1V1,1,29.0,supuesto: igual al ingreso de t
-I100S35C301J1V1,2,22.5,continuidad (modelo)
-I100S35C301J1V1,3,11.7,continuidad (modelo)
-I100S35C301J1V1,4,4.7,continuidad (modelo)
-I100S35C301J2V1,1,0.0,supuesto: igual al ingreso de t
-I100S35C301J2V1,3,8.2,continuidad (modelo)
-I100S38C300J2V1,1,33.0,supuesto: igual al ingreso de t
-I100S38C300J2V1,2,22.3,continuidad (modelo)
-I100S38C300J2V1,3,29.9,continuidad (modelo)
-I100S38C300J2V1,4,9.9,continuidad (modelo)
-I100S39C129J1V1,1,0.0,supuesto: igual al ingreso de t
-I100S39C129J1V1,3,7.1,continuidad (modelo)
-I100S4C160J2V1,1,75.0,supuesto: igual al ingreso de t
-I100S4C160J2V1,2,54.2,continuidad (modelo)
-I100S4C160J2V1,3,37.3,continuidad (modelo)
-I100S4C160J2V1,4,48.3,continuidad (modelo)
-I100S4C304J1V1,1,33.0,supuesto: igual al ingreso de t
-I100S4C304J1V1,2,23.8,continuidad (modelo)
-I100S4C304J1V1,3,19.3,continuidad (modelo)
-I100S4C304J1V1,4,14.0,continuidad (modelo)
-I100S9C301J1V1,1,35.0,supuesto: igual al ingreso de t
-I100S9C301J1V1,2,26.6,continuidad (modelo)
-I100S9C301J1V1,3,21.9,continuidad (modelo)
-I100S9C301J1V1,4,18.7,continuidad (modelo)
-I106S6C284J4V2,1,169.0,supuesto: igual al ingreso de t
-I106S6C284J4V2,2,98.8,continuidad (modelo)
-I10S7C156J1V2,1,152.0,supuesto: igual al ingreso de t
-I10S7C156J1V2,2,127.0,continuidad (modelo)
-I10S7C156J1V2,3,105.7,continuidad (modelo)
-I10S7C156J1V2,4,76.9,continuidad (modelo)
-I10S7C156J1V2,5,64.5,continuidad (modelo)
-I10S7C156J1V2,6,65.2,continuidad (modelo)
-I10S7C800J4V1,1,61.0,supuesto: igual al ingreso de t
-I10S7C800J4V1,2,32.3,continuidad (modelo)
-I10S7C800J4V1,3,17.0,continuidad (modelo)
-I111S10C39J1V1,1,64.0,supuesto: igual al ingreso de t
-I111S10C39J1V1,2,47.7,continuidad (modelo)
-I111S10C39J1V1,3,80.2,continuidad (modelo)
-I111S10C39J1V1,4,72.4,continuidad (modelo)
-I111S10C422J2V1,1,50.0,supuesto: igual al ingreso de t
-I111S10C422J2V1,2,30.2,continuidad (modelo)
-I111S10C422J2V1,3,27.9,continuidad (modelo)
-I111S10C50J1V1,1,0.0,supuesto: igual al ingreso de t
-I111S10C50J1V1,3,20.2,continuidad (modelo)
-I111S10C50J1V1,4,21.6,continuidad (modelo)
-I111S12C50J2V1,1,14.0,supuesto: igual al ingreso de t
-I111S12C50J2V1,2,9.5,continuidad (modelo)
-I111S12C50J2V1,3,22.1,continuidad (modelo)
-I111S12C50J2V1,4,15.9,continuidad (modelo)
-I111S15C361J2V1,1,13.0,supuesto: igual al ingreso de t
-I111S15C361J2V1,2,8.5,continuidad (modelo)
-I111S15C361J2V1,3,7.6,continuidad (modelo)
-I111S16C107J1V1,1,120.0,supuesto: igual al ingreso de t
-I111S16C107J1V1,2,92.5,continuidad (modelo)
-I111S16C107J1V1,3,66.3,continuidad (modelo)
-I111S16C48J1V1,1,214.0,supuesto: igual al ingreso de t
-I111S16C48J1V1,2,165.6,continuidad (modelo)
-I111S16C48J1V1,3,142.1,continuidad (modelo)
-I111S16C48J1V1,4,125.3,continuidad (modelo)
-I111S16C533J1V1,1,40.0,supuesto: igual al ingreso de t
-I111S16C533J1V1,2,27.8,continuidad (modelo)
-I111S20C110J1V1,1,173.0,supuesto: igual al ingreso de t
-I111S20C110J1V1,2,124.9,continuidad (modelo)
-I111S20C110J1V1,3,65.2,continuidad (modelo)
-I111S20C34J1V1,1,63.0,supuesto: igual al ingreso de t
-I111S20C34J1V1,2,43.7,continuidad (modelo)
-I111S20C34J1V1,3,40.8,continuidad (modelo)
-I111S20C34J1V1,4,6.5,continuidad (modelo)
-I111S20C58J2V1,1,40.0,supuesto: igual al ingreso de t
-I111S20C58J2V1,2,26.0,continuidad (modelo)
-I111S20C58J2V1,3,26.6,continuidad (modelo)
-I111S21C484J1V1,1,59.0,supuesto: igual al ingreso de t
-I111S21C484J1V1,2,44.2,continuidad (modelo)
-I111S21C484J1V1,3,32.3,continuidad (modelo)
-I111S21C484J1V1,4,20.5,continuidad (modelo)
-I111S22C100J1V1,1,49.0,supuesto: igual al ingreso de t
-I111S22C100J1V1,2,35.9,continuidad (modelo)
-I111S22C100J1V1,3,43.7,continuidad (modelo)
-I111S22C47J1V1,1,55.0,supuesto: igual al ingreso de t
-I111S22C47J1V1,2,42.0,continuidad (modelo)
-I111S22C47J1V1,3,34.0,continuidad (modelo)
-I111S22C47J1V1,4,31.4,continuidad (modelo)
-I111S22C486J1V1,1,0.0,supuesto: igual al ingreso de t
-I111S22C486J1V1,3,3.7,continuidad (modelo)
-I111S23C22J1V1,1,58.0,supuesto: igual al ingreso de t
-I111S23C22J1V1,2,42.9,continuidad (modelo)
-I111S23C22J1V1,3,42.2,continuidad (modelo)
-I111S23C22J1V1,4,26.7,continuidad (modelo)
-I111S23C24J1V1,1,44.0,supuesto: igual al ingreso de t
-I111S23C24J1V1,2,32.5,continuidad (modelo)
-I111S23C24J1V1,3,20.9,continuidad (modelo)
-I111S23C24J1V1,4,20.7,continuidad (modelo)
-I111S25C380J2V1,1,0.0,supuesto: igual al ingreso de t
-I111S25C380J2V1,3,9.7,continuidad (modelo)
-I111S25C48J1V1,1,91.0,supuesto: igual al ingreso de t
-I111S25C48J1V1,2,73.5,continuidad (modelo)
-I111S25C48J1V1,3,83.1,continuidad (modelo)
-I111S25C48J1V1,4,56.0,continuidad (modelo)
-I111S25C64J2V1,1,15.0,supuesto: igual al ingreso de t
-I111S25C64J2V1,2,10.0,continuidad (modelo)
-I111S25C64J2V1,3,5.6,continuidad (modelo)
-I111S26C532J1V1,1,65.0,supuesto: igual al ingreso de t
-I111S26C532J1V1,2,48.8,continuidad (modelo)
-I111S2C104J2V2,1,98.0,supuesto: igual al ingreso de t
-I111S2C104J2V2,2,65.0,continuidad (modelo)
-I111S2C104J2V2,3,75.3,continuidad (modelo)
-I111S2C104J2V2,4,37.3,continuidad (modelo)
-I111S2C34J1V1,1,68.0,supuesto: igual al ingreso de t
-I111S2C34J1V1,2,47.5,continuidad (modelo)
-I111S2C34J1V1,3,37.3,continuidad (modelo)
-I111S2C34J1V1,4,27.4,continuidad (modelo)
-I111S2C363J1V1,1,61.0,supuesto: igual al ingreso de t
-I111S2C363J1V1,2,44.2,continuidad (modelo)
-I111S2C363J1V1,3,45.3,continuidad (modelo)
-I111S2C363J1V1,4,24.4,continuidad (modelo)
-I111S2C420J1V1,1,20.0,supuesto: igual al ingreso de t
-I111S2C420J1V1,2,13.7,continuidad (modelo)
-I111S2C420J1V1,3,16.9,continuidad (modelo)
-I111S4C50J2V1,1,0.0,supuesto: igual al ingreso de t
-I111S4C50J2V1,3,7.1,continuidad (modelo)
-I111S4C50J2V1,4,9.3,continuidad (modelo)
-I111S5C145J1V1,1,66.0,supuesto: igual al ingreso de t
-I111S5C145J1V1,2,49.1,continuidad (modelo)
-I111S5C145J1V1,3,41.8,continuidad (modelo)
-I111S5C145J1V1,4,26.7,continuidad (modelo)
-I111S5C50J1V1,1,0.0,supuesto: igual al ingreso de t
-I111S5C50J1V1,3,53.1,continuidad (modelo)
-I111S5C50J1V1,4,29.8,continuidad (modelo)
-I111S6C74J1V1,1,58.0,supuesto: igual al ingreso de t
-I111S6C74J1V1,2,43.4,continuidad (modelo)
-I111S6C74J1V1,3,37.2,continuidad (modelo)
-I111S6C74J1V1,4,37.0,continuidad (modelo)
-I111S7C145J2V1,1,41.0,supuesto: igual al ingreso de t
-I111S7C145J2V1,2,27.3,continuidad (modelo)
-I111S7C145J2V1,3,19.2,continuidad (modelo)
-I111S7C145J2V1,4,24.5,continuidad (modelo)
-I111S9C48J1V1,1,153.0,supuesto: igual al ingreso de t
-I111S9C48J1V1,2,117.3,continuidad (modelo)
-I111S9C48J1V1,3,94.4,continuidad (modelo)
-I111S9C48J1V1,4,62.5,continuidad (modelo)
-I111S9C50J2V1,1,0.0,supuesto: igual al ingreso de t
-I111S9C50J2V1,4,7.2,continuidad (modelo)
-I111S9C521J1V1,1,41.0,supuesto: igual al ingreso de t
-I111S9C521J1V1,2,29.5,continuidad (modelo)
-I111S9C521J1V1,3,18.2,continuidad (modelo)
-I111S9C69J2V2,1,43.0,supuesto: igual al ingreso de t
-I111S9C69J2V2,2,28.5,continuidad (modelo)
-I111S9C69J2V2,3,23.4,continuidad (modelo)
-I113S13C178J4V1,1,136.0,supuesto: igual al ingreso de t
-I113S13C178J4V1,2,71.1,continuidad (modelo)
-I113S13C412J4V2,1,16.0,supuesto: igual al ingreso de t
-I113S13C412J4V2,2,8.5,continuidad (modelo)
-I113S13C581J4V2,1,35.0,supuesto: igual al ingreso de t
-I113S13C581J4V2,2,19.7,continuidad (modelo)
-I113S6C193J2V1,1,13.0,supuesto: igual al ingreso de t
-I113S6C193J2V1,2,7.5,continuidad (modelo)
-I113S7C543J4V3,1,0.0,supuesto: igual al ingreso de t
-I113S7C543J4V3,3,7.9,continuidad (modelo)
-I113S7C67J4V1,1,0.0,supuesto: igual al ingreso de t
-I113S7C67J4V1,3,30.8,continuidad (modelo)
-I116S11C4J1V1,1,50.0,supuesto: igual al ingreso de t
-I116S11C4J1V1,2,34.4,continuidad (modelo)
-I116S11C8J1V1,1,48.0,supuesto: igual al ingreso de t
-I116S11C8J1V1,2,35.6,continuidad (modelo)
-I116S11C8J1V1,3,29.5,continuidad (modelo)
-I116S11C8J1V1,4,22.9,continuidad (modelo)
-I116S28C51J2V1,1,0.0,supuesto: igual al ingreso de t
-I116S28C51J2V1,4,24.1,continuidad (modelo)
-I116S2C8J1V1,1,48.0,supuesto: igual al ingreso de t
-I116S2C8J1V1,2,34.4,continuidad (modelo)
-I116S2C8J1V1,3,28.1,continuidad (modelo)
-I116S2C8J1V1,4,24.1,continuidad (modelo)
-I116S30C216J2V1,1,51.0,supuesto: igual al ingreso de t
-I116S30C216J2V1,2,35.2,continuidad (modelo)
-I116S30C216J2V1,3,20.3,continuidad (modelo)
-I116S30C51J2V1,1,0.0,supuesto: igual al ingreso de t
-I116S30C51J2V1,4,20.3,continuidad (modelo)
-I116S31C4J2V2,1,45.0,supuesto: igual al ingreso de t
-I116S31C4J2V2,2,33.9,continuidad (modelo)
-I116S32C288J2V1,1,27.0,supuesto: igual al ingreso de t
-I116S32C288J2V1,2,18.2,continuidad (modelo)
-I116S34C4J2V1,1,46.0,supuesto: igual al ingreso de t
-I116S34C4J2V1,2,33.0,continuidad (modelo)
-I116S34C4J2V1,3,28.2,continuidad (modelo)
-I116S34C4J2V1,4,22.1,continuidad (modelo)
-I116S39C141J2V2,1,35.0,supuesto: igual al ingreso de t
-I116S39C141J2V2,2,25.8,continuidad (modelo)
-I116S40C141J4V2,1,19.0,supuesto: igual al ingreso de t
-I116S40C141J4V2,2,12.1,continuidad (modelo)
-I116S40C292J4V1,1,32.0,supuesto: igual al ingreso de t
-I116S40C292J4V1,2,19.4,continuidad (modelo)
-I116S4C4J2V2,1,71.0,supuesto: igual al ingreso de t
-I116S4C4J2V2,2,49.8,continuidad (modelo)
-I116S9C51J2V1,1,0.0,supuesto: igual al ingreso de t
-I116S9C51J2V1,4,10.5,continuidad (modelo)
-I117S1C115J4V1,1,705.0,supuesto: igual al ingreso de t
-I117S1C115J4V1,2,452.7,continuidad (modelo)
-I117S1C115J4V1,3,343.4,continuidad (modelo)
-I117S1C115J4V1,4,268.7,continuidad (modelo)
-I117S1C62J4V1,1,167.0,supuesto: igual al ingreso de t
-I117S1C62J4V1,2,103.9,continuidad (modelo)
-I117S1C62J4V1,3,81.6,continuidad (modelo)
-I120S1C214J3V1,1,0.0,supuesto: igual al ingreso de t
-I120S1C214J3V1,4,3.0,continuidad (modelo)
-I120S1C333J3V1,1,5.0,supuesto: igual al ingreso de t
-I120S1C333J3V1,2,2.3,continuidad (modelo)
-I123S1C96J1V1,1,26.0,supuesto: igual al ingreso de t
-I123S1C96J1V1,2,17.3,continuidad (modelo)
-I123S1C96J1V1,3,20.0,continuidad (modelo)
-I123S2C7J2V1,1,0.0,supuesto: igual al ingreso de t
-I123S2C7J2V1,3,5.2,continuidad (modelo)
-I123S2C7J2V1,4,5.2,continuidad (modelo)
-I123S3C151J1V1,1,11.0,supuesto: igual al ingreso de t
-I123S3C151J1V1,2,7.2,continuidad (modelo)
-I123S3C166J2V1,1,41.0,supuesto: igual al ingreso de t
-I123S3C166J2V1,2,28.9,continuidad (modelo)
-I123S3C166J2V1,3,24.9,continuidad (modelo)
-I123S3C166J2V1,4,12.1,continuidad (modelo)
-I123S5C43J1V1,1,31.0,supuesto: igual al ingreso de t
-I123S5C43J1V1,2,20.6,continuidad (modelo)
-I123S5C43J1V1,3,11.7,continuidad (modelo)
-I123S5C56J2V1,1,34.0,supuesto: igual al ingreso de t
-I123S5C56J2V1,2,24.2,continuidad (modelo)
-I123S5C56J2V1,3,14.2,continuidad (modelo)
-I137S1C2J1V1,1,6.0,supuesto: igual al ingreso de t
-I137S1C2J1V1,2,4.6,continuidad (modelo)
-I137S1C2J1V1,3,19.5,continuidad (modelo)
-I137S1C2J1V1,4,16.6,continuidad (modelo)
-I139S1C28J1V1,1,129.0,supuesto: igual al ingreso de t
-I139S1C28J1V1,2,103.4,continuidad (modelo)
-I139S1C28J1V1,3,90.3,continuidad (modelo)
-I139S3C200J1V1,1,15.0,supuesto: igual al ingreso de t
-I139S3C200J1V1,2,9.5,continuidad (modelo)
-I139S3C22J1V1,1,32.0,supuesto: igual al ingreso de t
-I139S3C22J1V1,2,21.1,continuidad (modelo)
-I139S3C52J1V1,1,27.0,supuesto: igual al ingreso de t
-I139S3C52J1V1,2,18.5,continuidad (modelo)
-I139S3C89J2V1,1,52.0,supuesto: igual al ingreso de t
-I139S3C89J2V1,2,35.3,continuidad (modelo)
-I139S3C89J2V1,3,32.9,continuidad (modelo)
-I139S3C8J1V2,1,33.0,supuesto: igual al ingreso de t
-I139S3C8J1V2,2,24.1,continuidad (modelo)
-I139S3C8J1V2,3,39.4,continuidad (modelo)
-I139S3C8J1V2,4,17.9,continuidad (modelo)
-I13S10C34J1V1,1,43.0,supuesto: igual al ingreso de t
-I13S10C34J1V1,2,37.9,continuidad (modelo)
-I13S10C34J1V1,3,34.4,continuidad (modelo)
-I13S10C34J1V1,4,37.6,continuidad (modelo)
-I13S10C34J1V1,5,32.6,continuidad (modelo)
-I13S10C9J1V1,1,46.0,supuesto: igual al ingreso de t
-I13S10C9J1V1,2,38.4,continuidad (modelo)
-I13S10C9J1V1,3,24.2,continuidad (modelo)
-I13S11C34J1V1,1,42.0,supuesto: igual al ingreso de t
-I13S11C34J1V1,2,37.5,continuidad (modelo)
-I13S11C34J1V1,3,32.8,continuidad (modelo)
-I13S11C34J1V1,4,33.2,continuidad (modelo)
-I13S11C34J1V1,5,27.0,continuidad (modelo)
-I13S4C9J1V1,1,36.0,supuesto: igual al ingreso de t
-I13S4C9J1V1,2,28.6,continuidad (modelo)
-I13S4C9J1V1,3,22.0,continuidad (modelo)
-I13S4C9J1V1,4,22.0,continuidad (modelo)
-I13S4C9J1V1,5,16.1,continuidad (modelo)
-I13S5C378J1V1,1,43.0,supuesto: igual al ingreso de t
-I13S5C378J1V1,2,32.3,continuidad (modelo)
-I143S0C28J1V1,1,45.0,supuesto: igual al ingreso de t
-I143S0C28J1V1,2,35.2,continuidad (modelo)
-I143S0C28J1V1,3,10.8,continuidad (modelo)
-I143S0C28J1V1,4,15.4,continuidad (modelo)
-I143S0C30J2V1,1,12.0,supuesto: igual al ingreso de t
-I143S0C30J2V1,2,8.0,continuidad (modelo)
-I143S12C29J1V1,1,0.0,supuesto: igual al ingreso de t
-I143S12C29J1V1,3,14.9,continuidad (modelo)
-I143S12C59J2V1,1,24.0,supuesto: igual al ingreso de t
-I143S12C59J2V1,2,17.2,continuidad (modelo)
-I143S12C59J2V1,3,10.1,continuidad (modelo)
-I143S13C100J1V1,1,8.0,supuesto: igual al ingreso de t
-I143S13C100J1V1,2,6.3,continuidad (modelo)
-I143S13C100J1V1,3,10.2,continuidad (modelo)
-I143S13C100J1V1,4,8.6,continuidad (modelo)
-I143S13C124J1V1,1,17.0,supuesto: igual al ingreso de t
-I143S13C124J1V1,2,11.5,continuidad (modelo)
-I143S13C124J2V1,1,7.0,supuesto: igual al ingreso de t
-I143S13C124J2V1,2,4.8,continuidad (modelo)
-I143S13C23J2V2,1,38.0,supuesto: igual al ingreso de t
-I143S13C23J2V2,2,23.9,continuidad (modelo)
-I143S13C23J2V2,3,8.0,continuidad (modelo)
-I143S13C23J2V2,4,14.1,continuidad (modelo)
-I143S13C709J1V1,1,12.0,supuesto: igual al ingreso de t
-I143S13C709J1V1,2,8.0,continuidad (modelo)
-I143S15C92J1V1,1,20.0,supuesto: igual al ingreso de t
-I143S15C92J1V1,2,14.6,continuidad (modelo)
-I143S15C92J1V1,3,5.8,continuidad (modelo)
-I143S17C27J1V1,1,10.0,supuesto: igual al ingreso de t
-I143S17C27J1V1,2,6.6,continuidad (modelo)
-I143S17C27J1V1,3,21.4,continuidad (modelo)
-I143S17C645J2V1,1,0.0,supuesto: igual al ingreso de t
-I143S17C645J2V1,3,10.1,continuidad (modelo)
-I143S17C690J1V1,1,83.0,supuesto: igual al ingreso de t
-I143S17C690J1V1,2,60.6,continuidad (modelo)
-I143S17C690J1V1,3,44.4,continuidad (modelo)
-I143S17C690J1V1,4,28.9,continuidad (modelo)
-I143S17C742J1V1,1,31.0,supuesto: igual al ingreso de t
-I143S17C742J1V1,2,22.3,continuidad (modelo)
-I143S21C23J2V2,1,35.0,supuesto: igual al ingreso de t
-I143S21C23J2V2,2,21.6,continuidad (modelo)
-I143S21C23J2V2,3,11.9,continuidad (modelo)
-I143S21C23J2V2,4,9.8,continuidad (modelo)
-I143S21C92J2V1,1,0.0,supuesto: igual al ingreso de t
-I143S21C92J2V1,3,4.0,continuidad (modelo)
-I143S22C23J1V1,1,0.0,supuesto: igual al ingreso de t
-I143S22C23J1V1,3,6.7,continuidad (modelo)
-I143S22C23J1V1,4,4.0,continuidad (modelo)
-I143S22C616J2V2,1,42.0,supuesto: igual al ingreso de t
-I143S22C616J2V2,2,26.2,continuidad (modelo)
-I143S22C616J2V2,3,11.0,continuidad (modelo)
-I143S22C660J2V1,1,0.0,supuesto: igual al ingreso de t
-I143S22C660J2V1,3,7.5,continuidad (modelo)
-I143S22C92J1V1,1,9.0,supuesto: igual al ingreso de t
-I143S22C92J1V1,2,6.7,continuidad (modelo)
-I143S22C92J1V1,3,6.0,continuidad (modelo)
-I143S22C95J2V1,1,25.0,supuesto: igual al ingreso de t
-I143S22C95J2V1,2,17.3,continuidad (modelo)
-I143S22C95J2V1,3,16.9,continuidad (modelo)
-I143S22C95J2V1,4,17.0,continuidad (modelo)
-I143S23C664J1V1,1,0.0,supuesto: igual al ingreso de t
-I143S23C664J1V1,3,5.8,continuidad (modelo)
-I143S23C664J1V1,4,4.8,continuidad (modelo)
-I143S23C707J1V1,1,14.0,supuesto: igual al ingreso de t
-I143S23C707J1V1,2,9.6,continuidad (modelo)
-I143S23C707J1V1,3,6.4,continuidad (modelo)
-I143S23C707J1V1,4,3.8,continuidad (modelo)
-I143S24C15J2V2,1,14.0,supuesto: igual al ingreso de t
-I143S24C15J2V2,2,8.0,continuidad (modelo)
-I143S24C29J2V2,1,0.0,supuesto: igual al ingreso de t
-I143S24C29J2V2,3,3.3,continuidad (modelo)
-I143S24C651J2V1,1,0.0,supuesto: igual al ingreso de t
-I143S24C651J2V1,3,6.6,continuidad (modelo)
-I143S24C660J2V1,1,14.0,supuesto: igual al ingreso de t
-I143S24C660J2V1,2,8.3,continuidad (modelo)
-I143S24C660J2V1,3,5.1,continuidad (modelo)
-I143S25C28J1V1,1,6.0,supuesto: igual al ingreso de t
-I143S25C28J1V1,2,4.4,continuidad (modelo)
-I143S25C28J1V1,3,13.6,continuidad (modelo)
-I143S25C28J1V1,4,7.3,continuidad (modelo)
-I143S26C100J2V1,1,6.0,supuesto: igual al ingreso de t
-I143S26C100J2V1,2,4.4,continuidad (modelo)
-I143S26C100J2V1,3,5.2,continuidad (modelo)
-I143S26C100J2V1,4,4.0,continuidad (modelo)
-I143S26C53J1V1,1,25.0,supuesto: igual al ingreso de t
-I143S26C53J1V1,2,17.8,continuidad (modelo)
-I143S26C53J1V1,3,17.8,continuidad (modelo)
-I143S26C614J1V1,1,0.0,supuesto: igual al ingreso de t
-I143S26C614J1V1,3,4.7,continuidad (modelo)
-I143S26C738J2V1,1,8.0,supuesto: igual al ingreso de t
-I143S26C738J2V1,2,4.5,continuidad (modelo)
-I143S28C118J4V1,1,151.0,supuesto: igual al ingreso de t
-I143S28C118J4V1,2,92.8,continuidad (modelo)
-I143S28C118J4V1,3,59.6,continuidad (modelo)
-I143S28C77J4V1,1,300.0,supuesto: igual al ingreso de t
-I143S28C77J4V1,2,198.6,continuidad (modelo)
-I143S28C77J4V1,3,131.5,continuidad (modelo)
-I143S28C77J4V1,4,90.1,continuidad (modelo)
-I143S28C83J4V1,1,138.0,supuesto: igual al ingreso de t
-I143S28C83J4V1,2,86.6,continuidad (modelo)
-I143S28C83J4V1,3,75.4,continuidad (modelo)
-I143S29C100J2V2,1,13.0,supuesto: igual al ingreso de t
-I143S29C100J2V2,2,10.2,continuidad (modelo)
-I143S29C100J2V2,3,13.7,continuidad (modelo)
-I143S29C100J2V2,4,9.4,continuidad (modelo)
-I143S29C660J2V1,1,13.0,supuesto: igual al ingreso de t
-I143S29C660J2V1,2,8.1,continuidad (modelo)
-I143S29C660J2V1,3,6.4,continuidad (modelo)
-I143S29C660J2V1,4,5.0,continuidad (modelo)
-I143S2C22J1V2,1,20.0,supuesto: igual al ingreso de t
-I143S2C22J1V2,2,12.2,continuidad (modelo)
-I143S2C22J1V2,3,17.0,continuidad (modelo)
-I143S2C23J1V1,1,0.0,supuesto: igual al ingreso de t
-I143S2C23J1V1,3,3.8,continuidad (modelo)
-I143S2C23J1V1,4,5.4,continuidad (modelo)
-I143S2C619J2V2,1,24.0,supuesto: igual al ingreso de t
-I143S2C619J2V2,2,14.5,continuidad (modelo)
-I143S2C636J2V3,1,47.0,supuesto: igual al ingreso de t
-I143S2C636J2V3,2,29.1,continuidad (modelo)
-I143S2C636J2V3,3,12.7,continuidad (modelo)
-I143S30C9J1V1,1,0.0,supuesto: igual al ingreso de t
-I143S30C9J1V1,3,3.1,continuidad (modelo)
-I143S5C27J2V2,1,48.0,supuesto: igual al ingreso de t
-I143S5C27J2V2,2,32.1,continuidad (modelo)
-I143S5C27J2V2,3,22.4,continuidad (modelo)
-I143S5C690J2V1,1,55.0,supuesto: igual al ingreso de t
-I143S5C690J2V1,2,38.8,continuidad (modelo)
-I143S5C690J2V1,3,31.4,continuidad (modelo)
-I143S5C690J2V1,4,24.1,continuidad (modelo)
-I143S5C95J2V1,1,64.0,supuesto: igual al ingreso de t
-I143S5C95J2V1,2,42.5,continuidad (modelo)
-I143S5C95J2V1,3,29.5,continuidad (modelo)
-I143S5C95J2V1,4,14.0,continuidad (modelo)
-I143S8C73J2V2,1,14.0,supuesto: igual al ingreso de t
-I143S8C73J2V2,2,8.2,continuidad (modelo)
-I143S8C73J2V2,3,15.6,continuidad (modelo)
-I143S8C73J2V2,4,8.6,continuidad (modelo)
-I143S9C28J1V1,1,26.0,supuesto: igual al ingreso de t
-I143S9C28J1V1,2,20.0,continuidad (modelo)
-I143S9C28J1V1,3,25.6,continuidad (modelo)
-I143S9C28J1V1,4,20.5,continuidad (modelo)
-I143S9C469J2V2,1,0.0,supuesto: igual al ingreso de t
-I143S9C469J2V2,3,8.6,continuidad (modelo)
-I143S9C664J1V1,1,22.0,supuesto: igual al ingreso de t
-I143S9C664J1V1,2,15.9,continuidad (modelo)
-I143S9C664J1V1,3,23.6,continuidad (modelo)
-I143S9C664J1V1,4,27.3,continuidad (modelo)
-I143S9C730J1V1,1,9.0,supuesto: igual al ingreso de t
-I143S9C730J1V1,2,6.3,continuidad (modelo)
-I152S10C21J2V1,1,0.0,supuesto: igual al ingreso de t
-I152S10C21J2V1,3,11.3,continuidad (modelo)
-I152S10C21J4V5,1,508.0,supuesto: igual al ingreso de t
-I152S10C21J4V5,2,375.5,continuidad (modelo)
-I152S10C21J4V5,3,386.5,continuidad (modelo)
-I152S10C21J4V5,4,265.9,continuidad (modelo)
-I152S10C458J4V1,1,166.0,supuesto: igual al ingreso de t
-I152S10C458J4V1,2,90.6,continuidad (modelo)
-I152S10C472J4V1,1,1033.0,supuesto: igual al ingreso de t
-I152S10C472J4V1,2,668.9,continuidad (modelo)
-I152S10C472J4V1,3,656.2,continuidad (modelo)
-I152S10C480J4V1,1,89.0,supuesto: igual al ingreso de t
-I152S10C480J4V1,2,51.8,continuidad (modelo)
-I152S10C493J4V1,1,75.0,supuesto: igual al ingreso de t
-I152S10C493J4V1,2,43.3,continuidad (modelo)
-I155S2C7J2V1,1,17.0,supuesto: igual al ingreso de t
-I155S2C7J2V1,2,12.3,continuidad (modelo)
-I155S2C7J2V1,3,4.4,continuidad (modelo)
-I155S2C7J2V1,4,9.0,continuidad (modelo)
-I162S2C76J2V1,1,22.0,supuesto: igual al ingreso de t
-I162S2C76J2V1,2,12.3,continuidad (modelo)
-I162S2C91J1V1,1,35.0,supuesto: igual al ingreso de t
-I162S2C91J1V1,2,23.8,continuidad (modelo)
-I171S1C27J4V2,1,116.0,supuesto: igual al ingreso de t
-I171S1C27J4V2,2,69.8,continuidad (modelo)
-I171S1C27J4V2,3,62.6,continuidad (modelo)
-I171S1C27J4V2,4,2.9,continuidad (modelo)
-I171S1C28J4V2,1,87.0,supuesto: igual al ingreso de t
-I171S1C28J4V2,2,50.6,continuidad (modelo)
-I171S1C65J4V1,1,71.0,supuesto: igual al ingreso de t
-I171S1C65J4V1,2,39.8,continuidad (modelo)
-I171S1C71J2V1,1,16.0,supuesto: igual al ingreso de t
-I171S1C71J2V1,2,9.2,continuidad (modelo)
-I171S1C81J4V1,1,105.0,supuesto: igual al ingreso de t
-I171S1C81J4V1,2,57.3,continuidad (modelo)
-I171S1C81J4V1,3,29.8,continuidad (modelo)
-I176S3C62J1V1,1,0.0,supuesto: igual al ingreso de t
-I176S3C62J1V1,3,7.4,continuidad (modelo)
-I176S7C880J4V1,1,0.0,supuesto: igual al ingreso de t
-I176S7C880J4V1,3,35.4,continuidad (modelo)
-I176S7C880J4V1,4,149.1,continuidad (modelo)
-I17S2C58J3V1,1,0.0,supuesto: igual al ingreso de t
-I17S2C58J3V1,3,5.9,continuidad (modelo)
-I17S2C58J3V1,4,3.9,continuidad (modelo)
-I193S2C4J2V4,1,18.0,supuesto: igual al ingreso de t
-I193S2C4J2V4,2,12.5,continuidad (modelo)
-I19S4C344J4V2,1,62.0,supuesto: igual al ingreso de t
-I19S4C344J4V2,2,42.7,continuidad (modelo)
-I19S4C344J4V2,3,29.3,continuidad (modelo)
-I19S4C38J1V2,1,56.0,supuesto: igual al ingreso de t
-I19S4C38J1V2,2,45.4,continuidad (modelo)
-I19S4C38J1V2,3,42.7,continuidad (modelo)
-I19S4C38J1V2,4,25.8,continuidad (modelo)
-I19S4C38J1V2,5,5.2,continuidad (modelo)
-I19S4C5J1V1,1,67.0,supuesto: igual al ingreso de t
-I19S4C5J1V1,2,52.7,continuidad (modelo)
-I19S4C5J1V1,3,38.1,continuidad (modelo)
-I19S4C5J1V1,4,27.3,continuidad (modelo)
-I19S6C37J3V1,1,39.0,supuesto: igual al ingreso de t
-I19S6C37J3V1,2,27.5,continuidad (modelo)
-I19S6C37J3V1,3,16.7,continuidad (modelo)
-I19S6C37J3V1,4,18.3,continuidad (modelo)
-I19S6C37J3V1,5,4.7,continuidad (modelo)
-I19S6C98J1V1,1,87.0,supuesto: igual al ingreso de t
-I19S6C98J1V1,2,72.7,continuidad (modelo)
-I19S6C98J1V1,3,60.0,continuidad (modelo)
-I19S6C98J1V1,4,42.6,continuidad (modelo)
-I19S6C98J1V1,5,14.3,continuidad (modelo)
-I1S1C250J4V2,1,16.0,supuesto: igual al ingreso de t
-I1S1C250J4V2,2,10.7,continuidad (modelo)
-I1S1C250J4V2,3,26.3,continuidad (modelo)
-I20S1C115J4V1,1,104.0,supuesto: igual al ingreso de t
-I20S1C115J4V1,2,71.7,continuidad (modelo)
-I20S1C115J4V1,3,19.8,continuidad (modelo)
-I20S1C22J1V1,1,247.0,supuesto: igual al ingreso de t
-I20S1C22J1V1,2,217.5,continuidad (modelo)
-I20S1C22J1V1,3,171.4,continuidad (modelo)
-I20S1C22J1V1,4,124.7,continuidad (modelo)
-I20S1C22J1V1,5,88.7,continuidad (modelo)
-I20S1C22J1V1,6,93.4,continuidad (modelo)
-I20S1C27J2V2,1,17.0,supuesto: igual al ingreso de t
-I20S1C27J2V2,2,13.5,continuidad (modelo)
-I20S1C27J2V2,3,8.8,continuidad (modelo)
-I20S1C27J2V2,4,22.1,continuidad (modelo)
-I20S1C27J2V2,5,15.3,continuidad (modelo)
-I20S1C6J1V1,1,290.0,supuesto: igual al ingreso de t
-I20S1C6J1V1,2,258.8,continuidad (modelo)
-I20S1C6J1V1,3,222.6,continuidad (modelo)
-I20S1C6J1V1,4,198.5,continuidad (modelo)
-I20S1C6J1V1,5,164.4,continuidad (modelo)
-I20S1C6J2V2,1,65.0,supuesto: igual al ingreso de t
-I20S1C6J2V2,2,47.2,continuidad (modelo)
-I20S1C6J2V2,3,31.0,continuidad (modelo)
-I20S1C6J2V2,4,42.5,continuidad (modelo)
-I20S1C6J2V2,5,30.6,continuidad (modelo)
-I20S1C71J2V3,1,45.0,supuesto: igual al ingreso de t
-I20S1C71J2V3,2,35.0,continuidad (modelo)
-I20S1C71J2V3,3,50.9,continuidad (modelo)
-I20S2C21J1V1,1,350.0,supuesto: igual al ingreso de t
-I20S2C21J1V1,2,307.0,continuidad (modelo)
-I20S2C21J1V1,3,231.4,continuidad (modelo)
-I20S2C21J1V1,4,229.7,continuidad (modelo)
-I20S2C21J1V1,5,204.3,continuidad (modelo)
-I20S3C329J1V1,1,66.0,supuesto: igual al ingreso de t
-I20S3C329J1V1,2,51.2,continuidad (modelo)
-I20S3C329J1V1,3,28.1,continuidad (modelo)
-I20S4C116J1V1,1,44.0,supuesto: igual al ingreso de t
-I20S4C116J1V1,2,34.6,continuidad (modelo)
-I20S4C116J1V1,3,19.6,continuidad (modelo)
-I20S4C28J1V1,1,16.0,supuesto: igual al ingreso de t
-I20S4C28J1V1,2,12.8,continuidad (modelo)
-I20S4C28J1V1,3,8.6,continuidad (modelo)
-I20S4C28J1V1,4,13.3,continuidad (modelo)
-I20S4C6J1V1,1,96.0,supuesto: igual al ingreso de t
-I20S4C6J1V1,2,85.1,continuidad (modelo)
-I20S4C6J1V1,3,78.9,continuidad (modelo)
-I20S4C6J1V1,4,80.5,continuidad (modelo)
-I20S4C6J1V1,5,39.3,continuidad (modelo)
-I218S1C124J2V2,1,22.0,supuesto: igual al ingreso de t
-I218S1C124J2V2,2,12.4,continuidad (modelo)
-I218S1C124J2V2,3,11.7,continuidad (modelo)
-I218S1C138J2V2,1,15.0,supuesto: igual al ingreso de t
-I218S1C138J2V2,2,8.9,continuidad (modelo)
-I218S1C138J2V2,3,4.6,continuidad (modelo)
-I218S1C152J1V2,1,341.0,supuesto: igual al ingreso de t
-I218S1C152J1V2,2,253.4,continuidad (modelo)
-I218S1C152J1V2,3,178.6,continuidad (modelo)
-I22S1C108J1V2,1,0.0,supuesto: igual al ingreso de t
-I22S1C108J1V2,4,17.0,continuidad (modelo)
-I22S1C337J4V1,1,30.0,supuesto: igual al ingreso de t
-I22S1C337J4V1,2,19.9,continuidad (modelo)
-I257S1C81J2V1,1,18.0,supuesto: igual al ingreso de t
-I257S1C81J2V1,2,10.2,continuidad (modelo)
-I257S1C81J2V1,3,8.5,continuidad (modelo)
-I260S11C84J2V1,1,0.0,supuesto: igual al ingreso de t
-I260S11C84J2V1,3,4.3,continuidad (modelo)
-I260S21C281J2V1,1,41.0,supuesto: igual al ingreso de t
-I260S21C281J2V1,2,25.7,continuidad (modelo)
-I260S21C281J2V1,3,15.0,continuidad (modelo)
-I260S34C108J1V1,1,70.0,supuesto: igual al ingreso de t
-I260S34C108J1V1,2,53.7,continuidad (modelo)
-I260S34C108J1V1,3,62.7,continuidad (modelo)
-I260S37C79J1V1,1,45.0,supuesto: igual al ingreso de t
-I260S37C79J1V1,2,36.5,continuidad (modelo)
-I260S37C79J1V1,3,34.7,continuidad (modelo)
-I260S3C234J2V1,1,91.0,supuesto: igual al ingreso de t
-I260S3C234J2V1,2,58.7,continuidad (modelo)
-I260S3C234J2V1,3,41.3,continuidad (modelo)
-I260S42C118J1V1,1,45.0,supuesto: igual al ingreso de t
-I260S42C118J1V1,2,36.2,continuidad (modelo)
-I260S42C118J1V1,3,27.1,continuidad (modelo)
-I260S42C120J2V1,1,32.0,supuesto: igual al ingreso de t
-I260S42C120J2V1,2,20.3,continuidad (modelo)
-I260S42C120J2V1,3,18.2,continuidad (modelo)
-I260S47C47J2V1,1,95.0,supuesto: igual al ingreso de t
-I260S47C47J2V1,2,60.7,continuidad (modelo)
-I260S47C47J2V1,3,57.6,continuidad (modelo)
-I260S51C120J4V1,1,113.0,supuesto: igual al ingreso de t
-I260S51C120J4V1,2,66.8,continuidad (modelo)
-I260S51C120J4V1,3,96.0,continuidad (modelo)
-I31S1C1J2V1,1,37.0,supuesto: igual al ingreso de t
-I31S1C1J2V1,2,28.4,continuidad (modelo)
-I31S1C1J2V1,3,20.0,continuidad (modelo)
-I31S1C1J2V1,4,11.5,continuidad (modelo)
-I31S1C1J2V1,5,11.3,continuidad (modelo)
-I31S1C448J1V1,1,52.0,supuesto: igual al ingreso de t
-I31S1C448J1V1,2,41.0,continuidad (modelo)
-I31S1C448J1V1,3,34.9,continuidad (modelo)
-I31S1C47J1V1,1,77.0,supuesto: igual al ingreso de t
-I31S1C47J1V1,2,68.9,continuidad (modelo)
-I31S1C47J1V1,3,54.6,continuidad (modelo)
-I31S1C47J1V1,4,57.2,continuidad (modelo)
-I31S1C47J1V1,5,50.4,continuidad (modelo)
-I31S1C483J2V1,1,20.0,supuesto: igual al ingreso de t
-I31S1C483J2V1,2,15.2,continuidad (modelo)
-I31S2C12J2V1,1,99.0,supuesto: igual al ingreso de t
-I31S2C12J2V1,2,82.3,continuidad (modelo)
-I31S2C12J2V1,3,65.6,continuidad (modelo)
-I31S2C12J2V1,4,50.0,continuidad (modelo)
-I31S2C12J2V1,5,42.0,continuidad (modelo)
-I31S2C155J1V1,1,0.0,supuesto: igual al ingreso de t
-I31S2C155J1V1,5,27.9,continuidad (modelo)
-I31S2C15J1V1,1,0.0,supuesto: igual al ingreso de t
-I31S2C15J1V1,4,44.3,continuidad (modelo)
-I31S2C15J1V1,5,32.3,continuidad (modelo)
-I31S3C15J1V2,1,47.0,supuesto: igual al ingreso de t
-I31S3C15J1V2,2,38.4,continuidad (modelo)
-I31S3C15J1V2,3,38.9,continuidad (modelo)
-I367S1C154J2V1,1,25.0,supuesto: igual al ingreso de t
-I367S1C154J2V1,2,16.7,continuidad (modelo)
-I367S1C154J2V1,3,2.9,continuidad (modelo)
-I367S1C214J1V1,1,12.0,supuesto: igual al ingreso de t
-I367S1C214J1V1,2,8.1,continuidad (modelo)
-I367S1C214J1V1,3,8.4,continuidad (modelo)
-I367S2C127J2V1,1,20.0,supuesto: igual al ingreso de t
-I367S2C127J2V1,2,14.1,continuidad (modelo)
-I367S2C127J2V1,3,14.5,continuidad (modelo)
-I367S4C190J1V1,1,23.0,supuesto: igual al ingreso de t
-I367S4C190J1V1,2,17.1,continuidad (modelo)
-I367S4C190J1V1,3,10.7,continuidad (modelo)
-I39S2C180J2V2,1,0.0,supuesto: igual al ingreso de t
-I39S2C180J2V2,3,4.6,continuidad (modelo)
-I39S6C238J2V2,1,0.0,supuesto: igual al ingreso de t
-I39S6C238J2V2,3,7.4,continuidad (modelo)
-I39S6C39J1V1,1,34.0,supuesto: igual al ingreso de t
-I39S6C39J1V1,2,29.2,continuidad (modelo)
-I39S6C39J1V1,3,43.3,continuidad (modelo)
-I39S6C39J1V1,4,36.8,continuidad (modelo)
-I39S6C39J1V1,5,16.9,continuidad (modelo)
-I39S6C45J2V1,1,0.0,supuesto: igual al ingreso de t
-I39S6C45J2V1,3,7.2,continuidad (modelo)
-I39S6C87J3V2,1,55.0,supuesto: igual al ingreso de t
-I39S6C87J3V2,2,41.4,continuidad (modelo)
-I39S7C18J1V1,1,82.0,supuesto: igual al ingreso de t
-I39S7C18J1V1,2,72.8,continuidad (modelo)
-I39S7C18J1V1,3,57.6,continuidad (modelo)
-I39S7C18J1V1,4,56.3,continuidad (modelo)
-I39S7C18J1V1,5,47.9,continuidad (modelo)
-I39S7C18J1V1,6,42.9,continuidad (modelo)
-I39S7C2J5V1,1,25.0,supuesto: igual al ingreso de t
-I39S7C2J5V1,2,15.5,continuidad (modelo)
-I39S7C2J5V1,3,18.3,continuidad (modelo)
-I39S7C2J5V1,4,19.6,continuidad (modelo)
-I39S8C9J1V1,1,56.0,supuesto: igual al ingreso de t
-I39S8C9J1V1,2,49.6,continuidad (modelo)
-I39S8C9J1V1,3,66.5,continuidad (modelo)
-I39S8C9J1V1,4,38.5,continuidad (modelo)
-I39S8C9J1V1,5,22.5,continuidad (modelo)
-I430S12C67J2V1,1,85.0,supuesto: igual al ingreso de t
-I430S12C67J2V1,2,53.4,continuidad (modelo)
-I430S14C201J2V1,1,33.0,supuesto: igual al ingreso de t
-I430S14C201J2V1,2,19.9,continuidad (modelo)
-I430S14C310J1V1,1,33.0,supuesto: igual al ingreso de t
-I430S14C310J1V1,2,22.6,continuidad (modelo)
-I430S14C349J1V1,1,14.0,supuesto: igual al ingreso de t
-I430S14C349J1V1,2,8.4,continuidad (modelo)
-I430S14C358J1V1,1,23.0,supuesto: igual al ingreso de t
-I430S14C358J1V1,2,15.2,continuidad (modelo)
-I430S14C42J1V3,1,31.0,supuesto: igual al ingreso de t
-I430S14C42J1V3,2,19.4,continuidad (modelo)
-I430S16C348J1V1,1,40.0,supuesto: igual al ingreso de t
-I430S16C348J1V1,2,26.3,continuidad (modelo)
-I430S1C306J1V1,1,45.0,supuesto: igual al ingreso de t
-I430S1C306J1V1,2,29.9,continuidad (modelo)
-I430S1C330J1V1,1,64.0,supuesto: igual al ingreso de t
-I430S1C330J1V1,2,44.5,continuidad (modelo)
-I430S20C343J1V1,1,20.0,supuesto: igual al ingreso de t
-I430S20C343J1V1,2,13.6,continuidad (modelo)
-I430S21C333J1V1,1,30.0,supuesto: igual al ingreso de t
-I430S21C333J1V1,2,20.6,continuidad (modelo)
-I430S23C331J1V1,1,24.0,supuesto: igual al ingreso de t
-I430S23C331J1V1,2,16.3,continuidad (modelo)
-I430S25C133J1V2,1,0.0,supuesto: igual al ingreso de t
-I430S25C133J1V2,3,15.7,continuidad (modelo)
-I430S25C149J1V1,1,30.0,supuesto: igual al ingreso de t
-I430S25C149J1V1,2,21.0,continuidad (modelo)
-I430S27C135J2V1,1,41.0,supuesto: igual al ingreso de t
-I430S27C135J2V1,2,27.3,continuidad (modelo)
-I430S27C149J2V1,1,22.0,supuesto: igual al ingreso de t
-I430S27C149J2V1,2,12.9,continuidad (modelo)
-I430S27C341J1V1,1,26.0,supuesto: igual al ingreso de t
-I430S27C341J1V1,2,17.1,continuidad (modelo)
-I430S27C343J1V1,1,28.0,supuesto: igual al ingreso de t
-I430S27C343J1V1,2,18.7,continuidad (modelo)
-I430S30C149J2V1,1,16.0,supuesto: igual al ingreso de t
-I430S30C149J2V1,2,10.0,continuidad (modelo)
-I430S34C201J1V1,1,24.0,supuesto: igual al ingreso de t
-I430S34C201J1V1,2,15.3,continuidad (modelo)
-I430S36C342J1V1,1,9.0,supuesto: igual al ingreso de t
-I430S36C342J1V1,2,5.0,continuidad (modelo)
-I430S36C42J1V2,1,91.0,supuesto: igual al ingreso de t
-I430S36C42J1V2,2,62.2,continuidad (modelo)
-I430S3C349J1V1,1,33.0,supuesto: igual al ingreso de t
-I430S3C349J1V1,2,21.0,continuidad (modelo)
-I430S4C358J1V1,1,23.0,supuesto: igual al ingreso de t
-I430S4C358J1V1,2,15.0,continuidad (modelo)
-I430S5C330J1V1,1,75.0,supuesto: igual al ingreso de t
-I430S5C330J1V1,2,56.5,continuidad (modelo)
-I430S9C358J1V1,1,35.0,supuesto: igual al ingreso de t
-I430S9C358J1V1,2,22.7,continuidad (modelo)
-I430S9C42J1V2,1,69.0,supuesto: igual al ingreso de t
-I430S9C42J1V2,2,46.5,continuidad (modelo)
-I435S1C1J4V1,1,29.0,supuesto: igual al ingreso de t
-I435S1C1J4V1,2,16.0,continuidad (modelo)
-I456S3C48J2V1,1,0.0,supuesto: igual al ingreso de t
-I456S3C48J2V1,3,9.7,continuidad (modelo)
-I4S1C2J4V2,1,38.0,supuesto: igual al ingreso de t
-I4S1C2J4V2,2,26.3,continuidad (modelo)
-I4S1C2J4V2,3,39.4,continuidad (modelo)
-I4S1C32J1V2,1,45.0,supuesto: igual al ingreso de t
-I4S1C32J1V2,2,38.5,continuidad (modelo)
-I4S1C32J1V2,3,35.8,continuidad (modelo)
-I4S1C32J1V2,4,16.3,continuidad (modelo)
-I4S1C32J1V2,5,8.3,continuidad (modelo)
-I50S1C454J1V1,1,55.0,supuesto: igual al ingreso de t
-I50S1C454J1V1,2,41.3,continuidad (modelo)
-I50S2C271J1V1,1,88.0,supuesto: igual al ingreso de t
-I50S2C271J1V1,2,77.5,continuidad (modelo)
-I50S2C271J1V1,3,74.1,continuidad (modelo)
-I50S2C271J1V1,4,72.6,continuidad (modelo)
-I50S2C271J1V1,5,84.3,continuidad (modelo)
-I50S2C354J1V1,1,42.0,supuesto: igual al ingreso de t
-I50S2C354J1V1,2,34.0,continuidad (modelo)
-I50S2C354J1V1,3,23.3,continuidad (modelo)
-I50S2C354J1V1,4,30.5,continuidad (modelo)
-I50S2C354J1V1,5,27.9,continuidad (modelo)
-I629S0C115J4V1,1,28.0,supuesto: igual al ingreso de t
-I629S0C115J4V1,2,13.8,continuidad (modelo)
-I629S0C141J1V1,1,38.0,supuesto: igual al ingreso de t
-I629S0C141J1V1,2,24.8,continuidad (modelo)
-I629S0C141J1V1,3,25.6,continuidad (modelo)
-I629S0C151J2V1,1,29.0,supuesto: igual al ingreso de t
-I629S0C151J2V1,2,15.3,continuidad (modelo)
-I629S4C116J1V1,1,64.0,supuesto: igual al ingreso de t
-I629S4C116J1V1,2,47.4,continuidad (modelo)
-I629S4C136J1V1,1,22.0,supuesto: igual al ingreso de t
-I629S4C136J1V1,2,14.5,continuidad (modelo)
-I629S5C141J1V1,1,39.0,supuesto: igual al ingreso de t
-I629S5C141J1V1,2,25.7,continuidad (modelo)
-I629S5C141J1V1,3,17.6,continuidad (modelo)
-I629S7C0J2V1,1,18.0,supuesto: igual al ingreso de t
-I629S7C0J2V1,2,9.7,continuidad (modelo)
-I629S8C0J2V1,1,16.0,supuesto: igual al ingreso de t
-I629S8C0J2V1,2,9.4,continuidad (modelo)
-I69S1C260J1V1,1,48.0,supuesto: igual al ingreso de t
-I69S1C260J1V1,2,38.9,continuidad (modelo)
-I69S1C260J1V1,3,34.7,continuidad (modelo)
-I69S1C260J1V1,4,23.0,continuidad (modelo)
-I69S1C260J1V1,5,32.3,continuidad (modelo)
-I69S1C281J2V3,1,7.0,supuesto: igual al ingreso de t
-I69S1C281J2V3,2,5.2,continuidad (modelo)
-I69S1C281J2V3,3,7.7,continuidad (modelo)
-I69S1C281J2V3,4,7.6,continuidad (modelo)
-I701S0C2J1V2,1,44.0,supuesto: igual al ingreso de t
-I701S0C2J1V2,2,28.2,continuidad (modelo)
-I701S0C2J1V2,3,17.7,continuidad (modelo)
-I70S1C185J1V1,1,100.0,supuesto: igual al ingreso de t
-I70S1C185J1V1,2,92.4,continuidad (modelo)
-I70S1C42J1V1,1,59.0,supuesto: igual al ingreso de t
-I70S1C42J1V1,2,50.9,continuidad (modelo)
-I70S1C42J1V1,3,43.6,continuidad (modelo)
-I70S1C42J1V1,4,36.8,continuidad (modelo)
-I70S1C42J1V1,5,25.2,continuidad (modelo)
-I70S1C54J1V2,1,180.0,supuesto: igual al ingreso de t
-I70S1C54J1V2,2,159.1,continuidad (modelo)
-I70S1C54J1V2,3,136.2,continuidad (modelo)
-I70S1C54J1V2,4,138.7,continuidad (modelo)
-I70S1C54J1V2,5,39.8,continuidad (modelo)
-I71S1C38J1V1,1,43.0,supuesto: igual al ingreso de t
-I71S1C38J1V1,2,33.7,continuidad (modelo)
-I71S1C38J1V1,3,24.2,continuidad (modelo)
-I71S1C38J1V1,4,21.2,continuidad (modelo)
-I71S1C38J1V1,5,34.5,continuidad (modelo)
-I71S1C38J1V1,6,18.8,continuidad (modelo)
-I71S1C40J1V1,1,63.0,supuesto: igual al ingreso de t
-I71S1C40J1V1,2,54.4,continuidad (modelo)
-I71S1C40J1V1,3,36.1,continuidad (modelo)
-I71S1C40J1V1,4,44.4,continuidad (modelo)
-I71S1C40J1V1,5,34.0,continuidad (modelo)
-I72S5C505J1V1,1,45.0,supuesto: igual al ingreso de t
-I72S5C505J1V1,2,36.4,continuidad (modelo)
-I72S5C505J1V1,3,34.4,continuidad (modelo)
-I72S5C505J1V1,4,26.5,continuidad (modelo)
-I72S5C505J1V1,5,17.7,continuidad (modelo)
-I73S2C369J1V1,1,18.0,supuesto: igual al ingreso de t
-I73S2C369J1V1,2,14.8,continuidad (modelo)
-I73S2C369J1V1,3,17.4,continuidad (modelo)
-I73S2C369J1V1,4,20.3,continuidad (modelo)
-I73S2C369J1V1,5,11.6,continuidad (modelo)
-I74S1C29J1V1,1,17.0,supuesto: igual al ingreso de t
-I74S1C29J1V1,2,12.1,continuidad (modelo)
-I74S1C29J1V1,3,9.0,continuidad (modelo)
-I74S1C29J1V1,4,6.7,continuidad (modelo)
-I75S1C192J1V1,1,62.0,supuesto: igual al ingreso de t
-I75S1C192J1V1,2,50.9,continuidad (modelo)
-I75S1C192J1V1,3,29.2,continuidad (modelo)
-I75S1C192J1V1,4,38.3,continuidad (modelo)
-I76S1C294J1V2,1,49.0,supuesto: igual al ingreso de t
-I76S1C294J1V2,2,39.9,continuidad (modelo)
-I76S1C294J1V2,3,39.0,continuidad (modelo)
-I76S1C294J1V2,4,27.1,continuidad (modelo)
-I76S1C294J1V2,5,36.9,continuidad (modelo)
-I76S1C31J1V1,1,31.0,supuesto: igual al ingreso de t
-I76S1C31J1V1,2,24.9,continuidad (modelo)
-I76S1C31J1V1,3,13.0,continuidad (modelo)
-I76S1C31J1V1,4,16.2,continuidad (modelo)
-I76S1C31J1V1,5,9.4,continuidad (modelo)
-I77S1C162J1V1,1,21.0,supuesto: igual al ingreso de t
-I77S1C162J1V1,2,17.9,continuidad (modelo)
-I77S1C162J1V1,3,18.7,continuidad (modelo)
-I77S1C162J1V1,4,20.3,continuidad (modelo)
-I77S1C162J1V1,5,11.3,continuidad (modelo)
-I78S1C11J1V1,1,90.0,supuesto: igual al ingreso de t
-I78S1C11J1V1,2,83.6,continuidad (modelo)
-I78S1C11J1V1,3,68.7,continuidad (modelo)
-I78S1C11J1V1,4,56.1,continuidad (modelo)
-I78S1C11J1V1,5,57.7,continuidad (modelo)
-I78S1C11J1V1,6,50.0,continuidad (modelo)
-I79S1C144J1V1,1,36.0,supuesto: igual al ingreso de t
-I79S1C144J1V1,2,24.7,continuidad (modelo)
-I80S1C49J1V1,1,15.0,supuesto: igual al ingreso de t
-I80S1C49J1V1,2,12.4,continuidad (modelo)
-I80S1C49J1V1,3,8.5,continuidad (modelo)
-I80S1C49J1V1,4,10.8,continuidad (modelo)
-I80S1C49J1V1,5,5.6,continuidad (modelo)
-I80S1C72J1V2,1,0.0,supuesto: igual al ingreso de t
-I80S1C72J1V2,6,5.3,continuidad (modelo)
-I81S1C223J2V3,1,58.0,supuesto: igual al ingreso de t
-I81S1C223J2V3,2,44.3,continuidad (modelo)
-I81S1C223J2V3,3,30.3,continuidad (modelo)
-I81S1C295J2V1,1,27.0,supuesto: igual al ingreso de t
-I81S1C295J2V1,2,15.2,continuidad (modelo)
-I81S1C295J2V1,3,10.5,continuidad (modelo)
-I81S1C450J1V1,1,48.0,supuesto: igual al ingreso de t
-I81S1C450J1V1,2,39.4,continuidad (modelo)
-I81S1C450J1V1,3,31.2,continuidad (modelo)
-I81S1C450J1V1,4,28.3,continuidad (modelo)
-I81S1C450J1V1,5,21.7,continuidad (modelo)
-I81S1C450J1V1,6,24.3,continuidad (modelo)
-I82S1C50J1V1,1,46.0,supuesto: igual al ingreso de t
-I82S1C50J1V1,2,39.0,continuidad (modelo)
-I82S1C50J1V1,3,34.1,continuidad (modelo)
-I82S1C50J1V1,4,25.6,continuidad (modelo)
-I82S1C50J1V1,5,16.6,continuidad (modelo)
-I84S6C485J1V1,1,68.0,supuesto: igual al ingreso de t
-I84S6C485J1V1,2,52.9,continuidad (modelo)
-I84S6C485J1V1,3,26.9,continuidad (modelo)
-I84S6C68J2V2,1,27.0,supuesto: igual al ingreso de t
-I84S6C68J2V2,2,17.4,continuidad (modelo)
-I84S6C68J2V2,3,8.9,continuidad (modelo)
-I85S4C213J1V1,1,41.0,supuesto: igual al ingreso de t
-I85S4C213J1V1,2,33.1,continuidad (modelo)
-I85S4C213J1V1,3,40.0,continuidad (modelo)
-I85S4C213J1V1,4,41.8,continuidad (modelo)
-I85S4C213J1V1,5,24.2,continuidad (modelo)
-I86S5C205J1V2,1,94.0,supuesto: igual al ingreso de t
-I86S5C205J1V2,2,79.3,continuidad (modelo)
-I86S5C205J1V2,3,56.6,continuidad (modelo)
-I86S5C205J1V2,4,58.2,continuidad (modelo)
-I86S5C205J1V2,5,59.6,continuidad (modelo)
-I86S5C342J1V1,1,71.0,supuesto: igual al ingreso de t
-I86S5C342J1V1,2,61.5,continuidad (modelo)
-I86S5C342J1V1,3,62.1,continuidad (modelo)
-I86S5C342J1V1,4,61.0,continuidad (modelo)
-I86S5C342J1V1,5,38.2,continuidad (modelo)
-I86S5C342J1V1,6,27.5,continuidad (modelo)
-I86S5C561J1V1,1,0.0,supuesto: igual al ingreso de t
-I86S5C561J1V1,5,8.7,continuidad (modelo)
-I86S5C568J1V2,1,11.0,supuesto: igual al ingreso de t
-I86S5C568J1V2,2,8.9,continuidad (modelo)
-I86S5C568J1V2,3,8.7,continuidad (modelo)
-I86S5C568J1V2,4,5.2,continuidad (modelo)
-I86S5C62J1V1,1,45.0,supuesto: igual al ingreso de t
-I86S5C62J1V1,2,35.5,continuidad (modelo)
-I86S5C62J1V1,3,41.8,continuidad (modelo)
-I86S5C62J1V1,4,39.8,continuidad (modelo)
-I86S5C62J1V1,5,27.9,continuidad (modelo)
-I87S1C240J1V1,1,62.0,supuesto: igual al ingreso de t
-I87S1C240J1V1,2,54.4,continuidad (modelo)
-I87S1C240J1V1,3,50.5,continuidad (modelo)
-I87S1C240J1V1,4,48.9,continuidad (modelo)
-I87S1C240J1V1,5,46.6,continuidad (modelo)
-I87S1C307J1V2,1,43.0,supuesto: igual al ingreso de t
-I87S1C307J1V2,2,37.8,continuidad (modelo)
-I87S1C307J1V2,3,31.5,continuidad (modelo)
-I87S1C307J1V2,4,30.0,continuidad (modelo)
-I87S1C307J1V2,5,20.5,continuidad (modelo)
-I87S1C39J1V1,1,0.0,supuesto: igual al ingreso de t
-I87S1C39J1V1,5,16.8,continuidad (modelo)
-I87S1C49J1V2,1,77.0,supuesto: igual al ingreso de t
-I87S1C49J1V2,2,64.9,continuidad (modelo)
-I87S1C49J1V2,3,45.6,continuidad (modelo)
-I87S1C49J1V2,4,63.7,continuidad (modelo)
-I87S1C49J1V2,5,41.5,continuidad (modelo)
-I87S1C49J1V2,6,60.7,continuidad (modelo)
-I87S1C4J1V1,1,62.0,supuesto: igual al ingreso de t
-I87S1C4J1V1,2,52.3,continuidad (modelo)
-I87S1C4J1V1,3,49.4,continuidad (modelo)
-I87S1C4J1V1,4,41.2,continuidad (modelo)
-I87S2C38J1V1,1,65.0,supuesto: igual al ingreso de t
-I87S2C38J1V1,2,58.9,continuidad (modelo)
-I87S2C38J1V1,3,60.0,continuidad (modelo)
-I87S2C38J1V1,4,54.0,continuidad (modelo)
-I87S2C38J1V1,5,52.9,continuidad (modelo)
-I87S3C260J1V1,1,20.0,supuesto: igual al ingreso de t
-I87S3C260J1V1,2,16.5,continuidad (modelo)
-I87S3C260J1V1,3,5.0,continuidad (modelo)
-I87S3C260J1V1,4,8.6,continuidad (modelo)
-I87S3C260J1V1,5,5.6,continuidad (modelo)
-I88S2C494J1V1,1,8.0,supuesto: igual al ingreso de t
-I88S2C494J1V1,2,4.9,continuidad (modelo)
-I88S3C94J1V3,1,73.0,supuesto: igual al ingreso de t
-I88S3C94J1V3,2,51.2,continuidad (modelo)
-I88S6C36J1V1,1,46.0,supuesto: igual al ingreso de t
-I88S6C36J1V1,2,36.8,continuidad (modelo)
-I88S6C36J1V1,3,37.5,continuidad (modelo)
-I88S6C36J1V1,4,24.3,continuidad (modelo)
-I88S6C36J1V1,5,16.9,continuidad (modelo)
-I88S6C60J1V2,1,85.0,supuesto: igual al ingreso de t
-I88S6C60J1V2,2,59.6,continuidad (modelo)
-I896S1C5J1V1,1,33.0,supuesto: igual al ingreso de t
-I896S1C5J1V1,2,28.9,continuidad (modelo)
-I896S1C5J1V1,3,18.9,continuidad (modelo)
-I896S1C5J1V1,4,18.8,continuidad (modelo)
-I896S1C5J1V1,5,16.3,continuidad (modelo)
-I89S1C11J1V1,1,225.0,supuesto: igual al ingreso de t
-I89S1C11J1V1,2,200.4,continuidad (modelo)
-I89S1C11J1V1,3,185.4,continuidad (modelo)
-I89S1C11J1V1,4,170.7,continuidad (modelo)
-I89S1C11J1V1,5,154.4,continuidad (modelo)
-I89S1C430J1V1,1,124.0,supuesto: igual al ingreso de t
-I89S1C430J1V1,2,100.2,continuidad (modelo)
-I89S1C430J1V1,3,84.0,continuidad (modelo)
-I89S1C430J1V1,4,68.7,continuidad (modelo)
-I89S1C4J1V1,1,32.0,supuesto: igual al ingreso de t
-I89S1C4J1V1,2,22.2,continuidad (modelo)
-I902S1C12J1V1,1,81.0,supuesto: igual al ingreso de t
-I902S1C12J1V1,2,63.1,continuidad (modelo)
-I902S1C12J1V1,3,20.8,continuidad (modelo)
-I902S1C9J2V1,1,40.0,supuesto: igual al ingreso de t
-I902S1C9J2V1,2,29.8,continuidad (modelo)
-I902S1C9J2V1,3,18.7,continuidad (modelo)
-I909S1C1J1V1,1,12.0,supuesto: igual al ingreso de t
-I909S1C1J1V1,2,8.6,continuidad (modelo)
-I909S1C1J1V1,3,4.6,continuidad (modelo)
-I90S1C147J1V1,1,50.0,supuesto: igual al ingreso de t
-I90S1C147J1V1,2,40.9,continuidad (modelo)
-I90S1C147J1V1,3,24.7,continuidad (modelo)
-I90S1C147J1V1,4,16.3,continuidad (modelo)
-I90S1C147J1V1,5,23.0,continuidad (modelo)
-I90S1C147J1V1,6,21.4,continuidad (modelo)
-I90S1C511J1V1,1,55.0,supuesto: igual al ingreso de t
-I90S1C511J1V1,2,46.3,continuidad (modelo)
-I90S1C511J1V1,3,31.3,continuidad (modelo)
-I90S1C511J1V1,4,26.1,continuidad (modelo)
-I90S1C511J1V1,5,30.1,continuidad (modelo)
-I90S1C723J1V1,1,46.0,supuesto: igual al ingreso de t
-I90S1C723J1V1,2,32.0,continuidad (modelo)
-I90S1C739J1V1,1,10.0,supuesto: igual al ingreso de t
-I90S1C739J1V1,2,7.1,continuidad (modelo)
-I90S2C130J1V1,1,92.0,supuesto: igual al ingreso de t
-I90S2C130J1V1,2,83.3,continuidad (modelo)
-I90S2C130J1V1,3,68.3,continuidad (modelo)
-I90S2C130J1V1,4,68.9,continuidad (modelo)
-I90S2C130J1V1,5,56.3,continuidad (modelo)
-I910S4C8J2V1,1,37.0,supuesto: igual al ingreso de t
-I910S4C8J2V1,2,21.6,continuidad (modelo)
-I911S1C5J1V1,1,12.0,supuesto: igual al ingreso de t
-I911S1C5J1V1,2,7.1,continuidad (modelo)
-I911S1C5J1V1,3,5.1,continuidad (modelo)
-I911S2C12J2V1,1,29.0,supuesto: igual al ingreso de t
-I911S2C12J2V1,2,16.0,continuidad (modelo)
-I911S2C12J2V1,3,3.2,continuidad (modelo)
-I911S3C10J2V1,1,62.0,supuesto: igual al ingreso de t
-I911S3C10J2V1,2,42.0,continuidad (modelo)
-I912S10C4J2V1,1,34.0,supuesto: igual al ingreso de t
-I912S10C4J2V1,2,18.9,continuidad (modelo)
-I913S1C10J1V1,1,29.0,supuesto: igual al ingreso de t
-I913S1C10J1V1,2,19.5,continuidad (modelo)
-I913S1C10J1V1,3,9.3,continuidad (modelo)
-I914S1C3J2V1,1,24.0,supuesto: igual al ingreso de t
-I914S1C3J2V1,2,18.0,continuidad (modelo)
-I914S1C3J2V1,3,9.7,continuidad (modelo)
-I916S2C2J1V1,1,18.0,supuesto: igual al ingreso de t
-I916S2C2J1V1,2,12.3,continuidad (modelo)
-I916S2C3J2V1,1,30.0,supuesto: igual al ingreso de t
-I916S2C3J2V1,2,19.3,continuidad (modelo)
-I916S2C3J2V1,3,10.7,continuidad (modelo)
-I916S2C5J2V1,1,37.0,supuesto: igual al ingreso de t
-I916S2C5J2V1,2,24.8,continuidad (modelo)
-I916S2C5J2V1,3,8.2,continuidad (modelo)
-I917S1C11J2V1,1,15.0,supuesto: igual al ingreso de t
-I917S1C11J2V1,2,9.5,continuidad (modelo)
-I917S4C2J2V1,1,11.0,supuesto: igual al ingreso de t
-I917S4C2J2V1,2,7.0,continuidad (modelo)
-I917S4C2J2V1,3,10.0,continuidad (modelo)
-I918S3C19J2V1,1,16.0,supuesto: igual al ingreso de t
-I918S3C19J2V1,2,10.1,continuidad (modelo)
-I919S1C10J2V1,1,34.0,supuesto: igual al ingreso de t
-I919S1C10J2V1,2,23.3,continuidad (modelo)
-I919S1C10J2V1,3,22.5,continuidad (modelo)
-I91S1C567J1V1,1,63.0,supuesto: igual al ingreso de t
-I91S1C567J1V1,2,47.8,continuidad (modelo)
-I91S1C567J1V1,3,30.3,continuidad (modelo)
-I91S1C79J1V2,1,24.0,supuesto: igual al ingreso de t
-I91S1C79J1V2,2,18.6,continuidad (modelo)
-I91S1C79J1V2,3,9.4,continuidad (modelo)
-I91S1C79J1V2,4,10.8,continuidad (modelo)
-I91S1C79J1V2,5,5.8,continuidad (modelo)
-I91S2C104J1V1,1,32.0,supuesto: igual al ingreso de t
-I91S2C104J1V1,2,27.8,continuidad (modelo)
-I91S2C104J1V1,3,36.9,continuidad (modelo)
-I91S2C104J1V1,4,31.3,continuidad (modelo)
-I91S2C104J1V1,5,35.3,continuidad (modelo)
-I920S1C9J2V1,1,9.0,supuesto: igual al ingreso de t
-I920S1C9J2V1,2,5.7,continuidad (modelo)
-I92S1C184J1V2,1,65.0,supuesto: igual al ingreso de t
-I92S1C184J1V2,2,55.4,continuidad (modelo)
-I92S1C184J1V2,3,53.3,continuidad (modelo)
-I92S1C184J1V2,4,48.8,continuidad (modelo)
-I92S1C184J1V2,5,47.6,continuidad (modelo)
-I92S1C184J1V2,6,29.5,continuidad (modelo)
-I93S1C24J1V2,1,83.0,supuesto: igual al ingreso de t
-I93S1C24J1V2,2,70.4,continuidad (modelo)
-I93S1C24J1V2,3,58.3,continuidad (modelo)
-I93S1C31J1V1,1,90.0,supuesto: igual al ingreso de t
-I93S1C31J1V1,2,81.5,continuidad (modelo)
-I93S1C31J1V1,3,73.1,continuidad (modelo)
-I93S1C31J1V1,4,46.4,continuidad (modelo)
-I93S1C31J1V1,5,51.3,continuidad (modelo)
-I93S2C385J1V1,1,19.0,supuesto: igual al ingreso de t
-I93S2C385J1V1,2,12.1,continuidad (modelo)
-I93S3C387J2V1,1,13.0,supuesto: igual al ingreso de t
-I93S3C387J2V1,2,8.2,continuidad (modelo)
-I93S3C387J2V1,3,4.8,continuidad (modelo)
-I93S3C59J1V1,1,105.0,supuesto: igual al ingreso de t
-I93S3C59J1V1,2,81.1,continuidad (modelo)
-I93S3C59J1V1,3,48.3,continuidad (modelo)
-I94S1C502J1V1,1,15.0,supuesto: igual al ingreso de t
-I94S1C502J1V1,2,12.4,continuidad (modelo)
-I94S1C502J1V1,3,12.2,continuidad (modelo)
-I94S1C502J1V1,4,11.2,continuidad (modelo)
-I9S9C32J1V1,1,68.0,supuesto: igual al ingreso de t
-I9S9C32J1V1,2,59.0,continuidad (modelo)
-I9S9C32J1V1,3,61.7,continuidad (modelo)
-I9S9C32J1V1,4,30.2,continuidad (modelo)
-I9S9C32J1V1,5,38.2,continuidad (modelo)
+programa,anio_t1,anio_estudio_t1,cupos_esperados,origen,filas_excluidas
+I10S7C156J1V2,2026,1,152.0,supuesto: igual al ingreso de t,0
+I10S7C156J1V2,2026,2,125.9,continuidad (modelo),0
+I10S7C156J1V2,2026,3,111.7,continuidad (modelo),0
+I10S7C156J1V2,2026,4,79.1,continuidad (modelo),0
+I10S7C156J1V2,2026,5,65.6,continuidad (modelo),0
+I10S7C156J1V2,2026,6,66.4,continuidad (modelo),0
+I10S7C800J4V1,2026,1,61.0,supuesto: igual al ingreso de t,0
+I10S7C800J4V1,2026,2,41.5,continuidad (modelo),0
+I10S7C800J4V1,2026,3,23.0,continuidad (modelo),0
+I13S10C34J1V1,2026,1,43.0,supuesto: igual al ingreso de t,0
+I13S10C34J1V1,2026,2,35.4,continuidad (modelo),0
+I13S10C34J1V1,2026,3,34.5,continuidad (modelo),0
+I13S10C34J1V1,2026,4,36.5,continuidad (modelo),0
+I13S10C34J1V1,2026,5,31.8,continuidad (modelo),0
+I13S10C9J1V1,2026,1,46.0,supuesto: igual al ingreso de t,0
+I13S10C9J1V1,2026,2,34.3,continuidad (modelo),0
+I13S10C9J1V1,2026,3,23.3,continuidad (modelo),0
+I13S11C34J1V1,2026,1,42.0,supuesto: igual al ingreso de t,0
+I13S11C34J1V1,2026,2,34.6,continuidad (modelo),0
+I13S11C34J1V1,2026,3,31.7,continuidad (modelo),0
+I13S11C34J1V1,2026,4,31.8,continuidad (modelo),0
+I13S11C34J1V1,2026,5,25.2,continuidad (modelo),0
+I13S4C9J1V1,2026,1,36.0,supuesto: igual al ingreso de t,0
+I13S4C9J1V1,2026,2,29.0,continuidad (modelo),0
+I13S4C9J1V1,2026,3,23.5,continuidad (modelo),0
+I13S4C9J1V1,2026,4,23.4,continuidad (modelo),0
+I13S4C9J1V1,2026,5,16.5,continuidad (modelo),0
+I13S5C378J1V1,2026,1,43.0,supuesto: igual al ingreso de t,0
+I13S5C378J1V1,2026,2,31.8,continuidad (modelo),0
+I17S2C58J3V1,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I17S2C58J3V1,2026,3,7.3,continuidad (modelo),0
+I17S2C58J3V1,2026,4,4.1,continuidad (modelo),0
+I19S4C344J4V2,2026,1,62.0,supuesto: igual al ingreso de t,0
+I19S4C344J4V2,2026,2,40.8,continuidad (modelo),0
+I19S4C344J4V2,2026,3,30.6,continuidad (modelo),0
+I19S4C38J1V2,2026,1,56.0,supuesto: igual al ingreso de t,0
+I19S4C38J1V2,2026,2,44.5,continuidad (modelo),0
+I19S4C38J1V2,2026,3,43.6,continuidad (modelo),0
+I19S4C38J1V2,2026,4,27.1,continuidad (modelo),0
+I19S4C38J1V2,2026,5,5.2,continuidad (modelo),0
+I19S4C5J1V1,2026,1,67.0,supuesto: igual al ingreso de t,0
+I19S4C5J1V1,2026,2,54.4,continuidad (modelo),0
+I19S4C5J1V1,2026,3,40.5,continuidad (modelo),0
+I19S4C5J1V1,2026,4,29.8,continuidad (modelo),0
+I19S6C37J3V1,2026,1,39.0,supuesto: igual al ingreso de t,0
+I19S6C37J3V1,2026,2,29.1,continuidad (modelo),0
+I19S6C37J3V1,2026,3,19.2,continuidad (modelo),0
+I19S6C37J3V1,2026,4,21.1,continuidad (modelo),0
+I19S6C37J3V1,2026,5,4.5,continuidad (modelo),0
+I19S6C98J1V1,2026,1,87.0,supuesto: igual al ingreso de t,0
+I19S6C98J1V1,2026,2,71.7,continuidad (modelo),0
+I19S6C98J1V1,2026,3,63.6,continuidad (modelo),0
+I19S6C98J1V1,2026,4,45.3,continuidad (modelo),0
+I19S6C98J1V1,2026,5,14.6,continuidad (modelo),0
+I1S1C250J4V2,2026,1,16.0,supuesto: igual al ingreso de t,0
+I1S1C250J4V2,2026,2,8.6,continuidad (modelo),0
+I1S1C250J4V2,2026,3,23.2,continuidad (modelo),0
+I20S1C115J4V1,2026,1,104.0,supuesto: igual al ingreso de t,0
+I20S1C115J4V1,2026,2,74.0,continuidad (modelo),0
+I20S1C115J4V1,2026,3,21.8,continuidad (modelo),0
+I20S1C22J1V1,2026,1,247.0,supuesto: igual al ingreso de t,0
+I20S1C22J1V1,2026,2,204.8,continuidad (modelo),0
+I20S1C22J1V1,2026,3,171.1,continuidad (modelo),0
+I20S1C22J1V1,2026,4,122.9,continuidad (modelo),0
+I20S1C22J1V1,2026,5,86.5,continuidad (modelo),0
+I20S1C22J1V1,2026,6,90.1,continuidad (modelo),0
+I20S1C27J2V2,2026,1,17.0,supuesto: igual al ingreso de t,0
+I20S1C27J2V2,2026,2,12.8,continuidad (modelo),0
+I20S1C27J2V2,2026,3,8.1,continuidad (modelo),0
+I20S1C27J2V2,2026,4,22.5,continuidad (modelo),0
+I20S1C27J2V2,2026,5,15.3,continuidad (modelo),0
+I20S1C6J1V1,2026,1,290.0,supuesto: igual al ingreso de t,0
+I20S1C6J1V1,2026,2,240.5,continuidad (modelo),0
+I20S1C6J1V1,2026,3,214.0,continuidad (modelo),0
+I20S1C6J1V1,2026,4,188.8,continuidad (modelo),0
+I20S1C6J1V1,2026,5,157.3,continuidad (modelo),0
+I20S1C6J2V2,2026,1,65.0,supuesto: igual al ingreso de t,0
+I20S1C6J2V2,2026,2,48.3,continuidad (modelo),0
+I20S1C6J2V2,2026,3,34.3,continuidad (modelo),0
+I20S1C6J2V2,2026,4,45.9,continuidad (modelo),0
+I20S1C6J2V2,2026,5,32.6,continuidad (modelo),0
+I20S1C71J2V3,2026,1,45.0,supuesto: igual al ingreso de t,0
+I20S1C71J2V3,2026,2,33.0,continuidad (modelo),0
+I20S1C71J2V3,2026,3,52.2,continuidad (modelo),0
+I20S2C21J1V1,2026,1,350.0,supuesto: igual al ingreso de t,0
+I20S2C21J1V1,2026,2,278.3,continuidad (modelo),0
+I20S2C21J1V1,2026,3,226.2,continuidad (modelo),0
+I20S2C21J1V1,2026,4,226.9,continuidad (modelo),0
+I20S2C21J1V1,2026,5,201.3,continuidad (modelo),0
+I20S3C329J1V1,2026,1,66.0,supuesto: igual al ingreso de t,0
+I20S3C329J1V1,2026,2,53.6,continuidad (modelo),0
+I20S3C329J1V1,2026,3,30.3,continuidad (modelo),0
+I20S4C116J1V1,2026,1,44.0,supuesto: igual al ingreso de t,0
+I20S4C116J1V1,2026,2,32.5,continuidad (modelo),0
+I20S4C116J1V1,2026,3,19.2,continuidad (modelo),0
+I20S4C28J1V1,2026,1,16.0,supuesto: igual al ingreso de t,0
+I20S4C28J1V1,2026,2,11.6,continuidad (modelo),0
+I20S4C28J1V1,2026,3,7.3,continuidad (modelo),0
+I20S4C28J1V1,2026,4,12.8,continuidad (modelo),0
+I20S4C6J1V1,2026,1,96.0,supuesto: igual al ingreso de t,0
+I20S4C6J1V1,2026,2,79.6,continuidad (modelo),0
+I20S4C6J1V1,2026,3,76.9,continuidad (modelo),0
+I20S4C6J1V1,2026,4,76.7,continuidad (modelo),0
+I20S4C6J1V1,2026,5,36.6,continuidad (modelo),0
+I22S1C108J1V2,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I22S1C108J1V2,2026,4,18.9,continuidad (modelo),0
+I22S1C337J4V1,2026,1,30.0,supuesto: igual al ingreso de t,0
+I22S1C337J4V1,2026,2,20.2,continuidad (modelo),0
+I31S1C1J2V1,2026,1,37.0,supuesto: igual al ingreso de t,0
+I31S1C1J2V1,2026,2,28.9,continuidad (modelo),0
+I31S1C1J2V1,2026,3,21.8,continuidad (modelo),0
+I31S1C1J2V1,2026,4,12.6,continuidad (modelo),0
+I31S1C1J2V1,2026,5,11.8,continuidad (modelo),0
+I31S1C448J1V1,2026,1,52.0,supuesto: igual al ingreso de t,0
+I31S1C448J1V1,2026,2,41.8,continuidad (modelo),0
+I31S1C448J1V1,2026,3,38.0,continuidad (modelo),0
+I31S1C47J1V1,2026,1,77.0,supuesto: igual al ingreso de t,0
+I31S1C47J1V1,2026,2,63.8,continuidad (modelo),0
+I31S1C47J1V1,2026,3,52.4,continuidad (modelo),0
+I31S1C47J1V1,2026,4,55.7,continuidad (modelo),0
+I31S1C47J1V1,2026,5,48.5,continuidad (modelo),0
+I31S1C483J2V1,2026,1,20.0,supuesto: igual al ingreso de t,0
+I31S1C483J2V1,2026,2,13.9,continuidad (modelo),0
+I31S2C12J2V1,2026,1,99.0,supuesto: igual al ingreso de t,0
+I31S2C12J2V1,2026,2,74.6,continuidad (modelo),0
+I31S2C12J2V1,2026,3,65.1,continuidad (modelo),0
+I31S2C12J2V1,2026,4,49.6,continuidad (modelo),0
+I31S2C12J2V1,2026,5,39.2,continuidad (modelo),0
+I31S2C155J1V1,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I31S2C155J1V1,2026,5,26.7,continuidad (modelo),0
+I31S2C15J1V1,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I31S2C15J1V1,2026,4,43.5,continuidad (modelo),0
+I31S2C15J1V1,2026,5,30.8,continuidad (modelo),0
+I31S3C15J1V2,2026,1,47.0,supuesto: igual al ingreso de t,0
+I31S3C15J1V2,2026,2,37.8,continuidad (modelo),0
+I31S3C15J1V2,2026,3,41.6,continuidad (modelo),0
+I39S2C180J2V2,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I39S2C180J2V2,2026,3,4.5,continuidad (modelo),0
+I39S6C238J2V2,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I39S6C238J2V2,2026,3,7.6,continuidad (modelo),0
+I39S6C39J1V1,2026,1,34.0,supuesto: igual al ingreso de t,0
+I39S6C39J1V1,2026,2,27.9,continuidad (modelo),0
+I39S6C39J1V1,2026,3,42.8,continuidad (modelo),0
+I39S6C39J1V1,2026,4,37.3,continuidad (modelo),0
+I39S6C39J1V1,2026,5,16.3,continuidad (modelo),0
+I39S6C45J2V1,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I39S6C45J2V1,2026,3,6.5,continuidad (modelo),0
+I39S6C87J3V2,2026,1,55.0,supuesto: igual al ingreso de t,0
+I39S6C87J3V2,2026,2,36.3,continuidad (modelo),0
+I39S7C18J1V1,2026,1,82.0,supuesto: igual al ingreso de t,0
+I39S7C18J1V1,2026,2,68.0,continuidad (modelo),0
+I39S7C18J1V1,2026,3,54.8,continuidad (modelo),0
+I39S7C18J1V1,2026,4,54.8,continuidad (modelo),0
+I39S7C18J1V1,2026,5,46.3,continuidad (modelo),0
+I39S7C18J1V1,2026,6,40.8,continuidad (modelo),0
+I39S7C2J5V1,2026,1,25.0,supuesto: igual al ingreso de t,0
+I39S7C2J5V1,2026,2,17.9,continuidad (modelo),0
+I39S7C2J5V1,2026,3,18.7,continuidad (modelo),0
+I39S7C2J5V1,2026,4,21.6,continuidad (modelo),0
+I39S8C9J1V1,2026,1,56.0,supuesto: igual al ingreso de t,0
+I39S8C9J1V1,2026,2,45.9,continuidad (modelo),0
+I39S8C9J1V1,2026,3,64.2,continuidad (modelo),0
+I39S8C9J1V1,2026,4,36.7,continuidad (modelo),0
+I39S8C9J1V1,2026,5,21.4,continuidad (modelo),0
+I4S1C2J4V2,2026,1,38.0,supuesto: igual al ingreso de t,0
+I4S1C2J4V2,2026,2,27.1,continuidad (modelo),0
+I4S1C2J4V2,2026,3,44.7,continuidad (modelo),0
+I4S1C32J1V2,2026,1,45.0,supuesto: igual al ingreso de t,0
+I4S1C32J1V2,2026,2,36.3,continuidad (modelo),0
+I4S1C32J1V2,2026,3,35.7,continuidad (modelo),0
+I4S1C32J1V2,2026,4,16.3,continuidad (modelo),0
+I4S1C32J1V2,2026,5,8.0,continuidad (modelo),0
+I50S1C454J1V1,2026,1,55.0,supuesto: igual al ingreso de t,0
+I50S1C454J1V1,2026,2,40.6,continuidad (modelo),0
+I50S2C271J1V1,2026,1,88.0,supuesto: igual al ingreso de t,0
+I50S2C271J1V1,2026,2,72.4,continuidad (modelo),0
+I50S2C271J1V1,2026,3,72.4,continuidad (modelo),0
+I50S2C271J1V1,2026,4,70.6,continuidad (modelo),0
+I50S2C271J1V1,2026,5,81.5,continuidad (modelo),0
+I50S2C354J1V1,2026,1,42.0,supuesto: igual al ingreso de t,0
+I50S2C354J1V1,2026,2,34.0,continuidad (modelo),0
+I50S2C354J1V1,2026,3,23.3,continuidad (modelo),0
+I50S2C354J1V1,2026,4,31.8,continuidad (modelo),0
+I50S2C354J1V1,2026,5,29.0,continuidad (modelo),0
+I69S1C260J1V1,2026,1,48.0,supuesto: igual al ingreso de t,0
+I69S1C260J1V1,2026,2,39.3,continuidad (modelo),0
+I69S1C260J1V1,2026,3,37.1,continuidad (modelo),0
+I69S1C260J1V1,2026,4,23.5,continuidad (modelo),0
+I69S1C260J1V1,2026,5,32.8,continuidad (modelo),0
+I69S1C281J2V3,2026,1,7.0,supuesto: igual al ingreso de t,0
+I69S1C281J2V3,2026,2,4.6,continuidad (modelo),0
+I69S1C281J2V3,2026,3,7.4,continuidad (modelo),0
+I69S1C281J2V3,2026,4,7.4,continuidad (modelo),0
+I70S1C185J1V1,2026,1,100.0,supuesto: igual al ingreso de t,0
+I70S1C185J1V1,2026,2,81.2,continuidad (modelo),0
+I70S1C42J1V1,2026,1,59.0,supuesto: igual al ingreso de t,0
+I70S1C42J1V1,2026,2,48.7,continuidad (modelo),0
+I70S1C42J1V1,2026,3,42.8,continuidad (modelo),0
+I70S1C42J1V1,2026,4,36.5,continuidad (modelo),0
+I70S1C42J1V1,2026,5,24.5,continuidad (modelo),0
+I70S1C54J1V2,2026,1,180.0,supuesto: igual al ingreso de t,0
+I70S1C54J1V2,2026,2,147.6,continuidad (modelo),0
+I70S1C54J1V2,2026,3,132.1,continuidad (modelo),0
+I70S1C54J1V2,2026,4,133.4,continuidad (modelo),0
+I70S1C54J1V2,2026,5,13.6,continuidad (modelo),0
+I71S1C38J1V1,2026,1,43.0,supuesto: igual al ingreso de t,0
+I71S1C38J1V1,2026,2,35.1,continuidad (modelo),0
+I71S1C38J1V1,2026,3,25.8,continuidad (modelo),0
+I71S1C38J1V1,2026,4,22.4,continuidad (modelo),0
+I71S1C38J1V1,2026,5,37.2,continuidad (modelo),0
+I71S1C38J1V1,2026,6,19.2,continuidad (modelo),0
+I71S1C40J1V1,2026,1,63.0,supuesto: igual al ingreso de t,0
+I71S1C40J1V1,2026,2,52.0,continuidad (modelo),0
+I71S1C40J1V1,2026,3,35.0,continuidad (modelo),0
+I71S1C40J1V1,2026,4,43.9,continuidad (modelo),0
+I71S1C40J1V1,2026,5,32.8,continuidad (modelo),0
+I72S5C505J1V1,2026,1,45.0,supuesto: igual al ingreso de t,0
+I72S5C505J1V1,2026,2,37.0,continuidad (modelo),0
+I72S5C505J1V1,2026,3,35.8,continuidad (modelo),0
+I72S5C505J1V1,2026,4,28.2,continuidad (modelo),0
+I72S5C505J1V1,2026,5,19.0,continuidad (modelo),0
+I73S2C369J1V1,2026,1,18.0,supuesto: igual al ingreso de t,0
+I73S2C369J1V1,2026,2,13.6,continuidad (modelo),0
+I73S2C369J1V1,2026,3,17.1,continuidad (modelo),0
+I73S2C369J1V1,2026,4,21.2,continuidad (modelo),0
+I73S2C369J1V1,2026,5,11.0,continuidad (modelo),0
+I74S1C29J1V1,2026,1,17.0,supuesto: igual al ingreso de t,0
+I74S1C29J1V1,2026,2,12.2,continuidad (modelo),0
+I74S1C29J1V1,2026,3,8.8,continuidad (modelo),0
+I74S1C29J1V1,2026,4,7.2,continuidad (modelo),0
+I75S1C192J1V1,2026,1,62.0,supuesto: igual al ingreso de t,0
+I75S1C192J1V1,2026,2,50.5,continuidad (modelo),0
+I75S1C192J1V1,2026,3,30.3,continuidad (modelo),0
+I75S1C192J1V1,2026,4,39.9,continuidad (modelo),0
+I76S1C294J1V2,2026,1,49.0,supuesto: igual al ingreso de t,0
+I76S1C294J1V2,2026,2,40.2,continuidad (modelo),0
+I76S1C294J1V2,2026,3,41.7,continuidad (modelo),0
+I76S1C294J1V2,2026,4,28.3,continuidad (modelo),0
+I76S1C294J1V2,2026,5,37.3,continuidad (modelo),0
+I76S1C31J1V1,2026,1,31.0,supuesto: igual al ingreso de t,0
+I76S1C31J1V1,2026,2,24.9,continuidad (modelo),0
+I76S1C31J1V1,2026,3,13.8,continuidad (modelo),0
+I76S1C31J1V1,2026,4,16.6,continuidad (modelo),0
+I76S1C31J1V1,2026,5,9.6,continuidad (modelo),0
+I77S1C162J1V1,2026,1,21.0,supuesto: igual al ingreso de t,0
+I77S1C162J1V1,2026,2,16.8,continuidad (modelo),0
+I77S1C162J1V1,2026,3,18.2,continuidad (modelo),0
+I77S1C162J1V1,2026,4,20.0,continuidad (modelo),0
+I77S1C162J1V1,2026,5,10.9,continuidad (modelo),0
+I78S1C11J1V1,2026,1,90.0,supuesto: igual al ingreso de t,0
+I78S1C11J1V1,2026,2,74.7,continuidad (modelo),0
+I78S1C11J1V1,2026,3,64.7,continuidad (modelo),0
+I78S1C11J1V1,2026,4,52.0,continuidad (modelo),0
+I78S1C11J1V1,2026,5,53.0,continuidad (modelo),0
+I78S1C11J1V1,2026,6,45.7,continuidad (modelo),0
+I79S1C144J1V1,2026,1,36.0,supuesto: igual al ingreso de t,0
+I79S1C144J1V1,2026,2,26.0,continuidad (modelo),0
+I80S1C49J1V1,2026,1,15.0,supuesto: igual al ingreso de t,0
+I80S1C49J1V1,2026,2,11.9,continuidad (modelo),0
+I80S1C49J1V1,2026,3,8.6,continuidad (modelo),0
+I80S1C49J1V1,2026,4,10.8,continuidad (modelo),0
+I80S1C49J1V1,2026,5,5.4,continuidad (modelo),0
+I80S1C72J1V2,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I80S1C72J1V2,2026,6,5.1,continuidad (modelo),0
+I81S1C223J2V3,2026,1,58.0,supuesto: igual al ingreso de t,0
+I81S1C223J2V3,2026,2,43.2,continuidad (modelo),0
+I81S1C223J2V3,2026,3,31.5,continuidad (modelo),0
+I81S1C295J2V1,2026,1,27.0,supuesto: igual al ingreso de t,0
+I81S1C295J2V1,2026,2,18.4,continuidad (modelo),0
+I81S1C295J2V1,2026,3,13.1,continuidad (modelo),0
+I81S1C450J1V1,2026,1,48.0,supuesto: igual al ingreso de t,0
+I81S1C450J1V1,2026,2,39.5,continuidad (modelo),0
+I81S1C450J1V1,2026,3,31.0,continuidad (modelo),0
+I81S1C450J1V1,2026,4,23.2,continuidad (modelo),0
+I81S1C450J1V1,2026,5,20.7,continuidad (modelo),0
+I81S1C450J1V1,2026,6,23.1,continuidad (modelo),0
+I82S1C50J1V1,2026,1,46.0,supuesto: igual al ingreso de t,0
+I82S1C50J1V1,2026,2,37.5,continuidad (modelo),0
+I82S1C50J1V1,2026,3,34.1,continuidad (modelo),0
+I82S1C50J1V1,2026,4,26.2,continuidad (modelo),0
+I82S1C50J1V1,2026,5,16.2,continuidad (modelo),0
+I84S6C485J1V1,2026,1,68.0,supuesto: igual al ingreso de t,0
+I84S6C485J1V1,2026,2,54.2,continuidad (modelo),0
+I84S6C485J1V1,2026,3,29.3,continuidad (modelo),0
+I84S6C68J2V2,2026,1,27.0,supuesto: igual al ingreso de t,0
+I84S6C68J2V2,2026,2,18.3,continuidad (modelo),0
+I84S6C68J2V2,2026,3,9.4,continuidad (modelo),0
+I85S4C213J1V1,2026,1,41.0,supuesto: igual al ingreso de t,0
+I85S4C213J1V1,2026,2,33.6,continuidad (modelo),0
+I85S4C213J1V1,2026,3,41.8,continuidad (modelo),0
+I85S4C213J1V1,2026,4,43.4,continuidad (modelo),0
+I85S4C213J1V1,2026,5,24.5,continuidad (modelo),0
+I86S5C205J1V2,2026,1,94.0,supuesto: igual al ingreso de t,0
+I86S5C205J1V2,2026,2,77.4,continuidad (modelo),0
+I86S5C205J1V2,2026,3,55.8,continuidad (modelo),0
+I86S5C205J1V2,2026,4,58.5,continuidad (modelo),0
+I86S5C205J1V2,2026,5,59.5,continuidad (modelo),0
+I86S5C342J1V1,2026,1,71.0,supuesto: igual al ingreso de t,0
+I86S5C342J1V1,2026,2,58.8,continuidad (modelo),0
+I86S5C342J1V1,2026,3,62.7,continuidad (modelo),0
+I86S5C342J1V1,2026,4,60.4,continuidad (modelo),0
+I86S5C342J1V1,2026,5,36.4,continuidad (modelo),0
+I86S5C342J1V1,2026,6,25.5,continuidad (modelo),0
+I86S5C561J1V1,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I86S5C561J1V1,2026,5,8.4,continuidad (modelo),0
+I86S5C568J1V2,2026,1,11.0,supuesto: igual al ingreso de t,0
+I86S5C568J1V2,2026,2,8.3,continuidad (modelo),0
+I86S5C568J1V2,2026,3,8.6,continuidad (modelo),0
+I86S5C568J1V2,2026,4,5.1,continuidad (modelo),0
+I86S5C62J1V1,2026,1,45.0,supuesto: igual al ingreso de t,0
+I86S5C62J1V1,2026,2,36.8,continuidad (modelo),0
+I86S5C62J1V1,2026,3,45.0,continuidad (modelo),0
+I86S5C62J1V1,2026,4,42.2,continuidad (modelo),0
+I86S5C62J1V1,2026,5,29.7,continuidad (modelo),0
+I87S1C240J1V1,2026,1,62.0,supuesto: igual al ingreso de t,0
+I87S1C240J1V1,2026,2,51.3,continuidad (modelo),0
+I87S1C240J1V1,2026,3,48.9,continuidad (modelo),0
+I87S1C240J1V1,2026,4,47.5,continuidad (modelo),0
+I87S1C240J1V1,2026,5,44.9,continuidad (modelo),0
+I87S1C307J1V2,2026,1,43.0,supuesto: igual al ingreso de t,0
+I87S1C307J1V2,2026,2,35.4,continuidad (modelo),0
+I87S1C307J1V2,2026,3,30.4,continuidad (modelo),0
+I87S1C307J1V2,2026,4,28.8,continuidad (modelo),0
+I87S1C307J1V2,2026,5,19.2,continuidad (modelo),0
+I87S1C39J1V1,2026,1,,sin dato: no hay fila de ingreso de t; entregar el ingreso proyectado,0
+I87S1C39J1V1,2026,5,16.9,continuidad (modelo),0
+I87S1C49J1V2,2026,1,77.0,supuesto: igual al ingreso de t,0
+I87S1C49J1V2,2026,2,63.0,continuidad (modelo),0
+I87S1C49J1V2,2026,3,45.9,continuidad (modelo),0
+I87S1C49J1V2,2026,4,64.7,continuidad (modelo),0
+I87S1C49J1V2,2026,5,41.8,continuidad (modelo),0
+I87S1C49J1V2,2026,6,61.0,continuidad (modelo),0
+I87S1C4J1V1,2026,1,62.0,supuesto: igual al ingreso de t,0
+I87S1C4J1V1,2026,2,50.9,continuidad (modelo),0
+I87S1C4J1V1,2026,3,48.4,continuidad (modelo),0
+I87S1C4J1V1,2026,4,41.7,continuidad (modelo),0
+I87S2C38J1V1,2026,1,65.0,supuesto: igual al ingreso de t,0
+I87S2C38J1V1,2026,2,53.8,continuidad (modelo),0
+I87S2C38J1V1,2026,3,57.7,continuidad (modelo),0
+I87S2C38J1V1,2026,4,51.3,continuidad (modelo),0
+I87S2C38J1V1,2026,5,50.3,continuidad (modelo),0
+I87S3C260J1V1,2026,1,20.0,supuesto: igual al ingreso de t,0
+I87S3C260J1V1,2026,2,14.6,continuidad (modelo),0
+I87S3C260J1V1,2026,3,4.8,continuidad (modelo),0
+I87S3C260J1V1,2026,4,8.5,continuidad (modelo),0
+I87S3C260J1V1,2026,5,5.3,continuidad (modelo),0
+I88S2C494J1V1,2026,1,8.0,supuesto: igual al ingreso de t,0
+I88S2C494J1V1,2026,2,5.4,continuidad (modelo),0
+I88S3C94J1V3,2026,1,73.0,supuesto: igual al ingreso de t,0
+I88S3C94J1V3,2026,2,56.4,continuidad (modelo),0
+I88S6C36J1V1,2026,1,46.0,supuesto: igual al ingreso de t,0
+I88S6C36J1V1,2026,2,37.6,continuidad (modelo),0
+I88S6C36J1V1,2026,3,39.1,continuidad (modelo),0
+I88S6C36J1V1,2026,4,25.8,continuidad (modelo),0
+I88S6C36J1V1,2026,5,17.2,continuidad (modelo),0
+I88S6C60J1V2,2026,1,85.0,supuesto: igual al ingreso de t,0
+I88S6C60J1V2,2026,2,68.4,continuidad (modelo),0
+I896S1C5J1V1,2026,1,33.0,supuesto: igual al ingreso de t,0
+I896S1C5J1V1,2026,2,26.7,continuidad (modelo),0
+I896S1C5J1V1,2026,3,18.3,continuidad (modelo),0
+I896S1C5J1V1,2026,4,18.1,continuidad (modelo),0
+I896S1C5J1V1,2026,5,15.4,continuidad (modelo),0
+I89S1C11J1V1,2026,1,225.0,supuesto: igual al ingreso de t,0
+I89S1C11J1V1,2026,2,186.6,continuidad (modelo),0
+I89S1C11J1V1,2026,3,183.7,continuidad (modelo),0
+I89S1C11J1V1,2026,4,167.4,continuidad (modelo),0
+I89S1C11J1V1,2026,5,151.0,continuidad (modelo),0
+I89S1C430J1V1,2026,1,124.0,supuesto: igual al ingreso de t,0
+I89S1C430J1V1,2026,2,99.9,continuidad (modelo),0
+I89S1C430J1V1,2026,3,87.2,continuidad (modelo),0
+I89S1C430J1V1,2026,4,73.4,continuidad (modelo),0
+I89S1C4J1V1,2026,1,32.0,supuesto: igual al ingreso de t,0
+I89S1C4J1V1,2026,2,23.0,continuidad (modelo),0
+I90S1C147J1V1,2026,1,50.0,supuesto: igual al ingreso de t,0
+I90S1C147J1V1,2026,2,40.7,continuidad (modelo),0
+I90S1C147J1V1,2026,3,26.2,continuidad (modelo),0
+I90S1C147J1V1,2026,4,16.4,continuidad (modelo),0
+I90S1C147J1V1,2026,5,23.5,continuidad (modelo),0
+I90S1C147J1V1,2026,6,21.7,continuidad (modelo),0
+I90S1C511J1V1,2026,1,55.0,supuesto: igual al ingreso de t,0
+I90S1C511J1V1,2026,2,45.4,continuidad (modelo),0
+I90S1C511J1V1,2026,3,31.9,continuidad (modelo),0
+I90S1C511J1V1,2026,4,26.3,continuidad (modelo),0
+I90S1C511J1V1,2026,5,29.5,continuidad (modelo),0
+I90S1C723J1V1,2026,1,46.0,supuesto: igual al ingreso de t,0
+I90S1C723J1V1,2026,2,33.0,continuidad (modelo),0
+I90S1C739J1V1,2026,1,10.0,supuesto: igual al ingreso de t,0
+I90S1C739J1V1,2026,2,6.3,continuidad (modelo),0
+I90S2C130J1V1,2026,1,92.0,supuesto: igual al ingreso de t,0
+I90S2C130J1V1,2026,2,76.3,continuidad (modelo),0
+I90S2C130J1V1,2026,3,66.4,continuidad (modelo),0
+I90S2C130J1V1,2026,4,65.7,continuidad (modelo),0
+I90S2C130J1V1,2026,5,53.0,continuidad (modelo),0
+I91S1C567J1V1,2026,1,63.0,supuesto: igual al ingreso de t,0
+I91S1C567J1V1,2026,2,50.3,continuidad (modelo),0
+I91S1C567J1V1,2026,3,33.1,continuidad (modelo),0
+I91S1C79J1V2,2026,1,24.0,supuesto: igual al ingreso de t,0
+I91S1C79J1V2,2026,2,17.6,continuidad (modelo),0
+I91S1C79J1V2,2026,3,9.6,continuidad (modelo),0
+I91S1C79J1V2,2026,4,11.4,continuidad (modelo),0
+I91S1C79J1V2,2026,5,5.9,continuidad (modelo),0
+I91S2C104J1V1,2026,1,32.0,supuesto: igual al ingreso de t,0
+I91S2C104J1V1,2026,2,26.4,continuidad (modelo),0
+I91S2C104J1V1,2026,3,37.4,continuidad (modelo),0
+I91S2C104J1V1,2026,4,30.6,continuidad (modelo),0
+I91S2C104J1V1,2026,5,34.7,continuidad (modelo),0
+I92S1C184J1V2,2026,1,65.0,supuesto: igual al ingreso de t,0
+I92S1C184J1V2,2026,2,52.9,continuidad (modelo),0
+I92S1C184J1V2,2026,3,52.8,continuidad (modelo),0
+I92S1C184J1V2,2026,4,49.2,continuidad (modelo),0
+I92S1C184J1V2,2026,5,47.4,continuidad (modelo),0
+I92S1C184J1V2,2026,6,29.1,continuidad (modelo),0
+I93S1C24J1V2,2026,1,83.0,supuesto: igual al ingreso de t,0
+I93S1C24J1V2,2026,2,67.6,continuidad (modelo),0
+I93S1C24J1V2,2026,3,59.2,continuidad (modelo),0
+I93S1C31J1V1,2026,1,90.0,supuesto: igual al ingreso de t,0
+I93S1C31J1V1,2026,2,74.5,continuidad (modelo),0
+I93S1C31J1V1,2026,3,70.7,continuidad (modelo),0
+I93S1C31J1V1,2026,4,42.8,continuidad (modelo),0
+I93S1C31J1V1,2026,5,49.1,continuidad (modelo),0
+I93S2C385J1V1,2026,1,19.0,supuesto: igual al ingreso de t,0
+I93S2C385J1V1,2026,2,13.5,continuidad (modelo),0
+I93S3C387J2V1,2026,1,13.0,supuesto: igual al ingreso de t,0
+I93S3C387J2V1,2026,2,8.8,continuidad (modelo),0
+I93S3C387J2V1,2026,3,5.7,continuidad (modelo),0
+I93S3C59J1V1,2026,1,105.0,supuesto: igual al ingreso de t,0
+I93S3C59J1V1,2026,2,84.6,continuidad (modelo),0
+I93S3C59J1V1,2026,3,54.1,continuidad (modelo),0
+I94S1C502J1V1,2026,1,15.0,supuesto: igual al ingreso de t,0
+I94S1C502J1V1,2026,2,11.4,continuidad (modelo),0
+I94S1C502J1V1,2026,3,11.9,continuidad (modelo),0
+I94S1C502J1V1,2026,4,10.8,continuidad (modelo),0
+I9S9C32J1V1,2026,1,68.0,supuesto: igual al ingreso de t,0
+I9S9C32J1V1,2026,2,55.8,continuidad (modelo),0
+I9S9C32J1V1,2026,3,62.7,continuidad (modelo),0
+I9S9C32J1V1,2026,4,29.5,continuidad (modelo),0
+I9S9C32J1V1,2026,5,37.2,continuidad (modelo),0
