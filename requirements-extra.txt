@@ -1,6 +1,4 @@
-# Solo para el notebook, regenerar la evidencia (ejecutar_validacion.py) y el informe (informe/)
+# Solo para el notebook, regenerar la evidencia (ejecutar_validacion.py) y las figuras del informe
 matplotlib
 ipywidgets
 jupyter
-reportlab
-python-docx
