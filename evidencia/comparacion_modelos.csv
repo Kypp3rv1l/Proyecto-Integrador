@@ -1,0 +1,5 @@
+modelo,2022,2023,2024,MAE_medio
+"Random Forest (300 árboles, prof. 5)",0.1081,0.0969,0.0876,0.0975
+Ridge (alpha = 1),0.1253,0.1041,0.0917,0.107
+Constante (mediana),0.1273,0.1151,0.0949,0.1125
+Persistencia (retención previa),0.132,0.1298,0.1084,0.1234

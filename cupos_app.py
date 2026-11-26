@@ -41,6 +41,7 @@ class Modelo:
         self.ref = self.contrato['referencias_numericas']
         self.min_n = self.contrato['min_n_cohorte']
         self.mae = self.contrato['prueba_2025']['MAE']
+        self.alcance = self.contrato.get('alcance', {'tipo_inst_1': ['Universidades']})
     def predict(self, X):
         with self._cerrojo:
             self.llamadas += 1
@@ -71,6 +72,7 @@ NUMERICOS = [
 CATEGORICOS = ['tipo_inst_1', 'area_conocimiento', 'region_sede', 'jornada', 'modalidad',
                'nivel_carrera_1', 'acreditada_carr', 'acreditada_inst', 'tipo_plan_carr']
 CAMPOS = [c[0] for c in NUMERICOS] + CATEGORICOS
+TIPOS_INSTITUCION = ['Universidades', 'Institutos Profesionales', 'Centros de Formación Técnica']
 
 def _numero(v):
     if not isinstance(v, (int, float, np.integer, np.floating)) or isinstance(v, (bool, np.bool_)):
@@ -117,8 +119,14 @@ def validar(m, entrada):
         r[nombre] = v
     for nombre in CATEGORICOS:
         v = entrada.get(nombre)
+        permitidos = m.alcance.get(nombre)
+        tipo_conocido = next((t for t in TIPOS_INSTITUCION if isinstance(v, str) and len(v) <= 200
+                              and _limpiar(v).casefold() == t.casefold()), None) if nombre == 'tipo_inst_1' else None
         if v is None:
             err.append(f'{nombre}: campo obligatorio ausente')
+        elif permitidos and tipo_conocido and tipo_conocido not in permitidos:
+            err.append(f'{nombre}: «{tipo_conocido}» está fuera del alcance del modelo, que solo estima continuidad en '
+                       f'{", ".join(permitidos).lower()}')
         elif m.canonica(nombre, v) is None:
             err.append(f'{nombre}: categoría no reconocida ({_corto(v)}); opciones: {", ".join(m.categorias[nombre])}')
         else:
@@ -156,8 +164,6 @@ def validar(m, entrada):
             adv.append(f"{nombre}={v:g} está fuera del rango visto en entrenamiento ({m.ref[col]['min']:g} a {m.ref[col]['max']:g}); el modelo extrapola")
     if r['n_prev'] and r['n_t'] > 1.5 * r['n_prev']:
         adv.append(f"n_t ({r['n_t']}) supera 1,5 veces n_prev ({r['n_prev']}): revisar que sea la misma cohorte")
-    if r['tipo_inst_1'] == 'Centros de Formación Técnica':
-        adv.append('en CFT el error de prueba 2025 fue alto (MAE 0,28) porque varios programas cambian o pierden su código al año siguiente; tomar la estimación con cautela')
     return err, adv, r
 
 def a_features(m, r):
@@ -189,33 +195,75 @@ def predecir(m, entrada):
                 anio_estudio_siguiente=r['anio_t'] - r['anio_ingreso'] + 2, error_tipico_pp=round(m.mae * 100, 1),
                 errores=[], advertencias=adv)
 
+CLAVE_COHORTE = ('programa', 'anio_t', 'anio_ingreso')
+
+def _clave(reg, prog):
+    def norm(v):
+        return int(v) if _numero(v) and float(v) == int(v) else v
+    return (prog, norm(reg.get('anio_t')), norm(reg.get('anio_ingreso')))
+
 def proyectar_lote(m, cohortes, ingreso_proyectado=None):
-    """cohortes: DataFrame con los campos del contrato y, opcional, la columna 'programa'.
-    Devuelve (detalle por cohorte, cupos esperados por programa y año de estudio en t+1).
-    Las filas inválidas se rechazan una a una; no afectan a las demás."""
-    columnas = ['fila', 'programa', 'anio_t', 'anio_ingreso', 'n_t', 'estado', 'continuidad', 'estudiantes_esperados', 'anio_estudio_t1', 'mensajes']
-    det = []
+    """Proyecta cupos para t+1 a partir de un DataFrame de cohortes (campos del contrato y, opcional, 'programa').
+
+    Una cohorte se identifica por programa + anio_t + anio_ingreso. Si esa combinación aparece más de una vez,
+    se rechazan todas sus filas: no hay forma de saber cuál es la correcta.
+    Ninguna fila rechazada o duplicada suma a un total.
+    El año 1 de t+1 (ingreso nuevo) no lo estima el modelo y se calcula aparte: se usa ingreso_proyectado
+    {programa: estudiantes} y, si falta, el ingreso de t del mismo programa, solo si esa fila fue aceptada.
+    Devuelve (detalle por fila, cupos por programa y año de estudio en t+1)."""
+    columnas = ['fila', 'programa', 'anio_t', 'anio_ingreso', 'n_t', 'estado', 'continuidad', 'estudiantes_esperados',
+                'anio_estudio_t1', 'base_ingreso', 'mensajes']
+    filas = []
     for i, reg in enumerate(cohortes.to_dict('records')):
         reg = {k: (None if (isinstance(v, float) and np.isnan(v)) or v is pd.NA else v) for k, v in reg.items()}
         prog = reg.pop('programa', 'programa_unico')
-        prog = 'sin_programa' if prog is None else str(prog)
-        res = predecir(m, reg)
+        filas.append((i, 'sin_programa' if prog is None else _limpiar(str(prog)), reg))
+    vistas = {}
+    for i, prog, reg in filas:
+        vistas.setdefault(_clave(reg, prog), []).append(i)
+
+    det = []
+    for i, prog, reg in filas:
+        repetidas = vistas[_clave(reg, prog)]
+        if len(repetidas) > 1:
+            res = dict(estado='DUPLICADA', errores=[
+                f'cohorte repetida (programa {prog}, anio_t {reg.get("anio_t")}, anio_ingreso {reg.get("anio_ingreso")}) '
+                f'en las filas {", ".join(map(str, repetidas))}: no se suma ninguna; dejar una sola'], advertencias=[])
+        else:
+            res = predecir(m, reg)
+        ok = res['estado'] == 'OK'
         det.append(dict(fila=i, programa=prog, anio_t=reg.get('anio_t'), anio_ingreso=reg.get('anio_ingreso'), n_t=reg.get('n_t'),
                         estado=res['estado'], continuidad=res.get('prediccion'), estudiantes_esperados=res.get('estudiantes_esperados'),
-                        anio_estudio_t1=res.get('anio_estudio_siguiente'), mensajes=' | '.join(res['errores'] + res['advertencias'])))
+                        anio_estudio_t1=res.get('anio_estudio_siguiente'),
+                        base_ingreso=bool(ok and reg.get('anio_ingreso') == reg.get('anio_t')),
+                        mensajes=' | '.join(res['errores'] + res['advertencias'])))
     det = pd.DataFrame(det, columns=columnas)
+    det['base_ingreso'] = det['base_ingreso'].astype(bool)
+
     ok = det[det.estado == 'OK']
-    cupos = ok.groupby(['programa', 'anio_estudio_t1']).estudiantes_esperados.sum().round(1).rename('cupos_esperados').reset_index()
+    cupos = (ok.groupby(['programa', 'anio_t', 'anio_estudio_t1']).estudiantes_esperados.sum().round(1)
+               .rename('cupos_esperados').reset_index())
     cupos['origen'] = 'continuidad (modelo)'
-    # año 1 de t+1: no lo predice el modelo; se toma un ingreso proyectado dado, o el ingreso observado en t como supuesto
     dado = ingreso_proyectado or {}
     nuevos = []
-    for prog, g in ok.groupby('programa'):
-        valor = dado.get(prog, g[g.anio_ingreso == g.anio_t].n_t.sum())
-        nuevos.append(dict(programa=prog, anio_estudio_t1=1, cupos_esperados=float(valor),
-                           origen='ingreso dado' if prog in dado else 'supuesto: igual al ingreso de t'))
-    cupos = pd.concat([cupos, pd.DataFrame(nuevos, columns=['programa', 'anio_estudio_t1', 'cupos_esperados', 'origen'])], ignore_index=True)
-    return det, cupos.sort_values(['programa', 'anio_estudio_t1']).reset_index(drop=True)
+    for (prog, anio), g in ok.groupby(['programa', 'anio_t']):
+        base = g[g.base_ingreso]
+        if prog in dado:
+            valor, origen = float(dado[prog]), 'ingreso dado'
+        elif len(base):
+            valor, origen = float(base.n_t.sum()), 'supuesto: igual al ingreso de t'
+        else:
+            excluida = det[(det.programa == prog) & (det.anio_t == anio) & (det.anio_ingreso == anio) & (det.estado != 'OK')]
+            motivo = 'la fila de ingreso de t fue rechazada' if len(excluida) else 'no hay fila de ingreso de t'
+            valor, origen = np.nan, f'sin dato: {motivo}; entregar el ingreso proyectado'
+        nuevos.append(dict(programa=prog, anio_t=anio, anio_estudio_t1=1, cupos_esperados=valor, origen=origen))
+    cupos = pd.concat([cupos, pd.DataFrame(nuevos, columns=['programa', 'anio_t', 'anio_estudio_t1', 'cupos_esperados', 'origen'])],
+                      ignore_index=True)
+    excluidas = det[det.estado != 'OK'].groupby('programa').size()
+    cupos['filas_excluidas'] = cupos.programa.map(excluidas).fillna(0).astype(int)
+    cupos.insert(1, 'anio_t1', cupos.pop('anio_t').astype(int) + 1)
+    cupos['anio_estudio_t1'] = cupos['anio_estudio_t1'].astype(int)
+    return det, cupos.sort_values(['programa', 'anio_t1', 'anio_estudio_t1']).reset_index(drop=True)
 
 def _mostrar(r):
     print('ESTADO:', r['estado'])
@@ -339,7 +387,7 @@ footer p{margin:0;max-width:70ch}
 </form>
 <aside class="panel" id="resultado" role="status" aria-live="polite" data-malos="%%MALOS%%">%%PANEL%%</aside>
 </main>
-<footer><p>Modelo Ridge entrenado con la matrícula SIES 2017–2026 (muestra del 4% de los programas). Apoya la planificación de cupos; no decide sobre personas.</p></footer>
+<footer><p>Modelo Random Forest entrenado con la matrícula universitaria SIES 2017–2026 (muestra del 4% de los programas). Apoya la planificación de cupos; no decide sobre personas.</p></footer>
 <script id="casos" type="application/json">%%CASOS%%</script>
 <script>
 (function () {
@@ -560,6 +608,9 @@ def main(argv=None):
         det.to_csv(os.path.join(a.salida, 'proyeccion_cohortes.csv'), index=False)
         cupos.to_csv(os.path.join(a.salida, 'cupos_esperados.csv'), index=False)
         print(det.estado.value_counts().to_string()); print(cupos.head(12).to_string(index=False))
+        sin = cupos.cupos_esperados.isna().sum()
+        if sin:
+            print(f'\naviso: {sin} programa(s) sin dato de ingreso para el año 1; ver la columna origen')
         print(f'\nescrito en {a.salida}/: proyeccion_cohortes.csv y cupos_esperados.csv')
 
 if __name__ == '__main__':

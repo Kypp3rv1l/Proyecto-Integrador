@@ -68,11 +68,17 @@ pred(G, 'región con carácter de ancho cero', {**BASE, 'region_sede': reg_ok + 
 t0 = time.time(); r = pred(G, 'región de 1 MB de texto', {**BASE, 'region_sede': 'A' * 1_000_000}, 'error')
 if r is not None: reg(G, '  -> el mensaje de error no debe repetir el 1 MB', max(len(m) for m in r['errores']) < 2000, f"largo del mensaje {max(len(m) for m in r['errores'])}")
 pred(G, 'emoji en categoría', {**BASE, 'jornada': '😀'}, 'error')
+# duplicados escritos de otra forma siguen siendo la misma cohorte
+G = 'lote'
+d, c = app.proyectar_lote(M, pd.DataFrame([{**BASE, 'programa': 'P1'}, {**BASE, 'programa': ' P1 ', 'anio_ingreso': float(BASE['anio_ingreso'])}]))
+reg(G, 'duplicado con espacios en programa y año como 2024.0', (d.estado == 'DUPLICADA').all() and len(c) == 0, str(d.estado.tolist()))
+d, c = app.proyectar_lote(M, pd.DataFrame([{**BASE, 'programa': 'P1'}, {**BASE, 'programa': 'P2'}]))
+reg(G, 'misma cohorte en programas distintos no es duplicado', (d.estado == 'OK').all(), str(d.estado.tolist()))
 # ---------- 4. consistencia
 G = 'consistencia'
-a = app.predecir(M, BASE); b = app.predecir(M, {**BASE, 'n_t': 10.0, 'anio_t': 2025.0})
+a = app.predecir(M, BASE); b = app.predecir(M, {**BASE, 'n_t': float(BASE['n_t']), 'anio_t': float(BASE['anio_t'])})
 reg(G, 'entero y float equivalente dan igual resultado', a['prediccion'] == b['prediccion'])
-u = app.predecir(M, BASE)['prediccion']; lote = app.proyectar_lote(M, pd.DataFrame([BASE] * 3))[0].continuidad
+u = app.predecir(M, BASE)['prediccion']; lote = app.proyectar_lote(M, pd.DataFrame([{**BASE, 'programa': f'P{i}'} for i in range(3)]))[0].continuidad
 reg(G, 'caso individual = fila de lote', np.allclose(lote, u, atol=1e-12))
 ent = copy.deepcopy(BASE); app.predecir(M, ent); reg(G, 'predecir no modifica la entrada', ent == BASE)
 base_sin = {k: BASE[k] for k in BASE}; app.validar(M, base_sin); reg(G, 'validar no modifica la entrada', base_sin == BASE)
@@ -117,6 +123,9 @@ tmp = tempfile.mkdtemp(); cols = list(BASE)
 def csv(nombre, texto, enc='utf-8'):
     p = os.path.join(tmp, nombre); open(p, 'w', encoding=enc, newline='').write(texto); return p
 fila = ','.join('' if BASE[c] is None else str(BASE[c]) for c in cols); enc_ = ','.join(cols)
+def con(**kw):
+    e = {**BASE, **kw}
+    return ','.join('' if e[c] is None else str(e[c]) for c in cols)
 def prueba_csv(nombre, ruta, espera_estado=None, extra=''):
     try:
         df = app._csv_a_df(ruta); d, c = app.proyectar_lote(M, df)
@@ -133,13 +142,13 @@ prueba_csv('CSV con saltos de línea de Windows', csv('d.csv', enc_ + '\r\n' + f
 prueba_csv('CSV en latin-1 (Excel antiguo)', csv('e.csv', enc_ + '\n' + fila + '\n', 'latin-1'), ['OK'])
 prueba_csv('CSV solo con encabezado', csv('f.csv', enc_ + '\n'))
 prueba_csv('CSV vacío', csv('g.csv', ''))
-prueba_csv('arancel con texto "abc" (debe rechazar, no imputar en silencio)', csv('h.csv', enc_ + '\n' + fila.replace('2000000.0', 'abc') + '\n'), ['RECHAZADA'])
-prueba_csv('arancel con formato chileno 2.000.000', csv('i.csv', enc_ + '\n' + fila.replace('2000000.0', '"2.000.000"') + '\n'), ['OK'])
-prueba_csv('arancel con símbolo $2000000', csv('j.csv', enc_ + '\n' + fila.replace('2000000.0', '$2000000') + '\n'))
-prueba_csv('n_t con texto "diez"', csv('k.csv', enc_ + '\n' + fila.replace(',10,', ',diez,', 1) + '\n'), ['RECHAZADA'])
+prueba_csv('arancel con texto "abc" (debe rechazar, no imputar en silencio)', csv('h.csv', enc_ + '\n' + con(arancel_anual_clp='abc') + '\n'), ['RECHAZADA'])
+prueba_csv('arancel con formato chileno 2.000.000', csv('i.csv', enc_ + '\n' + con(arancel_anual_clp='"2.000.000"') + '\n'), ['OK'])
+prueba_csv('arancel con símbolo $2000000', csv('j.csv', enc_ + '\n' + con(arancel_anual_clp='$2000000') + '\n'))
+prueba_csv('n_t con texto "diez"', csv('k.csv', enc_ + '\n' + con(n_t='diez') + '\n'), ['RECHAZADA'])
 prueba_csv('fila con menos columnas', csv('l.csv', enc_ + '\n' + ','.join(fila.split(',')[:5]) + '\n'))
 prueba_csv('fila con más columnas', csv('m.csv', enc_ + '\n' + fila + ',x,y,z\n'))
-prueba_csv('dos filas, una válida y una inválida', csv('n.csv', enc_ + '\n' + fila + '\n' + fila.replace(',10,', ',2,', 1) + '\n'), ['OK', 'RECHAZADA'])
+prueba_csv('dos filas, una válida y una inválida', csv('n.csv', enc_ + '\n' + fila + '\n' + con(n_t=2, anio_ingreso=BASE['anio_ingreso'] - 1) + '\n'), ['OK', 'RECHAZADA'])
 # ---------- 8. línea de comandos
 G = 'línea de comandos'
 def cli(nombre, args, espera_cod=None, no_traceback=True):

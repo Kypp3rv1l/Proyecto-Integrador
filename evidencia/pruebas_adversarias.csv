@@ -1,45 +1,47 @@
 grupo,caso,resultado,detalle
-tipos de dato,numpy int64/int32/float32/float64,Cumple,OK 0.519
+tipos de dato,numpy int64/int32/float32/float64,Cumple,OK 0.585
 tipos de dato,numpy bool_ en proporción,Cumple,"RECHAZADA prop_mujer: se espera un número (proporción), llegó np.True_"
 tipos de dato,Decimal en proporción,Cumple,"RECHAZADA prop_mujer: se espera un número (proporción), llegó Decimal('0.3')"
 tipos de dato,Fraction en proporción,Cumple,"RECHAZADA prop_mujer: se espera un número (proporción), llegó Fraction(3, 10)"
 tipos de dato,número complejo,Cumple,"RECHAZADA prop_mujer: se espera un número (proporción), llegó (1+2j)"
 tipos de dato,bytes en n_t,Cumple,"RECHAZADA n_t: se espera un número (estudiantes), llegó b'10'"
 tipos de dato,conjunto en n_t,Cumple,"RECHAZADA n_t: se espera un número (estudiantes), llegó {10}"
-tipos de dato,n_t entero escrito como float 10.0,Cumple,OK 0.519
-tipos de dato,anio_t como float 2025.0,Cumple,OK 0.519
+tipos de dato,n_t entero escrito como float 10.0,Cumple,OK 0.859
+tipos de dato,anio_t como float 2025.0,Cumple,OK 0.860
 tipos de dato,"n_t texto numérico ""10""",Cumple,"RECHAZADA n_t: se espera un número (estudiantes), llegó '10'"
-tipos de dato,OrderedDict como entrada,Cumple,OK 0.519
+tipos de dato,OrderedDict como entrada,Cumple,OK 0.860
 tipos de dato,pandas Series como entrada,Cumple,RECHAZADA la entrada debe ser un diccionario campo -> valor
 tipos de dato,claves que no son texto (mezcla int y str),Cumple,RECHAZADA 1: campo no reconocido | 2: campo no reconocido
 tipos de dato,claves tupla,Cumple,"RECHAZADA (1, 2): campo no reconocido"
-tipos de dato,orden de claves distinto,Cumple,OK 0.519
+tipos de dato,orden de claves distinto,Cumple,OK 0.860
 números extremos,n_t = 10**30,Cumple,"RECHAZADA n_t: debe ser entero (estudiantes), llegó 1000000000000000000000000000000 | prog_total_t: debe ser entero (estudiantes), llegó 1000000000000"
 números extremos,n_t = 1e308,Cumple,RECHAZADA n_t=1e+308: mayor que el máximo permitido (1000000 estudiantes) | prog_total_t=1e+308: mayor que el máximo permitido (1000000 estudiantes)
 números extremos,arancel = 1e308,Cumple,RECHAZADA arancel_anual_clp=1e+308: mayor que el máximo permitido (10000000000 pesos chilenos por año)
 números extremos,arancel = 1.7976931348623157e308 (máximo float),Cumple,RECHAZADA arancel_anual_clp=1.79769e+308: mayor que el máximo permitido (10000000000 pesos chilenos por año)
-números extremos,prop_mujer denormal 5e-324,Cumple,OK 0.501
+números extremos,prop_mujer denormal 5e-324,Cumple,OK 0.858
 números extremos,ret_prev = 1.0000000000000002 (justo sobre 1),Cumple,RECHAZADA ret_prev=1: mayor que el máximo permitido (1.0 proporción)
-números extremos,ret_prev = 0.9999999999999999,Cumple,OK 0.610
-números extremos,ret_prev = -0.0,Cumple,OK 0.460
+números extremos,ret_prev = 0.9999999999999999,Cumple,OK 0.860
+números extremos,ret_prev = -0.0,Cumple,OK 0.578
 números extremos,n_t = 4.999999999999999,Cumple,"RECHAZADA n_t: debe ser entero (estudiantes), llegó 4.999999999999999"
-números extremos,n_t = 5.0000000000000001 (igual a 5.0),Cumple,OK 0.523
-números extremos,edad_media = 14 y 90 (límites),Cumple,OK 0.684
-números extremos,edad_media = 90,Cumple,OK 0.016
-números extremos,dur_semestres = 20 con ingreso antiguo,Cumple,OK 0.546
+números extremos,n_t = 5.0000000000000001 (igual a 5.0),Cumple,OK 0.857
+números extremos,edad_media = 14 y 90 (límites),Cumple,OK 0.844
+números extremos,edad_media = 90,Cumple,OK 0.569
+números extremos,dur_semestres = 20 con ingreso antiguo,Cumple,OK 0.870
 números extremos,anio_ingreso = 1990 (mínimo) con dur 20 y anio_t 2025,Cumple,"RECHAZADA anio_ingreso: la cohorte cursa su año 36 de 10: no le queda un año nominal por delante, la continuidad mediría titulación y el modelo no apl"
-números extremos,anio_t = 2040 con ingreso 2039,Cumple,OK 0.519
-texto y Unicode,"región ""Valparaíso"" con tilde descompuesta (NFD, pegado desde Mac)",Cumple,OK 0.516
+números extremos,anio_t = 2040 con ingreso 2039,Cumple,OK 0.838
+texto y Unicode,"región ""Valparaíso"" con tilde descompuesta (NFD, pegado desde Mac)",Cumple,OK 0.860
 texto y Unicode,  -> debería aceptarse como válida (misma palabra),Cumple,OK
-texto y Unicode,región con espacio al final,Cumple,OK 0.519
-texto y Unicode,región con espacio inicial,Cumple,OK 0.519
-texto y Unicode,región en MAYÚSCULAS,Cumple,OK 0.519
-texto y Unicode,región con espacio de no separación (U+00A0),Cumple,OK 0.519
-texto y Unicode,región con carácter nulo,Cumple,"RECHAZADA region_sede: categoría no reconocida ('Metropolitana\x00'); opciones: Antofagasta, Arica y Parinacota, Atacama, Aysén, Biobío, Coquimbo, La "
-texto y Unicode,región con carácter de ancho cero,Cumple,"RECHAZADA region_sede: categoría no reconocida ('Metropolitana\u200b'); opciones: Antofagasta, Arica y Parinacota, Atacama, Aysén, Biobío, Coquimbo, L"
+texto y Unicode,región con espacio al final,Cumple,OK 0.860
+texto y Unicode,región con espacio inicial,Cumple,OK 0.860
+texto y Unicode,región en MAYÚSCULAS,Cumple,OK 0.860
+texto y Unicode,región con espacio de no separación (U+00A0),Cumple,OK 0.860
+texto y Unicode,región con carácter nulo,Cumple,"RECHAZADA region_sede: categoría no reconocida ('Valparaíso\x00'); opciones: Antofagasta, Arica y Parinacota, Atacama, Aysén, Biobío, Coquimbo, La Ara"
+texto y Unicode,región con carácter de ancho cero,Cumple,"RECHAZADA region_sede: categoría no reconocida ('Valparaíso\u200b'); opciones: Antofagasta, Arica y Parinacota, Atacama, Aysén, Biobío, Coquimbo, La A"
 texto y Unicode,región de 1 MB de texto,Cumple,RECHAZADA region_sede: categoría no reconocida ('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA… (1000002 caracteres)); opciones: Antofag
 texto y Unicode,  -> el mensaje de error no debe repetir el 1 MB,Cumple,largo del mensaje 321
 texto y Unicode,emoji en categoría,Cumple,"RECHAZADA jornada: categoría no reconocida ('😀'); opciones: A Distancia, Diurna, Otra, Semipresencial, Vespertina"
+lote,duplicado con espacios en programa y año como 2024.0,Cumple,"['DUPLICADA', 'DUPLICADA']"
+lote,misma cohorte en programas distintos no es duplicado,Cumple,"['OK', 'OK']"
 consistencia,entero y float equivalente dan igual resultado,Cumple,
 consistencia,caso individual = fila de lote,Cumple,
 consistencia,predecir no modifica la entrada,Cumple,
@@ -50,19 +52,19 @@ concurrencia,  -> resultados iguales a los secuenciales,Cumple,
 concurrencia,  -> el contador de llamadas coincide con las predicciones realizadas,Cumple,contado 200 de 200
 lote,tabla vacía con columnas,Cumple,"0 filas, estados {}"
 lote,tabla sin columnas,Cumple,"0 filas, estados {}"
-lote,todas las filas inválidas,Cumple,"3 filas, estados {'RECHAZADA': 3}"
-lote,falta la columna anio_t,Cumple,"2 filas, estados {'RECHAZADA': 2}"
+lote,todas las filas inválidas,Cumple,"3 filas, estados {'DUPLICADA': 3}"
+lote,falta la columna anio_t,Cumple,"2 filas, estados {'DUPLICADA': 2}"
 lote,sin columna programa,Cumple,"1 filas, estados {'OK': 1}"
 lote,programa con valores vacíos,Cumple,"2 filas, estados {'OK': 2}"
 lote,programa numérico,Cumple,"2 filas, estados {'OK': 2}"
-lote,filas duplicadas,Cumple,"5 filas, estados {'OK': 5}"
+lote,filas duplicadas,Cumple,"5 filas, estados {'DUPLICADA': 5}"
 lote,columnas extra,Cumple,"1 filas, estados {'RECHAZADA': 1}"
 lote,NaN en campos obligatorios,Cumple,"1 filas, estados {'RECHAZADA': 1}"
 lote,  -> debe rechazarse,Cumple,
 lote,NaN en categoría,Cumple,"1 filas, estados {'RECHAZADA': 1}"
 lote,  -> debe rechazarse,Cumple,
-lote,2.000 filas (tiempo),Cumple,"2000 filas, estados {'OK': 2000}"
-lote,  -> 2.000 filas en menos de 60 s,Cumple,12.9 s
+lote,2.000 filas (tiempo),Cumple,"2000 filas, estados {'DUPLICADA': 2000}"
+lote,  -> 2.000 filas en menos de 60 s,Cumple,0.2 s
 CSV,CSV normal,Cumple,estados ['OK']  
 CSV,CSV con BOM (Excel),Cumple,estados ['OK']  
 CSV,CSV con punto y coma (Excel en español),Cumple,estados ['OK']  
@@ -75,20 +77,20 @@ CSV,arancel con formato chileno 2.000.000,Cumple,estados ['OK']
 CSV,arancel con símbolo $2000000,Cumple,estados ['OK']  
 CSV,"n_t con texto ""diez""",Cumple,"estados ['RECHAZADA']  n_t: se espera un número (estudiantes), llegó 'diez'"
 CSV,fila con menos columnas,Cumple,estados ['RECHAZADA']  prog_total_t: campo obligatorio ausente | prop_mujer: campo obligatorio ausente | dur_semestres: cam
-CSV,fila con más columnas,Cumple,"estados ['RECHAZADA']  anio_t=18: menor que el mínimo permitido (2019 año) | anio_ingreso: debe ser entero (año), llegó 0.3"
+CSV,fila con más columnas,Cumple,"estados ['RECHAZADA']  anio_t=23: menor que el mínimo permitido (2019 año) | anio_ingreso: debe ser entero (año), llegó 0.9"
 CSV,"dos filas, una válida y una inválida",Cumple,"estados ['OK', 'RECHAZADA']  "
-línea de comandos,caso con archivo inexistente,Cumple,código 2 | ERROR: FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmps9v9hnff/no_existe.json'
+línea de comandos,caso con archivo inexistente,Cumple,código 2 | ERROR: FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpfz8v42_e/no_existe.json'
 línea de comandos,caso con JSON mal formado,Cumple,código 2 | ERROR: JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 17 (char 16)
 línea de comandos,caso con JSON que es una lista,Cumple,código 0 |   ERROR       : la entrada debe ser un diccionario campo -> valor
-línea de comandos,caso con JSON válido,Cumple,código 0 |   continuidad estimada: 0.519 | estudiantes esperados: 5.2 | año de estudio siguiente: 3 | error típico: ±13.3
-línea de comandos,lote con archivo inexistente,Cumple,código 2 | ERROR: FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmps9v9hnff/no.csv'
-línea de comandos,lote con salida en una ruta que es un archivo,Cumple,código 2 | ERROR: FileExistsError: [Errno 17] File exists: '/tmp/tmps9v9hnff/ok.json'
+línea de comandos,caso con JSON válido,Cumple,código 0 |   continuidad estimada: 0.860 | estudiantes esperados: 18.9 | año de estudio siguiente: 4 | error típico: ±7.2
+línea de comandos,lote con archivo inexistente,Cumple,código 2 | ERROR: FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpfz8v42_e/no.csv'
+línea de comandos,lote con salida en una ruta que es un archivo,Cumple,código 2 | ERROR: FileExistsError: [Errno 17] File exists: '/tmp/tmpfz8v42_e/ok.json'
 línea de comandos,sin subcomando,Cumple,código 2 | cupos_app.py: error: the following arguments are required: cmd
 línea de comandos,subcomando desconocido,Cumple,"código 2 | cupos_app.py: error: argument cmd: invalid choice: 'hola' (choose from 'demo', 'caso', 'lote', 'web')"
 integridad,modelo alterado en 1 byte,Cumple,RuntimeError: modelo_continuidad.joblib no coincide con la huella del contrato; regenerar con construir_modelo.py
 integridad,contrato alterado,Cumple,RuntimeError: modelo_continuidad.joblib no coincide con la huella del contrato; regenerar con construir_modelo.py
-integridad,falta el modelo,Cumple,FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpgnkfwz1z/modelo_continuidad.joblib'
-integridad,falta el contrato,Cumple,FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpe6xjd5qu/contrato_modelo.json'
+integridad,falta el modelo,Cumple,FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpxlm58o_p/modelo_continuidad.joblib'
+integridad,falta el contrato,Cumple,FileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpl2ihyb7l/contrato_modelo.json'
 integridad,modelo vacío,Cumple,RuntimeError: modelo_continuidad.joblib no coincide con la huella del contrato; regenerar con construir_modelo.py
 servidor web,cuerpo con bytes no UTF-8,Cumple,http 200; servidor sigue vivo: True
 servidor web,cuerpo de 5 MB,Cumple,http None; servidor sigue vivo: True

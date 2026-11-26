@@ -1,7 +1,7 @@
 {
- "descripcion": "Pipeline scikit-learn (ColumnTransformer + Ridge alpha=1) elegido en el PI-02; ajustado con cohortes de desarrollo t=2019-2024 de la muestra SIES 4%; no se reajusta al predecir",
+ "descripcion": "Pipeline scikit-learn (ColumnTransformer + Random Forest de 300 arboles, profundidad 5) elegido por menor MAE en la validacion 2022-2024; ajustado con cohortes universitarias de desarrollo t=2019-2024 de la muestra SIES 4%; no se reajusta al predecir",
  "objetivo": "proporcion de la cohorte (programa x anio de ingreso) matriculada en t que sigue en el MISMO programa en t+1",
- "filas_entrenamiento": 4731,
+ "filas_entrenamiento": 2312,
  "min_n_cohorte": 5,
  "features": [
   "n_t",
@@ -27,8 +27,6 @@
  ],
  "categorias_permitidas": {
   "tipo_inst_1": [
-   "Centros de Formación Técnica",
-   "Institutos Profesionales",
    "Universidades"
   ],
   "area_conocimiento": [
@@ -82,8 +80,7 @@
   ],
   "acreditada_carr": [
    "ACREDITADA",
-   "NO ACREDITADA",
-   "SIN INFORMACIÓN"
+   "NO ACREDITADA"
   ],
   "acreditada_inst": [
    "ACREDITADA",
@@ -99,155 +96,163 @@
  "referencias_numericas": {
   "n_t": {
    "p01": 5.0,
-   "p99": 247.0,
+   "p99": 230.44999999999936,
    "min": 5.0,
-   "max": 724.0
+   "max": 346.0
   },
   "n_prev": {
    "p01": 5.0,
-   "p99": 246.5999999999999,
+   "p99": 232.76999999999975,
    "min": 2.0,
-   "max": 639.0
+   "max": 342.0
   },
   "prog_total_t": {
-   "p01": 10.0,
-   "p99": 1134.0,
-   "min": 5.0,
+   "p01": 14.11,
+   "p99": 1230.3699999999958,
+   "min": 6.0,
    "max": 1437.0
   },
   "arancel_pesos": {
-   "p01": 1088660.0,
-   "p99": 6604900.0,
-   "min": 608000.0,
+   "p01": 1499400.0,
+   "p99": 7151300.0,
+   "min": 900890.0,
    "max": 9430000.0
   },
   "edad_media": {
-   "p01": 19.377884615384616,
-   "p99": 38.666666666666664,
+   "p01": 19.22271111111111,
+   "p99": 38.10576388888889,
    "min": 18.857142857142858,
    "max": 48.4
   }
  },
  "prueba_2025": {
-  "MAE": 0.13255822840823137,
-  "MAE_ponderado_n": 0.12214083082231837,
-  "filas": 774
+  "MAE": 0.07226206732888549,
+  "MAE_ponderado_n": 0.06407519806704161,
+  "filas": 331
  },
  "versiones": {
-  "python": "3.13.16",
+  "python": "3.13.18",
   "sklearn": "1.8.0",
   "pandas": "2.2.3",
-  "numpy": "2.5.4",
+  "numpy": "2.5.5",
   "joblib": "1.6.0"
  },
- "sesgo_validacion_2024_por_tipo": {
-  "Centros de Formación Técnica": {
-   "sesgo": -0.04688933421907143,
-   "cohortes": 101
-  },
-  "Institutos Profesionales": {
-   "sesgo": -0.024278128642587677,
-   "cohortes": 359
-  },
-  "Universidades": {
-   "sesgo": -0.015628609478845888,
-   "cohortes": 334
-  }
+ "alcance": {
+  "tipo_inst_1": [
+   "Universidades"
+  ]
  },
+ "validacion_temporal": [
+  {
+   "anio_prueba": 2022,
+   "anios_entrenamiento": "2019-2021",
+   "filas_entrenamiento": 1266,
+   "filas_prueba": 365,
+   "MAE": 0.10805852852856383,
+   "MAE_base_media": 0.12909353871191914,
+   "MAE_base_ret_prev": 0.12372934831245382,
+   "sesgo": 0.03240318062412662
+  },
+  {
+   "anio_prueba": 2023,
+   "anios_entrenamiento": "2019-2022",
+   "filas_entrenamiento": 1631,
+   "filas_prueba": 347,
+   "MAE": 0.09687195219781396,
+   "MAE_base_media": 0.12432789659472995,
+   "MAE_base_ret_prev": 0.12164116545554982,
+   "sesgo": 0.008525492083439369
+  },
+  {
+   "anio_prueba": 2024,
+   "anios_entrenamiento": "2019-2023",
+   "filas_entrenamiento": 1978,
+   "filas_prueba": 334,
+   "MAE": 0.08759073129527185,
+   "MAE_base_media": 0.11125771158887492,
+   "MAE_base_ret_prev": 0.10395393465619829,
+   "sesgo": -0.015703895889924435
+  },
+  {
+   "anio_prueba": 2025,
+   "anios_entrenamiento": "2019-2024",
+   "filas_entrenamiento": 2312,
+   "filas_prueba": 331,
+   "MAE": 0.07226206732888549,
+   "MAE_base_media": 0.09810122073737024,
+   "MAE_base_ret_prev": 0.08855831739434669,
+   "sesgo": -0.024959735211101258
+  }
+ ],
  "sha256_muestra_entrenamiento": "5b69ea7154e0899098e38d8b645fcbf9e036b92aee1cd025b78116c187e0bcc1",
- "sha256_modelo": "041b826c704341d2449bf82f5508541ce627e9e8f7de85d10631312416bf0ac2",
+ "sha256_modelo": "dc27d5b12186c539bf70a51dd381853145d89d3d9648e4fd0be0a2d197e9138d",
  "semilla": 42,
  "casos_referencia": [
   {
    "entrada": {
     "anio_t": 2025,
-    "anio_ingreso": 2024,
-    "n_t": 10,
-    "n_prev": 18,
-    "ret_prev": 0.3889,
-    "prog_total_t": 26,
-    "prop_mujer": 0.3,
-    "edad_media": 32.8,
-    "dur_semestres": 8,
-    "arancel_anual_clp": 2000000.0,
-    "tipo_inst_1": "Institutos Profesionales",
-    "area_conocimiento": "Arte y Arquitectura",
-    "region_sede": "Metropolitana",
-    "jornada": "Vespertina",
-    "modalidad": "Presencial",
-    "nivel_carrera_1": "Profesional Sin Licenciatura",
-    "acreditada_carr": "NO ACREDITADA",
-    "acreditada_inst": "ACREDITADA",
-    "tipo_plan_carr": "Plan Regular"
-   },
-   "y_observado_t_mas_1": 0.5,
-   "prediccion_esperada": 0.5185287695606535
-  },
-  {
-   "entrada": {
-    "anio_t": 2025,
     "anio_ingreso": 2023,
-    "n_t": 11,
-    "n_prev": 11,
-    "ret_prev": 1.0,
-    "prog_total_t": 30,
-    "prop_mujer": 0.1818,
-    "edad_media": 21.91,
-    "dur_semestres": 8,
-    "arancel_anual_clp": 3012000.0,
-    "tipo_inst_1": "Institutos Profesionales",
-    "area_conocimiento": "Ciencias Básicas",
-    "region_sede": "La Araucanía",
+    "n_t": 54,
+    "n_prev": 57,
+    "ret_prev": 0.9474,
+    "prog_total_t": 299,
+    "prop_mujer": 0.5185,
+    "edad_media": 21.13,
+    "dur_semestres": 11,
+    "arancel_anual_clp": 5877000.0,
+    "tipo_inst_1": "Universidades",
+    "area_conocimiento": "Arte y Arquitectura",
+    "region_sede": "Maule",
     "jornada": "Diurna",
     "modalidad": "Presencial",
-    "nivel_carrera_1": "Profesional Sin Licenciatura",
+    "nivel_carrera_1": "Profesional Con Licenciatura",
     "acreditada_carr": "NO ACREDITADA",
     "acreditada_inst": "ACREDITADA",
     "tipo_plan_carr": "Plan Regular"
    },
-   "y_observado_t_mas_1": 0.9091,
-   "prediccion_esperada": 0.8004770193458204
-  },
-  {
-   "entrada": {
-    "anio_t": 2025,
-    "anio_ingreso": 2024,
-    "n_t": 21,
-    "n_prev": 20,
-    "ret_prev": 1.0,
-    "prog_total_t": 64,
-    "prop_mujer": 0.9048,
-    "edad_media": 29.43,
-    "dur_semestres": 8,
-    "arancel_anual_clp": 2420000.0,
-    "tipo_inst_1": "Institutos Profesionales",
-    "area_conocimiento": "Administración y Comercio",
-    "region_sede": "Lib. Gral. B. O'Higgins",
-    "jornada": "Vespertina",
-    "modalidad": "Presencial",
-    "nivel_carrera_1": "Profesional Sin Licenciatura",
-    "acreditada_carr": "NO ACREDITADA",
-    "acreditada_inst": "ACREDITADA",
-    "tipo_plan_carr": "Plan Regular"
-   },
-   "y_observado_t_mas_1": 0.8571,
-   "prediccion_esperada": 0.7405522767955957
+   "y_observado_t_mas_1": 0.9444,
+   "prediccion_esperada": 0.9116632096528102
   },
   {
    "entrada": {
     "anio_t": 2025,
     "anio_ingreso": 2022,
-    "n_t": 7,
-    "n_prev": 9,
-    "ret_prev": 0.7778,
-    "prog_total_t": 76,
-    "prop_mujer": 0.8571,
-    "edad_media": 24.43,
-    "dur_semestres": 10,
-    "arancel_anual_clp": 5505000.0,
+    "n_t": 31,
+    "n_prev": 31,
+    "ret_prev": 1.0,
+    "prog_total_t": 77,
+    "prop_mujer": 0.7419,
+    "edad_media": 23.65,
+    "dur_semestres": 9,
+    "arancel_anual_clp": 3741000.0,
     "tipo_inst_1": "Universidades",
-    "area_conocimiento": "Tecnología",
-    "region_sede": "Antofagasta",
+    "area_conocimiento": "Administración y Comercio",
+    "region_sede": "Maule",
+    "jornada": "Diurna",
+    "modalidad": "Presencial",
+    "nivel_carrera_1": "Profesional Con Licenciatura",
+    "acreditada_carr": "NO ACREDITADA",
+    "acreditada_inst": "ACREDITADA",
+    "tipo_plan_carr": "Plan Regular"
+   },
+   "y_observado_t_mas_1": 0.8065,
+   "prediccion_esperada": 0.862576127709439
+  },
+  {
+   "entrada": {
+    "anio_t": 2025,
+    "anio_ingreso": 2022,
+    "n_t": 29,
+    "n_prev": 34,
+    "ret_prev": 0.8529,
+    "prog_total_t": 193,
+    "prop_mujer": 0.6897,
+    "edad_media": 23.69,
+    "dur_semestres": 10,
+    "arancel_anual_clp": 5223000.0,
+    "tipo_inst_1": "Universidades",
+    "area_conocimiento": "Salud",
+    "region_sede": "Los Lagos",
     "jornada": "Diurna",
     "modalidad": "Presencial",
     "nivel_carrera_1": "Profesional Con Licenciatura",
@@ -256,48 +261,23 @@
     "tipo_plan_carr": "Plan Regular"
    },
    "y_observado_t_mas_1": 1.0,
-   "prediccion_esperada": 0.8349098146333604
-  },
-  {
-   "entrada": {
-    "anio_t": 2025,
-    "anio_ingreso": 2024,
-    "n_t": 29,
-    "n_prev": 33,
-    "ret_prev": 0.8788,
-    "prog_total_t": 53,
-    "prop_mujer": 0.7241,
-    "edad_media": 22.86,
-    "dur_semestres": 5,
-    "arancel_anual_clp": 2370000.0,
-    "tipo_inst_1": "Institutos Profesionales",
-    "area_conocimiento": "Tecnología",
-    "region_sede": "Coquimbo",
-    "jornada": "Diurna",
-    "modalidad": "Presencial",
-    "nivel_carrera_1": "Técnico de Nivel Superior",
-    "acreditada_carr": "NO ACREDITADA",
-    "acreditada_inst": "ACREDITADA",
-    "tipo_plan_carr": "Plan Regular"
-   },
-   "y_observado_t_mas_1": 0.3448,
-   "prediccion_esperada": 0.7373307121231274
+   "prediccion_esperada": 0.8690701853374333
   },
   {
    "entrada": {
     "anio_t": 2025,
     "anio_ingreso": 2022,
-    "n_t": 17,
-    "n_prev": 19,
-    "ret_prev": 0.8947,
-    "prog_total_t": 269,
-    "prop_mujer": 0.3529,
-    "edad_media": 28.41,
+    "n_t": 33,
+    "n_prev": 38,
+    "ret_prev": 0.8684,
+    "prog_total_t": 298,
+    "prop_mujer": 0.5152,
+    "edad_media": 22.52,
     "dur_semestres": 10,
-    "arancel_anual_clp": 5400000.0,
+    "arancel_anual_clp": 6078000.0,
     "tipo_inst_1": "Universidades",
-    "area_conocimiento": "Salud",
-    "region_sede": "Valparaíso",
+    "area_conocimiento": "Ciencias Básicas",
+    "region_sede": "Los Ríos",
     "jornada": "Diurna",
     "modalidad": "Presencial",
     "nivel_carrera_1": "Profesional Con Licenciatura",
@@ -305,8 +285,58 @@
     "acreditada_inst": "ACREDITADA",
     "tipo_plan_carr": "Plan Regular"
    },
-   "y_observado_t_mas_1": 0.8824,
-   "prediccion_esperada": 0.843742535812243
+   "y_observado_t_mas_1": 0.9091,
+   "prediccion_esperada": 0.8925262947904099
+  },
+  {
+   "entrada": {
+    "anio_t": 2025,
+    "anio_ingreso": 2023,
+    "n_t": 6,
+    "n_prev": 7,
+    "ret_prev": 0.8571,
+    "prog_total_t": 16,
+    "prop_mujer": 1.0,
+    "edad_media": 35.5,
+    "dur_semestres": 10,
+    "arancel_anual_clp": 3441000.0,
+    "tipo_inst_1": "Universidades",
+    "area_conocimiento": "Salud",
+    "region_sede": "Metropolitana",
+    "jornada": "Semipresencial",
+    "modalidad": "Semipresencial",
+    "nivel_carrera_1": "Profesional Con Licenciatura",
+    "acreditada_carr": "NO ACREDITADA",
+    "acreditada_inst": "NO ACREDITADA",
+    "tipo_plan_carr": "Plan Regular"
+   },
+   "y_observado_t_mas_1": 0.8333,
+   "prediccion_esperada": 0.6843816632426617
+  },
+  {
+   "entrada": {
+    "anio_t": 2025,
+    "anio_ingreso": 2022,
+    "n_t": 26,
+    "n_prev": 29,
+    "ret_prev": 0.8966,
+    "prog_total_t": 220,
+    "prop_mujer": 0.1154,
+    "edad_media": 22.19,
+    "dur_semestres": 11,
+    "arancel_anual_clp": 5588000.0,
+    "tipo_inst_1": "Universidades",
+    "area_conocimiento": "Tecnología",
+    "region_sede": "Los Ríos",
+    "jornada": "Diurna",
+    "modalidad": "Presencial",
+    "nivel_carrera_1": "Profesional Con Licenciatura",
+    "acreditada_carr": "NO ACREDITADA",
+    "acreditada_inst": "ACREDITADA",
+    "tipo_plan_carr": "Plan Regular"
+   },
+   "y_observado_t_mas_1": 0.9615,
+   "prediccion_esperada": 0.9056946034225439
   }
  ]
 }

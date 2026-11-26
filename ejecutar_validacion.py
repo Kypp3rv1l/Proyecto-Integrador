@@ -1,8 +1,8 @@
 """Genera la evidencia de validación del prototipo a partir de los datos reales (todas las cifras salen de esta ejecución).
 Uso:  python ejecutar_validacion.py T04_muestra_SIES_2017_2026.zip
-Escribe en evidencia/ y datos_ejemplo/cohortes_2025.csv."""
+Escribe en evidencia/ y en datos_ejemplo/ (cohortes_2025.csv y casos_para_probar)."""
 import sys, os, glob, json, zipfile, tempfile, hashlib, copy, platform, warnings
-import numpy as np, pandas as pd, sklearn
+import numpy as np, pandas as pd, sklearn, joblib
 import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
 warnings.filterwarnings('ignore')
 import construir_modelo as cm
@@ -33,7 +33,7 @@ def met(yr, yp, w):
     return dict(MAE=float(np.mean(np.abs(yr - yp))), MAE_ponderado_n=float(np.average(np.abs(yr - yp), weights=w)),
                 RMSE=float(np.sqrt(np.mean((yr - yp) ** 2))), R2=float(r2_score(yr, yp)), sesgo=float(np.mean(yp - yr)))
 b_media = np.full(len(y), DEV.y.mean()); b_ret = TE.ret_prev.fillna(DEV.y.mean()).to_numpy()
-MET = pd.DataFrame({'Ridge (modelo)': met(y, p_guardado, TE.n_t), 'Base: media de entrenamiento': met(y, b_media, TE.n_t),
+MET = pd.DataFrame({'Random Forest (modelo)': met(y, p_guardado, TE.n_t), 'Base: media de entrenamiento': met(y, b_media, TE.n_t),
                     'Base: retención del año previo': met(y, b_ret, TE.n_t)}).T
 MET.round(4).to_csv(f'{EV}/metricas_continuidad.csv'); print(MET.round(4))
 
@@ -57,6 +57,20 @@ RES['cupos'] = dict(todas=CUP.round(4).to_dict('index'), codigo_vigente=CUP_V.ro
                     obs_total=int(TE.obs_n.sum()), cohortes_codigo_desaparece=int((~TE.codigo_vigente).sum()),
                     programas_codigo_desaparece=int(TE[~TE.codigo_vigente].codigo_unico.nunique()),
                     estudiantes_en_programas_que_desaparecen=int(TE[~TE.codigo_vigente].n_t.sum()))
+
+# 3b) por qué el alcance es solo universidades: códigos que desaparecen al año siguiente, por tipo de institución
+alc = []
+for t in (2023, 2024, 2025):
+    D = cm.dataset(CL, t, solo_alcance=False); vig = D.codigo_unico.isin(set(CL[t + 1].codigo_unico))
+    for tipo, g in D.assign(vig=vig).groupby('tipo_inst_1'):
+        alc.append(dict(anio_t=t, tipo_inst_1=tipo, cohortes=int(len(g)), pct_codigo_desaparece=round(float((~g.vig).mean() * 100), 1),
+                        continuidad_media=round(float(g.y.mean()), 4)))
+ALC = pd.DataFrame(alc); ALC.to_csv(f'{EV}/alcance_por_tipo.csv', index=False); print('\n', ALC.to_string(index=False))
+RES['alcance'] = dict(incluido=cm.ALCANCE, codigos_que_desaparecen=ALC.to_dict('records'))
+
+# 3c) varios cortes temporales (2022 a 2025): cada uno entrena solo con años anteriores
+VT = pd.DataFrame(M.contrato['validacion_temporal']); VT.round(4).to_csv(f'{EV}/validacion_temporal.csv', index=False)
+print('\n', VT.round(4).to_string(index=False)); RES['validacion_temporal'] = VT.round(4).to_dict('records')
 
 # 4) dónde se concentra el error
 det = TE[['codigo_unico', 'anio', 'n_t', 'tipo_inst_1', 'area_conocimiento', 'codigo_vigente']].copy()
@@ -86,11 +100,13 @@ ax[2].scatter(pp.obs_n, pp.e, s=14, alpha=.5, color=AZUL, edgecolor='none'); mx 
 ax[2].set(xlabel='Continuantes observados (programa)', ylabel='Continuantes esperados', title='Cupos por programa · prueba 2025', xscale='symlog', yscale='symlog')
 fig.tight_layout(); fig.savefig(f'{EV}/fig_desempeno.png', dpi=150, bbox_inches='tight'); plt.close(fig)
 fig, ax = plt.subplots(figsize=(7.5, 4))
-x = np.arange(len(POR_TIPO)); w = .38
-ax.bar(x - w / 2, POR_TIPO.MAE, w, color=AZUL, label='todas las cohortes')
-ax.bar(x + w / 2, POR_TIPO_V.reindex(POR_TIPO.index).MAE, w, color=CELESTE, label='programa con código vigente en 2026')
-ax.set_xticks(x); ax.set_xticklabels([s.replace('Centros de Formación Técnica', 'CFT').replace('Institutos Profesionales', 'IP') for s in POR_TIPO.index]); ax.set(ylabel='MAE', title='Error por tipo de institución · prueba 2025'); ax.legend(frameon=False)
-fig.tight_layout(); fig.savefig(f'{EV}/fig_error_tipo.png', dpi=150, bbox_inches='tight'); plt.close(fig)
+piv = ALC.pivot(index='anio_t', columns='tipo_inst_1', values='pct_codigo_desaparece')
+colores = {'Universidades': AZUL, 'Institutos Profesionales': CELESTE, 'Centros de Formación Técnica': '#C9772E'}
+for tipo in piv.columns:
+    ax.plot(piv.index, piv[tipo], marker='o', color=colores.get(tipo, 'gray'), label=tipo.replace('Centros de Formación Técnica', 'CFT').replace('Institutos Profesionales', 'IP'))
+ax.set(xlabel='Año observado t', ylabel='% de cohortes cuyo código no existe en t+1', title='Códigos de programa que desaparecen al año siguiente')
+ax.set_xticks(piv.index); ax.legend(frameon=False)
+fig.tight_layout(); fig.savefig(f'{EV}/fig_alcance.png', dpi=150, bbox_inches='tight'); plt.close(fig)
 
 # 6) robustez ante pequeñas perturbaciones (una variable a la vez)
 rob = []
@@ -118,6 +134,19 @@ print('\nintegración:', RES['integracion'])
 # cohortes de ejemplo para el modo lote (datos agregados por cohorte, sin personas)
 ej = pd.DataFrame([dict(programa=r.codigo_unico, **a_entrada(r)) for _, r in dentro.iterrows()])
 ej.round({'ret_prev': 4, 'prop_mujer': 4, 'edad_media': 2}).to_csv('datos_ejemplo/cohortes_2025.csv', index=False)
+# casos reales para cargar en la página: la predicción se compara con lo observado en 2026
+cand = dentro.assign(pred=M._pipe.predict(dentro[cm.FEATURES]).clip(0, 1))
+completos = cand[cand.n_prev.notna() & cand.edad_media.notna() & cand.arancel_pesos.notna()]
+elegidos = [('Cohorte grande, continuidad alta', completos[completos.n_t >= 50].sort_values('y', ascending=False).iloc[0]),
+            ('Cohorte mediana', completos[completos.n_t.between(20, 49)].assign(d=lambda d: (d.y - d.y.median()).abs()).sort_values('d').iloc[0]),
+            ('Cohorte pequeña (5 a 9)', completos[completos.n_t.between(5, 9)].sort_values('n_t').iloc[0]),
+            ('Cohorte con caída fuerte', completos[completos.n_t >= 10].sort_values('y').iloc[0]),
+            ('Cohorte nueva (1.er año, sin historial)', cand[(cand.anio == cand.t) & cand.edad_media.notna() & cand.arancel_pesos.notna()].iloc[0])]
+redondear = lambda d: {k: round(v, 4) if isinstance(v, float) and k != 'arancel_anual_clp' else v for k, v in d.items()}
+casos = [dict(nombre=nom, entrada=redondear(a_entrada(r)), observado_2026=round(float(r.y), 4), prediccion=round(float(r.pred), 4)) for nom, r in elegidos]
+json.dump(casos, open('datos_ejemplo/casos_para_probar.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+pd.DataFrame([dict(nombre=c['nombre'], **c['entrada'], observado_2026=c['observado_2026'], prediccion=c['prediccion']) for c in casos]).to_csv('datos_ejemplo/casos_para_probar.csv', index=False)
+json.dump(casos[1]['entrada'], open('datos_ejemplo/caso_valido.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 # 8) bitácora de casos de prueba (definidos en casos_prueba.py antes de ejecutar)
 from casos_prueba import ejecutar_casos
@@ -131,11 +160,13 @@ RES['lote_ejemplo'] = dict(cohortes=int(len(det_l)), ok=int((det_l.estado == 'OK
 
 # 10) el pipeline no cambió tras todas las predicciones
 def huella(p):
-    pr = p.named_steps['prep']; r = p.named_steps['modelo']; c = pr.named_transformers_['cnt']; t = pr.named_transformers_['rate']
-    partes = [r.coef_, np.atleast_1d(r.intercept_), c.named_steps['imp'].statistics_, c.named_steps['sc'].mean_, c.named_steps['sc'].scale_,
+    # resumen de lo aprendido: estadísticos del preprocesamiento y cortes y valores de cada árbol
+    pr = p.named_steps['prep']; c = pr.named_transformers_['cnt']; t = pr.named_transformers_['rate']
+    partes = [c.named_steps['imp'].statistics_, c.named_steps['sc'].mean_, c.named_steps['sc'].scale_,
               t.named_steps['imp'].statistics_, t.named_steps['sc'].mean_, t.named_steps['sc'].scale_]
+    for arbol in p.named_steps['modelo'].estimators_:
+        partes += [arbol.tree_.feature, arbol.tree_.threshold, arbol.tree_.value]
     return hashlib.sha256(b''.join(np.ascontiguousarray(a, dtype=float).tobytes() for a in partes)).hexdigest()
-import joblib
 RES['sin_reajuste'] = dict(huella_guardada=huella(joblib.load('modelo_continuidad.joblib')), huella_tras_predicciones=huella(M._pipe), llamadas_totales_predict=M.llamadas)
 RES['sin_reajuste']['igual'] = RES['sin_reajuste']['huella_guardada'] == RES['sin_reajuste']['huella_tras_predicciones']
 json.dump(RES, open(f'{EV}/resumen_evidencia.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1, default=str)

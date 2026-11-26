@@ -1,3 +1,3 @@
 codigo_vigente,cohortes,observado_medio,prediccion_media,MAE,sesgo
-True,739,0.7813,0.7643,0.1077,-0.017
-False,35,0.0,0.6583,0.6583,0.6583
+True,330,0.8657,0.8386,0.0704,-0.0271
+False,1,0.0,0.673,0.673,0.673

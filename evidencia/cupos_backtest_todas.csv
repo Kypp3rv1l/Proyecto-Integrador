@@ -1,5 +1,5 @@
 ,MAE_est_por_cohorte,WAPE_cohorte,MAE_est_por_programa,WAPE_programa,sesgo_total_pct
-Modelo,6.2585,0.1662,11.2254,0.1355,4.0566
-Base: todos continúan,13.5749,0.3604,29.8494,0.3604,36.0409
-Base: media de entrenamiento,8.4845,0.2253,16.6449,0.201,1.2704
-Base: retención del año previo,7.3467,0.1951,12.5747,0.1518,6.496
+Modelo,3.2903,0.0736,7.1281,0.053,-2.3092
+Base: todos continúan,6.6707,0.1493,20.0727,0.1493,14.93
+Base: media de entrenamiento,4.9498,0.1108,12.2675,0.0912,-6.1201
+Base: retención del año previo,3.8376,0.0859,7.1192,0.053,-1.9074
