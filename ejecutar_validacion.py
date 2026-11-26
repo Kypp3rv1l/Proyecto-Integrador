@@ -51,7 +51,7 @@ def cupos_tab(d):
                       sesgo_total_pct=float((e.sum() - o.sum()) / o.sum() * 100))
     return pd.DataFrame(out).T
 CUP = cupos_tab(TE); CUP_V = cupos_tab(TE[TE.codigo_vigente])
-CUP.round(4).to_csv(f'{EV}/cupos_backtest_todas.csv'); CUP_V.round(4).to_csv(f'{EV}/cupos_backtest_codigo_vigente.csv')
+CUP.round(4).to_csv(f'{EV}/cupos_backtest_todas.csv')
 print('\nCUPOS (todas las cohortes)\n', CUP.round(3), '\nCUPOS (solo programas cuyo código sigue en 2026)\n', CUP_V.round(3))
 RES['cupos'] = dict(todas=CUP.round(4).to_dict('index'), codigo_vigente=CUP_V.round(4).to_dict('index'),
                     obs_total=int(TE.obs_n.sum()), cohortes_codigo_desaparece=int((~TE.codigo_vigente).sum()),
@@ -83,7 +83,7 @@ def grupo(col):
 det['tramo_n_t'] = pd.cut(det.n_t, [0, 9, 19, 49, np.inf], labels=['5–9', '10–19', '20–49', '50 o más'])
 POR_TIPO, POR_AREA, POR_TAM = grupo('tipo_inst_1'), grupo('area_conocimiento'), grupo('tramo_n_t')
 POR_VIG = grupo('codigo_vigente'); POR_TIPO_V = det[det.codigo_vigente].groupby('tipo_inst_1').agg(cohortes=('error', 'size'), MAE=('error_abs', 'mean'), sesgo=('error', 'mean'))
-for nom, t in [('por_tipo_institucion', POR_TIPO), ('por_area', POR_AREA), ('por_tamano_cohorte', POR_TAM), ('por_codigo_vigente', POR_VIG), ('por_tipo_codigo_vigente', POR_TIPO_V)]:
+for nom, t in [('por_area', POR_AREA), ('por_tamano_cohorte', POR_TAM)]:
     t.round(4).to_csv(f'{EV}/error_{nom}.csv')
 print('\n', POR_TIPO.round(3), '\n', POR_TIPO_V.round(3), '\n', POR_TAM.round(3))
 RES['error_por_tipo'] = POR_TIPO.round(4).to_dict('index'); RES['error_por_tipo_codigo_vigente'] = POR_TIPO_V.round(4).to_dict('index')
@@ -145,7 +145,6 @@ elegidos = [('Cohorte grande, continuidad alta', completos[completos.n_t >= 50].
 redondear = lambda d: {k: round(v, 4) if isinstance(v, float) and k != 'arancel_anual_clp' else v for k, v in d.items()}
 casos = [dict(nombre=nom, entrada=redondear(a_entrada(r)), observado_2026=round(float(r.y), 4), prediccion=round(float(r.pred), 4)) for nom, r in elegidos]
 json.dump(casos, open('datos_ejemplo/casos_para_probar.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-pd.DataFrame([dict(nombre=c['nombre'], **c['entrada'], observado_2026=c['observado_2026'], prediccion=c['prediccion']) for c in casos]).to_csv('datos_ejemplo/casos_para_probar.csv', index=False)
 json.dump(casos[1]['entrada'], open('datos_ejemplo/caso_valido.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 # 8) bitácora de casos de prueba (definidos en casos_prueba.py antes de ejecutar)

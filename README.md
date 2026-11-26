@@ -60,13 +60,10 @@ Requiere `T04_muestra_SIES_2017_2026.zip` (la muestra entregada en el curso; no 
 20. `git status --short evidencia modelo_continuidad.joblib contrato_modelo.json`
     Comprobar: no lista archivos modificados (la evidencia regenerada es igual a la guardada). Si el proyecto se descargó como zip y no como repositorio git, omitir este paso.
 
-**E. Regenerar el informe (opcional)**
+**E. Regenerar las figuras del informe (opcional)**
 
-21. `cd informe`
-22. `../.venv/bin/python figuras.py .. .`
-23. `../.venv/bin/python informe.py .. PI_Informe_Tecnico.pdf`
-24. `../.venv/bin/python a_word.py .. PI_Informe_Tecnico.docx`
-    Comprobar: `PI_Informe_Tecnico.pdf` (8 páginas) y `PI_Informe_Tecnico.docx` actualizados en `informe/`.
+21. `.venv/bin/python informe/figuras.py . informe/figuras`
+    Comprobar: imprime `ok` y la carpeta `informe/figuras/` contiene 7 imágenes `fig_*.png`, las mismas que aparecen en `informe/Informe_Tecnico_-_Proyecto_Integrador.pdf`.
 
 ## Ejecutar en un PC (Windows)
 
@@ -195,10 +192,10 @@ Los resultados guardados están en `evidencia/`. Casos para probar a mano: `ESCE
 | `casos_prueba.py`, `pruebas_escenarios.py`, `pruebas_adversarias.py` | Los tres niveles de prueba |
 | `ejecutar_validacion.py` | Regenera `evidencia/` |
 | `PI06_Prototipo_Cupos.ipynb` | Demostración en notebook, ya ejecutada |
-| `datos_ejemplo/`, `resultados_ejemplo/` | Un caso en JSON, 5 casos reales para cargar en la página, 328 cohortes universitarias 2025 agregadas (sin personas) y la salida del modo lote |
+| `datos_ejemplo/`, `resultados_ejemplo/` | Un caso en JSON, 5 casos reales para cargar en la página (JSON), 328 cohortes universitarias 2025 agregadas (sin personas) y la salida del modo lote |
 | `evidencia/` | Métricas, retro-prueba de cupos, errores por grupo, figuras y resultados de pruebas |
 | `requirements.txt`, `requirements-extra.txt` | Librerías de la aplicación y las adicionales para el notebook y la validación |
-| `informe/` | Informe técnico en PDF (EVAL-02), sus figuras y los scripts que lo generan desde `evidencia/` |
+| `informe/` | Informe técnico final (`Informe_Tecnico_-_Proyecto_Integrador.pdf`), presentación de la defensa (`Defensa_-_Proyecto_Integrador.pptx`) y `figuras.py`, que genera las figuras del informe desde `evidencia/` |
 | `DATOS.md` | Origen, tratamiento y límites de los datos |
 | `ESCENARIOS_PARA_PROBAR.md` | Casos para probar el formulario a mano, con su resultado esperado |
 

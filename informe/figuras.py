@@ -2,6 +2,7 @@ import sys, json, pandas as pd, numpy as np, matplotlib
 matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 EV = sys.argv[1] + '/evidencia/'; OUT = sys.argv[2]
+import os; os.makedirs(OUT, exist_ok=True)
 TINTA, VERDE, AZUL, GRIS, ARENA, ROJO = '#1B2A41', '#2E8B6F', '#3D6FB6', '#9AA3AF', '#D9A441', '#B5523B'
 plt.rcParams.update({'font.family': 'DejaVu Sans', 'axes.spines.top': False, 'axes.spines.right': False, 'axes.edgecolor': '#555',
                      'axes.titleweight': 'bold', 'axes.titlesize': 13, 'axes.labelsize': 11, 'xtick.labelsize': 10, 'ytick.labelsize': 10})
