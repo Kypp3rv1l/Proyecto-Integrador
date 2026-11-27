@@ -195,7 +195,7 @@ Los resultados guardados están en `evidencia/`. Casos para probar a mano: `ESCE
 | `datos_ejemplo/`, `resultados_ejemplo/` | Un caso en JSON, 5 casos reales para cargar en la página (JSON), 328 cohortes universitarias 2025 agregadas (sin personas) y la salida del modo lote |
 | `evidencia/` | Métricas, retro-prueba de cupos, errores por grupo, figuras y resultados de pruebas |
 | `requirements.txt`, `requirements-extra.txt` | Librerías de la aplicación y las adicionales para el notebook y la validación |
-| `informe/` | Informe técnico final (`Informe_Tecnico_-_Proyecto_Integrador.pdf`), presentación de la defensa (`Defensa_-_Proyecto_Integrador.pptx`) y `figuras.py`, que genera las figuras del informe desde `evidencia/` |
+| `informe/` | Informe técnico final (`Informe_Tecnico_-_Proyecto_Integrador.pdf`), presentación de la defensa (`Defensa_-_Proyecto_Integrador.pdf`) y `figuras.py`, que genera las figuras del informe desde `evidencia/` |
 | `DATOS.md` | Origen, tratamiento y límites de los datos |
 | `ESCENARIOS_PARA_PROBAR.md` | Casos para probar el formulario a mano, con su resultado esperado |
 
